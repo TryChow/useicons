@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="240" height="180" viewBox="0 0 240 180" fill="none">
+  <defs>
+    <linearGradient id="zag-empty-glow" x1="52" y1="28" x2="196" y2="156" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#818CF8"/>
+      <stop offset="1" stop-color="#C084FC"/>
+    </linearGradient>
+  </defs>
+  <circle cx="120" cy="92" r="72" fill="url(#zag-empty-glow)" opacity="0.18"/>
+  <rect x="58" y="42" width="124" height="96" rx="12" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="2"/>
+  <path d="M58 66h124" stroke="#E2E8F0" stroke-width="2"/>
+  <circle cx="72" cy="54" r="4" fill="#FCA5A5"/>
+  <circle cx="86" cy="54" r="4" fill="#FCD34D"/>
+  <circle cx="100" cy="54" r="4" fill="#86EFAC"/>
+  <rect x="74" y="80" width="52" height="6" rx="3" fill="#CBD5E1"/>
+  <rect x="74" y="94" width="36" height="6" rx="3" fill="#E2E8F0"/>
+  <path d="M120 96l20-11 20 11-20 11z" fill="#F59E0B"/>
+  <path d="M120 96v26l20 11v-26z" fill="#D97706"/>
+  <path d="M160 96v26l-20 11v-26z" fill="#B45309"/>
+  <circle cx="164" cy="128" r="12" fill="#F8FAFC" stroke="#64748B" stroke-width="3"/>
+  <path d="M173 137l10 10" stroke="#64748B" stroke-width="3" stroke-linecap="round"/>
+  <path d="M186 34l2.8 6.8L195.6 43.6l-6.8 2.8L186 53.2l-2.8-6.8L176.4 43.6l6.8-2.8z" fill="url(#zag-empty-glow)"/>
+  <circle cx="48" cy="134" r="5" fill="#93C5FD"/>
+  <circle cx="198" cy="82" r="4" fill="#F9A8D4"/>
+</svg>

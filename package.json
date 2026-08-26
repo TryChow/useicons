@@ -1,0 +1,29 @@
+{
+  "name": "zag-assets-monorepo",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Single source of truth for Zag vector assets. Compiles source SVGs into @zag/icons-react and zag_icons (Flutter).",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.18"
+  },
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "generate:react": "tsx scripts/generate-react.ts",
+    "generate:flutter": "tsx scripts/generate-flutter.ts",
+    "generate:all": "tsx scripts/generate-react.ts && tsx scripts/generate-flutter.ts",
+    "build:all": "pnpm run generate:all && pnpm --filter @zag/icons-react build && pnpm --filter @zag/icons-react typecheck",
+    "typecheck": "tsc --project tsconfig.json --noEmit"
+  },
+  "devDependencies": {
+    "@svgr/core": "^8.1.0",
+    "@svgr/plugin-jsx": "^8.1.0",
+    "@svgr/plugin-svgo": "^8.1.0",
+    "@types/node": "^20.16.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.6.2"
+  },
+  "packageManager": "pnpm@10.14.0"
+}
