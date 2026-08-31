@@ -119,11 +119,52 @@ File stems are split on `-`, `_`, and spaces, then PascalCased:
 
 ### React (`@zag/icons-react`)
 
-Install from npm (see [Publishing](#publishing) first):
+Two install paths — pick the one that fits your workflow.
+
+#### Option A – Install from npm (after publishing)
 
 ```bash
 npm install @zag/icons-react
+# or
+pnpm add @zag/icons-react
 ```
+
+#### Option B – Install directly from GitHub (no npm publish needed)
+
+Use this while iterating or before you're ready to publish to the npm registry.
+**Prerequisite:** the built `dist/` folder must be committed to git.  Remove `dist/`
+from `.gitignore`, commit, and push.
+
+**With pnpm** (supports monorepo sub-paths natively):
+
+```bash
+pnpm add "github:ulims/useicons#main&path:packages/icons-react"
+# Pin a tag for stability:
+pnpm add "github:ulims/useicons#@zag/icons-react@0.1.0&path:packages/icons-react"
+```
+
+**With npm / yarn** (workaround via `git subtree`):
+
+```bash
+# 1. In the useicons repo — create a release branch containing only the React package:
+git subtree split --prefix=packages/icons-react -b icons-react-dist
+git push origin icons-react-dist
+
+# 2. In your app:
+npm install github:ulims/useicons#icons-react-dist
+```
+
+> **Note:** standard npm/yarn don't natively resolve monorepo `path:` selectors in
+> GitHub URLs.  The `git subtree` approach above creates a slim branch with just the
+> `icons-react` package at its root, so `npm install` works as expected.
+
+**With yarn (Berry / v2+)** — works like pnpm:
+
+```bash
+yarn add "ulims/useicons#path:packages/icons-react"
+```
+
+#### Usage (same regardless of install method)
 
 ```tsx
 import { EmptyState, HeartIcon, HomeIcon } from '@zag/icons-react';
