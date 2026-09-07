@@ -1,5 +1,6 @@
 import * as react from 'react';
-import { SVGProps } from 'react';
+import { SVGProps, HTMLAttributes, ReactNode } from 'react';
+import { useAnimation, Variants } from 'motion/react';
 
 /** Visual weight variants available for every Zag icon. */
 type IconWeight = 'outline' | 'filled';
@@ -39,23 +40,115 @@ interface ZagIllustrationBaseProps extends ZagIllustrationProps {
  */
 declare const ZagIllustrationBase: react.ForwardRefExoticComponent<Omit<ZagIllustrationBaseProps, "ref"> & react.RefAttributes<SVGSVGElement>>;
 
+type AnimationControls = ReturnType<typeof useAnimation>;
+/**
+ * Imperative animation handle exposed by all animated icons.
+ * Allows programmatic control over icon animations via ref.
+ */
+interface AnimatedIconHandle {
+    /** Trigger the animated state of the icon. */
+    startAnimation: () => void;
+    /** Reset the icon animation back to its normal/idle state. */
+    stopAnimation: () => void;
+}
+/**
+ * Props accepted by all animated Zag icons.
+ */
+interface ZagAnimatedIconProps extends Omit<HTMLAttributes<HTMLSpanElement>, 'color'> {
+    /** Rendered width and height in px (any CSS length is also accepted). Defaults to `24`. */
+    size?: number | string;
+    /**
+     * Color applied to the glyph. Defaults to `currentColor`, so icons inherit
+     * the surrounding text color automatically.
+     */
+    color?: string;
+    /** Visual weight of the glyph. Defaults to `'outline'`. */
+    weight?: IconWeight;
+}
+interface ZagAnimatedIconWrapperProps extends ZagAnimatedIconProps {
+    children: ReactNode;
+    onMouseEnter?: React.MouseEventHandler<HTMLSpanElement>;
+    onMouseLeave?: React.MouseEventHandler<HTMLSpanElement>;
+}
+interface UseAnimatedIconHandleReturn {
+    controls: AnimationControls;
+    handleMouseEnter: (e: React.MouseEvent<HTMLSpanElement>) => void;
+    handleMouseLeave: (e: React.MouseEvent<HTMLSpanElement>) => void;
+}
+/**
+ * Custom hook encapsulating animation controller lifecycle, imperative ref binding,
+ * and mouse hover triggers for animated icons.
+ */
+declare function useAnimatedIconLifecycle(ref: React.ForwardedRef<AnimatedIconHandle>, onMouseEnter?: React.MouseEventHandler<HTMLSpanElement>, onMouseLeave?: React.MouseEventHandler<HTMLSpanElement>): UseAnimatedIconHandleReturn;
+interface ZagAnimatedIconContainerProps extends ZagAnimatedIconProps {
+    handleMouseEnter?: React.MouseEventHandler<HTMLSpanElement>;
+    handleMouseLeave?: React.MouseEventHandler<HTMLSpanElement>;
+    children: ReactNode;
+}
+/**
+ * Span wrapper that manages layout, accessibility and interaction bounds for animated icons.
+ */
+declare const ZagAnimatedIconContainer: react.ForwardRefExoticComponent<ZagAnimatedIconContainerProps & react.RefAttributes<HTMLSpanElement>>;
+
+/**
+ * Default smooth spring pulse variant used when an icon does not have
+ * a dedicated custom animation.
+ */
+declare const DEFAULT_ANIMATION_VARIANTS: Variants;
+/**
+ * Heartbeat pulse animation variant, inspired by pqoqubbw/icons heart icon.
+ */
+declare const HEART_ANIMATION_VARIANTS: Variants;
+/**
+ * Home bounce and subtle lift animation variant.
+ */
+declare const HOME_ANIMATION_VARIANTS: Variants;
+/**
+ * Registry of custom animation variants per icon stem.
+ */
+declare const ICON_ANIMATION_VARIANTS: Record<string, Variants>;
+/**
+ * Resolves the animation variants for a given icon stem.
+ */
+declare function getIconAnimationVariants(stem: string): Variants;
+
 type HeartIconProps = ZagIconProps & {
     /** Visual weight of the glyph. Defaults to `'outline'`. */
     weight?: IconWeight;
+    /** Whether to render the animated interactive variant. Defaults to `false`. */
+    animated?: boolean;
 };
+type HeartIconHandle = AnimatedIconHandle;
+type AnimatedHeartIconProps = ZagAnimatedIconProps;
+/**
+ * Animated Heart icon (viewBox "0 0 24 24").
+ * Features hover micro-interactions and imperative control via ref.
+ */
+declare const AnimatedHeartIcon: react.ForwardRefExoticComponent<ZagAnimatedIconProps & react.RefAttributes<AnimatedIconHandle>>;
 /**
  * Heart icon (viewBox "0 0 24 24").
  * Tinted via `color` / `currentColor` and rendered at 24px by default.
+ * Supports both static and animated variants.
  */
 declare const HeartIcon: react.ForwardRefExoticComponent<Omit<HeartIconProps, "ref"> & react.RefAttributes<SVGSVGElement>>;
 
 type HomeIconProps = ZagIconProps & {
     /** Visual weight of the glyph. Defaults to `'outline'`. */
     weight?: IconWeight;
+    /** Whether to render the animated interactive variant. Defaults to `false`. */
+    animated?: boolean;
 };
+type HomeIconHandle = AnimatedIconHandle;
+type AnimatedHomeIconProps = ZagAnimatedIconProps;
+/**
+ * Animated Home icon (viewBox "0 0 24 24").
+ * Features hover micro-interactions and imperative control via ref.
+ */
+declare const AnimatedHomeIcon: react.ForwardRefExoticComponent<ZagAnimatedIconProps & react.RefAttributes<AnimatedIconHandle>>;
 /**
  * Home icon (viewBox "0 0 24 24").
  * Tinted via `color` / `currentColor` and rendered at 24px by default.
+ * Supports both static and animated variants.
  */
 declare const HomeIcon: react.ForwardRefExoticComponent<Omit<HomeIconProps, "ref"> & react.RefAttributes<SVGSVGElement>>;
 
@@ -66,4 +159,4 @@ type EmptyStateProps = ZagIllustrationProps;
  */
 declare const EmptyState: react.ForwardRefExoticComponent<Omit<ZagIllustrationProps, "ref"> & react.RefAttributes<SVGSVGElement>>;
 
-export { EmptyState, type EmptyStateProps, HeartIcon, type HeartIconProps, HomeIcon, type HomeIconProps, type IconWeight, ZagIconBase, type ZagIconBaseProps, type ZagIconProps, ZagIllustrationBase, type ZagIllustrationBaseProps, type ZagIllustrationProps };
+export { AnimatedHeartIcon, type AnimatedHeartIconProps, AnimatedHomeIcon, type AnimatedHomeIconProps, type AnimatedIconHandle, type AnimationControls, DEFAULT_ANIMATION_VARIANTS, EmptyState, type EmptyStateProps, HEART_ANIMATION_VARIANTS, HOME_ANIMATION_VARIANTS, HeartIcon, type HeartIconHandle, type HeartIconProps, HomeIcon, type HomeIconHandle, type HomeIconProps, ICON_ANIMATION_VARIANTS, type IconWeight, type UseAnimatedIconHandleReturn, ZagAnimatedIconContainer, type ZagAnimatedIconContainerProps, type ZagAnimatedIconProps, type ZagAnimatedIconWrapperProps, ZagIconBase, type ZagIconBaseProps, type ZagIconProps, ZagIllustrationBase, type ZagIllustrationBaseProps, type ZagIllustrationProps, getIconAnimationVariants, useAnimatedIconLifecycle };

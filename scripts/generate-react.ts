@@ -185,12 +185,27 @@ function iconTemplate(params: {
 // Source: data/icons/{outline,filled}/${kebabName}.svg
 
 import { forwardRef, type ReactElement } from 'react';
+import { motion } from 'motion/react';
 import { ZagIconBase, type IconWeight, type ZagIconProps } from '../base/IconBase';
+import {
+  ZagAnimatedIconContainer,
+  useAnimatedIconLifecycle,
+  type AnimatedIconHandle,
+  type ZagAnimatedIconProps,
+} from '../base/AnimatedIconBase';
+import { getIconAnimationVariants } from '../base/animations';
 
 export type ${pascalName}IconProps = ZagIconProps & {
   /** Visual weight of the glyph. Defaults to \`'outline'\`. */
   weight?: IconWeight;
+  /** Whether to render the animated interactive variant. Defaults to \`false\`. */
+  animated?: boolean;
 };
+
+export type ${pascalName}IconHandle = AnimatedIconHandle;
+export type Animated${pascalName}IconProps = ZagAnimatedIconProps;
+
+const ${pascalName.toUpperCase()}_ANIMATION_VARIANTS = getIconAnimationVariants('${kebabName}');
 
 const ${pascalName.toUpperCase()}_GLYPHS: Record<IconWeight, ReactElement> = {
   outline: (
@@ -206,12 +221,74 @@ ${indentBody(bodies.filled.body)}
 };
 
 /**
+ * Animated ${pascalName} icon (viewBox "${viewBox}").
+ * Features hover micro-interactions and imperative control via ref.
+ */
+export const Animated${pascalName}Icon = forwardRef<AnimatedIconHandle, Animated${pascalName}IconProps>(
+  function Animated${pascalName}Icon(props, ref) {
+    const {
+      weight = 'outline',
+      size = 24,
+      color = 'currentColor',
+      className,
+      onMouseEnter,
+      onMouseLeave,
+      ...rest
+    } = props;
+    const { controls, handleMouseEnter, handleMouseLeave } = useAnimatedIconLifecycle(
+      ref,
+      onMouseEnter,
+      onMouseLeave,
+    );
+
+    return (
+      <ZagAnimatedIconContainer
+        size={size}
+        color={color}
+        weight={weight}
+        className={className}
+        handleMouseEnter={handleMouseEnter}
+        handleMouseLeave={handleMouseLeave}
+        {...rest}
+      >
+        <motion.svg
+          animate={controls}
+          initial="normal"
+          variants={${pascalName.toUpperCase()}_ANIMATION_VARIANTS}
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="${viewBox}"
+          width={size}
+          height={size}
+          color={color}
+          focusable={false}
+        >
+          {${pascalName.toUpperCase()}_GLYPHS[weight]}
+        </motion.svg>
+      </ZagAnimatedIconContainer>
+    );
+  },
+);
+
+Animated${pascalName}Icon.displayName = 'Animated${pascalName}Icon';
+
+/**
  * ${pascalName} icon (viewBox "${viewBox}").
  * Tinted via \`color\` / \`currentColor\` and rendered at 24px by default.
+ * Supports both static and animated variants.
  */
 export const ${pascalName}Icon = forwardRef<SVGSVGElement, ${pascalName}IconProps>(
   function ${pascalName}Icon(props, ref) {
-    const { weight = 'outline', ...rest } = props;
+    const { weight = 'outline', animated = false, ...rest } = props;
+
+    if (animated) {
+      return (
+        <Animated${pascalName}Icon
+          weight={weight}
+          {...(rest as unknown as Animated${pascalName}IconProps)}
+        />
+      );
+    }
+
     return (
       <ZagIconBase ref={ref} viewBox="${viewBox}" data-weight={weight} {...rest}>
         {${pascalName.toUpperCase()}_GLYPHS[weight]}
@@ -219,6 +296,8 @@ export const ${pascalName}Icon = forwardRef<SVGSVGElement, ${pascalName}IconProp
     );
   },
 );
+
+${pascalName}Icon.displayName = '${pascalName}Icon';
 `;
 }
 
@@ -313,7 +392,7 @@ async function main(): Promise<void> {
     );
 
     iconExports.push(
-      `export { ${pascalName}Icon, type ${pascalName}IconProps } from './icons/${kebabName}';`,
+      `export { ${pascalName}Icon, Animated${pascalName}Icon, type ${pascalName}IconProps, type ${pascalName}IconHandle, type Animated${pascalName}IconProps } from './icons/${kebabName}';`,
     );
     iconCount += 1;
   }
@@ -361,6 +440,8 @@ async function main(): Promise<void> {
     '',
     "export * from './base/IconBase';",
     "export * from './base/IllustrationBase';",
+    "export * from './base/AnimatedIconBase';",
+    "export * from './base/animations';",
     '',
     ...iconExports,
     '',

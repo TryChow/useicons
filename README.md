@@ -173,6 +173,19 @@ import { EmptyState, HeartIcon, HomeIcon } from '@zag/icons-react';
 <HomeIcon size={20} />
 <HeartIcon weight="filled" size={24} className="text-red-500" />
 
+// Animated variant via `animated` prop (triggers micro-interactions on hover)
+<HomeIcon animated size={20} />
+<HeartIcon animated weight="filled" size={24} className="text-red-500" />
+
+// Programmatic / imperative control via dedicated animated export & ref
+import { AnimatedHeartIcon, type HeartIconHandle } from '@zag/icons-react';
+
+const heartRef = useRef<HeartIconHandle>(null);
+// heartRef.current?.startAnimation();
+// heartRef.current?.stopAnimation();
+
+<AnimatedHeartIcon ref={heartRef} size={28} weight="filled" />
+
 // currentColor by default; explicit override via `color`
 <HomeIcon color="#2563eb" />
 
@@ -181,7 +194,8 @@ import { EmptyState, HeartIcon, HomeIcon } from '@zag/icons-react';
 ```
 
 Every icon accepts standard SVG props (`onClick`, `style`, `ref`, …) plus
-`size?: number | string`, `color?: string`, and `weight?: 'outline' | 'filled'`.
+`size?: number | string`, `color?: string`, `weight?: 'outline' | 'filled'`, and
+`animated?: boolean`.
 Components render at 24px by default and inherit text color via `currentColor`.
 
 Local cross-repo testing without publishing:

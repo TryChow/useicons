@@ -3,8 +3,10 @@
 
 export * from './base/IconBase';
 export * from './base/IllustrationBase';
+export * from './base/AnimatedIconBase';
+export * from './base/animations';
 
-export { HeartIcon, type HeartIconProps } from './icons/heart';
-export { HomeIcon, type HomeIconProps } from './icons/home';
+export { HeartIcon, AnimatedHeartIcon, type HeartIconProps, type HeartIconHandle, type AnimatedHeartIconProps } from './icons/heart';
+export { HomeIcon, AnimatedHomeIcon, type HomeIconProps, type HomeIconHandle, type AnimatedHomeIconProps } from './icons/home';
 
 export { EmptyState, type EmptyStateProps } from './illustrations/empty-state';

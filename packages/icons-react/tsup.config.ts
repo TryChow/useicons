@@ -8,5 +8,8 @@ export default defineConfig({
   clean: true,
   target: 'es2019',
   platform: 'neutral',
-  external: ['react', 'react/jsx-runtime', 'react-dom'],
+  external: ['react', 'react/jsx-runtime', 'react-dom', 'motion', 'motion/react'],
+  banner: {
+    js: '"use client";',
+  },
 });
