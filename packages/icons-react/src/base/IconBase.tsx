@@ -29,6 +29,7 @@ export const ZagIconBase = forwardRef<SVGSVGElement, ZagIconBaseProps>(
     const {
       size = DEFAULT_ICON_SIZE,
       color = 'currentColor',
+      fill = 'none',
       viewBox,
       className,
       children,
@@ -48,6 +49,7 @@ export const ZagIconBase = forwardRef<SVGSVGElement, ZagIconBaseProps>(
         width={size}
         height={size}
         color={color}
+        fill={fill}
         focusable={false}
         aria-hidden={accessible ? undefined : true}
         className={className ? `zag-icon ${className}` : 'zag-icon'}

@@ -246,6 +246,7 @@ export const Animated${pascalName}Icon = forwardRef<AnimatedIconHandle, Animated
         size={size}
         color={color}
         weight={weight}
+        data-weight={weight}
         className={className}
         handleMouseEnter={handleMouseEnter}
         handleMouseLeave={handleMouseLeave}
@@ -260,6 +261,7 @@ export const Animated${pascalName}Icon = forwardRef<AnimatedIconHandle, Animated
           width={size}
           height={size}
           color={color}
+          fill="none"
           focusable={false}
         >
           {${pascalName.toUpperCase()}_GLYPHS[weight]}

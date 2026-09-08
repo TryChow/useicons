@@ -64,6 +64,7 @@ export const AnimatedHomeIcon = forwardRef<AnimatedIconHandle, AnimatedHomeIconP
         size={size}
         color={color}
         weight={weight}
+        data-weight={weight}
         className={className}
         handleMouseEnter={handleMouseEnter}
         handleMouseLeave={handleMouseLeave}
@@ -78,6 +79,7 @@ export const AnimatedHomeIcon = forwardRef<AnimatedIconHandle, AnimatedHomeIconP
           width={size}
           height={size}
           color={color}
+          fill="none"
           focusable={false}
         >
           {HOME_GLYPHS[weight]}

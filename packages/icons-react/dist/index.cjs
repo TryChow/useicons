@@ -47,6 +47,7 @@ var ZagIconBase = (0, import_react.forwardRef)(
     const {
       size = DEFAULT_ICON_SIZE,
       color = "currentColor",
+      fill = "none",
       viewBox,
       className,
       children,
@@ -62,6 +63,7 @@ var ZagIconBase = (0, import_react.forwardRef)(
         width: size,
         height: size,
         color,
+        fill,
         focusable: false,
         "aria-hidden": accessible ? void 0 : true,
         className: className ? `zag-icon ${className}` : "zag-icon",
@@ -257,6 +259,7 @@ var AnimatedHeartIcon = (0, import_react5.forwardRef)(
         size,
         color,
         weight,
+        "data-weight": weight,
         className,
         handleMouseEnter,
         handleMouseLeave,
@@ -272,6 +275,7 @@ var AnimatedHeartIcon = (0, import_react5.forwardRef)(
             width: size,
             height: size,
             color,
+            fill: "none",
             focusable: false,
             children: HEART_GLYPHS[weight]
           }
@@ -329,6 +333,7 @@ var AnimatedHomeIcon = (0, import_react7.forwardRef)(
         size,
         color,
         weight,
+        "data-weight": weight,
         className,
         handleMouseEnter,
         handleMouseLeave,
@@ -344,6 +349,7 @@ var AnimatedHomeIcon = (0, import_react7.forwardRef)(
             width: size,
             height: size,
             color,
+            fill: "none",
             focusable: false,
             children: HOME_GLYPHS[weight]
           }

@@ -9,6 +9,7 @@ var ZagIconBase = forwardRef(
     const {
       size = DEFAULT_ICON_SIZE,
       color = "currentColor",
+      fill = "none",
       viewBox,
       className,
       children,
@@ -24,6 +25,7 @@ var ZagIconBase = forwardRef(
         width: size,
         height: size,
         color,
+        fill,
         focusable: false,
         "aria-hidden": accessible ? void 0 : true,
         className: className ? `zag-icon ${className}` : "zag-icon",
@@ -224,6 +226,7 @@ var AnimatedHeartIcon = forwardRef4(
         size,
         color,
         weight,
+        "data-weight": weight,
         className,
         handleMouseEnter,
         handleMouseLeave,
@@ -239,6 +242,7 @@ var AnimatedHeartIcon = forwardRef4(
             width: size,
             height: size,
             color,
+            fill: "none",
             focusable: false,
             children: HEART_GLYPHS[weight]
           }
@@ -296,6 +300,7 @@ var AnimatedHomeIcon = forwardRef5(
         size,
         color,
         weight,
+        "data-weight": weight,
         className,
         handleMouseEnter,
         handleMouseLeave,
@@ -311,6 +316,7 @@ var AnimatedHomeIcon = forwardRef5(
             width: size,
             height: size,
             color,
+            fill: "none",
             focusable: false,
             children: HOME_GLYPHS[weight]
           }
