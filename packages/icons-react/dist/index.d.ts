@@ -1,6 +1,6 @@
 import * as react from 'react';
 import { SVGProps, HTMLAttributes, ReactNode } from 'react';
-import { useAnimation, Variants } from 'motion/react';
+import { useAnimation, Variants, Transition } from 'motion/react';
 
 /** Visual weight variants available for every Zag icon. */
 type IconWeight = 'outline' | 'filled';
@@ -91,6 +91,17 @@ interface ZagAnimatedIconContainerProps extends ZagAnimatedIconProps {
 declare const ZagAnimatedIconContainer: react.ForwardRefExoticComponent<ZagAnimatedIconContainerProps & react.RefAttributes<HTMLSpanElement>>;
 
 /**
+ * Standard path-drawing transition used by line/door drawing animations,
+ * inspired by pqoqubbw/icons.
+ */
+declare const DEFAULT_PATH_TRANSITION: Transition;
+declare const HOME_DEFAULT_TRANSITION: Transition;
+/**
+ * Path drawing variant that animates pathLength and opacity from 0 to 1.
+ */
+declare const PATH_DRAW_VARIANTS: Variants;
+declare const HOME_PATH_VARIANTS: Variants;
+/**
  * Default smooth spring pulse variant used when an icon does not have
  * a dedicated custom animation.
  */
@@ -100,7 +111,7 @@ declare const DEFAULT_ANIMATION_VARIANTS: Variants;
  */
 declare const HEART_ANIMATION_VARIANTS: Variants;
 /**
- * Home bounce and subtle lift animation variant.
+ * Home animation variant matching reference repo door drawing interaction.
  */
 declare const HOME_ANIMATION_VARIANTS: Variants;
 /**
@@ -143,6 +154,7 @@ type AnimatedHomeIconProps = ZagAnimatedIconProps;
 /**
  * Animated Home icon (viewBox "0 0 24 24").
  * Features hover micro-interactions and imperative control via ref.
+ * Re-animates the door path drawing effect on both outline and filled weights.
  */
 declare const AnimatedHomeIcon: react.ForwardRefExoticComponent<ZagAnimatedIconProps & react.RefAttributes<AnimatedIconHandle>>;
 /**
@@ -159,4 +171,4 @@ type EmptyStateProps = ZagIllustrationProps;
  */
 declare const EmptyState: react.ForwardRefExoticComponent<Omit<ZagIllustrationProps, "ref"> & react.RefAttributes<SVGSVGElement>>;
 
-export { AnimatedHeartIcon, type AnimatedHeartIconProps, AnimatedHomeIcon, type AnimatedHomeIconProps, type AnimatedIconHandle, type AnimationControls, DEFAULT_ANIMATION_VARIANTS, EmptyState, type EmptyStateProps, HEART_ANIMATION_VARIANTS, HOME_ANIMATION_VARIANTS, HeartIcon, type HeartIconHandle, type HeartIconProps, HomeIcon, type HomeIconHandle, type HomeIconProps, ICON_ANIMATION_VARIANTS, type IconWeight, type UseAnimatedIconHandleReturn, ZagAnimatedIconContainer, type ZagAnimatedIconContainerProps, type ZagAnimatedIconProps, type ZagAnimatedIconWrapperProps, ZagIconBase, type ZagIconBaseProps, type ZagIconProps, ZagIllustrationBase, type ZagIllustrationBaseProps, type ZagIllustrationProps, getIconAnimationVariants, useAnimatedIconLifecycle };
+export { AnimatedHeartIcon, type AnimatedHeartIconProps, AnimatedHomeIcon, type AnimatedHomeIconProps, type AnimatedIconHandle, type AnimationControls, DEFAULT_ANIMATION_VARIANTS, DEFAULT_PATH_TRANSITION, EmptyState, type EmptyStateProps, HEART_ANIMATION_VARIANTS, HOME_ANIMATION_VARIANTS, HOME_DEFAULT_TRANSITION, HOME_PATH_VARIANTS, HeartIcon, type HeartIconHandle, type HeartIconProps, HomeIcon, type HomeIconHandle, type HomeIconProps, ICON_ANIMATION_VARIANTS, type IconWeight, PATH_DRAW_VARIANTS, type UseAnimatedIconHandleReturn, ZagAnimatedIconContainer, type ZagAnimatedIconContainerProps, type ZagAnimatedIconProps, type ZagAnimatedIconWrapperProps, ZagIconBase, type ZagIconBaseProps, type ZagIconProps, ZagIllustrationBase, type ZagIllustrationBaseProps, type ZagIllustrationProps, getIconAnimationVariants, useAnimatedIconLifecycle };

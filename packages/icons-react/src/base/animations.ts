@@ -1,4 +1,31 @@
-import type { Variants } from 'motion/react';
+import type { Transition, Variants } from 'motion/react';
+
+/**
+ * Standard path-drawing transition used by line/door drawing animations,
+ * inspired by pqoqubbw/icons.
+ */
+export const DEFAULT_PATH_TRANSITION: Transition = {
+  duration: 0.6,
+  opacity: { duration: 0.2 },
+};
+
+export const HOME_DEFAULT_TRANSITION: Transition = DEFAULT_PATH_TRANSITION;
+
+/**
+ * Path drawing variant that animates pathLength and opacity from 0 to 1.
+ */
+export const PATH_DRAW_VARIANTS: Variants = {
+  normal: {
+    pathLength: 1,
+    opacity: 1,
+  },
+  animate: {
+    opacity: [0, 1],
+    pathLength: [0, 1],
+  },
+};
+
+export const HOME_PATH_VARIANTS: Variants = PATH_DRAW_VARIANTS;
 
 /**
  * Default smooth spring pulse variant used when an icon does not have
@@ -45,26 +72,9 @@ export const HEART_ANIMATION_VARIANTS: Variants = {
 };
 
 /**
- * Home bounce and subtle lift animation variant.
+ * Home animation variant matching reference repo door drawing interaction.
  */
-export const HOME_ANIMATION_VARIANTS: Variants = {
-  normal: {
-    y: 0,
-    scale: 1,
-    transition: {
-      duration: 0.25,
-      ease: 'easeOut',
-    },
-  },
-  animate: {
-    y: [0, -3, 0],
-    scale: [1, 1.06, 1],
-    transition: {
-      duration: 0.45,
-      ease: [0.22, 1, 0.36, 1],
-    },
-  },
-};
+export const HOME_ANIMATION_VARIANTS: Variants = PATH_DRAW_VARIANTS;
 
 /**
  * Registry of custom animation variants per icon stem.
