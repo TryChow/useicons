@@ -13,6 +13,48 @@ import 'src/icon_base.dart';
 abstract final class ZagIcons {
   ZagIcons._();
 
+  /// ArrowLeft icon.
+  ///
+  /// Sources: `data/icons/outline/arrowLeft.svg` and
+  /// `data/icons/filled/arrowLeft.svg`.
+  static Widget arrowLeft({
+    IconWeight weight = IconWeight.outline,
+    double size = 24.0,
+    Color? color,
+    String? semanticLabel,
+    Key? key,
+  }) {
+    return ZagIconBase(
+      key: key,
+      name: 'arrowLeft',
+      weight: weight,
+      size: size,
+      color: color,
+      semanticLabel: semanticLabel,
+    );
+  }
+
+  /// ArrowRight icon.
+  ///
+  /// Sources: `data/icons/outline/arrowRight.svg` and
+  /// `data/icons/filled/arrowRight.svg`.
+  static Widget arrowRight({
+    IconWeight weight = IconWeight.outline,
+    double size = 24.0,
+    Color? color,
+    String? semanticLabel,
+    Key? key,
+  }) {
+    return ZagIconBase(
+      key: key,
+      name: 'arrowRight',
+      weight: weight,
+      size: size,
+      color: color,
+      semanticLabel: semanticLabel,
+    );
+  }
+
   /// Heart icon.
   ///
   /// Sources: `data/icons/outline/heart.svg` and

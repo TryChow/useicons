@@ -6,6 +6,8 @@ export * from './base/IllustrationBase';
 export * from './base/AnimatedIconBase';
 export * from './base/animations';
 
+export { ArrowLeftIcon, AnimatedArrowLeftIcon, type ArrowLeftIconProps, type ArrowLeftIconHandle, type AnimatedArrowLeftIconProps } from './icons/arrow-left';
+export { ArrowRightIcon, AnimatedArrowRightIcon, type ArrowRightIconProps, type ArrowRightIconHandle, type AnimatedArrowRightIconProps } from './icons/arrow-right';
 export { HeartIcon, AnimatedHeartIcon, type HeartIconProps, type HeartIconHandle, type AnimatedHeartIconProps } from './icons/heart';
 export { HomeIcon, AnimatedHomeIcon, type HomeIconProps, type HomeIconHandle, type AnimatedHomeIconProps } from './icons/home';
 

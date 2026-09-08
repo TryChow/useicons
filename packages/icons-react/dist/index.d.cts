@@ -123,6 +123,46 @@ declare const ICON_ANIMATION_VARIANTS: Record<string, Variants>;
  */
 declare function getIconAnimationVariants(stem: string): Variants;
 
+type ArrowLeftIconProps = ZagIconProps & {
+    /** Visual weight of the glyph. Defaults to `'outline'`. */
+    weight?: IconWeight;
+    /** Whether to render the animated interactive variant. Defaults to `false`. */
+    animated?: boolean;
+};
+type ArrowLeftIconHandle = AnimatedIconHandle;
+type AnimatedArrowLeftIconProps = ZagAnimatedIconProps;
+/**
+ * Animated ArrowLeft icon (viewBox "0 0 256 256").
+ * Features hover micro-interactions and imperative control via ref.
+ */
+declare const AnimatedArrowLeftIcon: react.ForwardRefExoticComponent<ZagAnimatedIconProps & react.RefAttributes<AnimatedIconHandle>>;
+/**
+ * ArrowLeft icon (viewBox "0 0 256 256").
+ * Tinted via `color` / `currentColor` and rendered at 24px by default.
+ * Supports both static and animated variants.
+ */
+declare const ArrowLeftIcon: react.ForwardRefExoticComponent<Omit<ArrowLeftIconProps, "ref"> & react.RefAttributes<SVGSVGElement>>;
+
+type ArrowRightIconProps = ZagIconProps & {
+    /** Visual weight of the glyph. Defaults to `'outline'`. */
+    weight?: IconWeight;
+    /** Whether to render the animated interactive variant. Defaults to `false`. */
+    animated?: boolean;
+};
+type ArrowRightIconHandle = AnimatedIconHandle;
+type AnimatedArrowRightIconProps = ZagAnimatedIconProps;
+/**
+ * Animated ArrowRight icon (viewBox "0 0 256 256").
+ * Features hover micro-interactions and imperative control via ref.
+ */
+declare const AnimatedArrowRightIcon: react.ForwardRefExoticComponent<ZagAnimatedIconProps & react.RefAttributes<AnimatedIconHandle>>;
+/**
+ * ArrowRight icon (viewBox "0 0 256 256").
+ * Tinted via `color` / `currentColor` and rendered at 24px by default.
+ * Supports both static and animated variants.
+ */
+declare const ArrowRightIcon: react.ForwardRefExoticComponent<Omit<ArrowRightIconProps, "ref"> & react.RefAttributes<SVGSVGElement>>;
+
 type HeartIconProps = ZagIconProps & {
     /** Visual weight of the glyph. Defaults to `'outline'`. */
     weight?: IconWeight;
@@ -171,4 +211,4 @@ type EmptyStateProps = ZagIllustrationProps;
  */
 declare const EmptyState: react.ForwardRefExoticComponent<Omit<ZagIllustrationProps, "ref"> & react.RefAttributes<SVGSVGElement>>;
 
-export { AnimatedHeartIcon, type AnimatedHeartIconProps, AnimatedHomeIcon, type AnimatedHomeIconProps, type AnimatedIconHandle, type AnimationControls, DEFAULT_ANIMATION_VARIANTS, DEFAULT_PATH_TRANSITION, EmptyState, type EmptyStateProps, HEART_ANIMATION_VARIANTS, HOME_ANIMATION_VARIANTS, HOME_DEFAULT_TRANSITION, HOME_PATH_VARIANTS, HeartIcon, type HeartIconHandle, type HeartIconProps, HomeIcon, type HomeIconHandle, type HomeIconProps, ICON_ANIMATION_VARIANTS, type IconWeight, PATH_DRAW_VARIANTS, type UseAnimatedIconHandleReturn, ZagAnimatedIconContainer, type ZagAnimatedIconContainerProps, type ZagAnimatedIconProps, type ZagAnimatedIconWrapperProps, ZagIconBase, type ZagIconBaseProps, type ZagIconProps, ZagIllustrationBase, type ZagIllustrationBaseProps, type ZagIllustrationProps, getIconAnimationVariants, useAnimatedIconLifecycle };
+export { AnimatedArrowLeftIcon, type AnimatedArrowLeftIconProps, AnimatedArrowRightIcon, type AnimatedArrowRightIconProps, AnimatedHeartIcon, type AnimatedHeartIconProps, AnimatedHomeIcon, type AnimatedHomeIconProps, type AnimatedIconHandle, type AnimationControls, ArrowLeftIcon, type ArrowLeftIconHandle, type ArrowLeftIconProps, ArrowRightIcon, type ArrowRightIconHandle, type ArrowRightIconProps, DEFAULT_ANIMATION_VARIANTS, DEFAULT_PATH_TRANSITION, EmptyState, type EmptyStateProps, HEART_ANIMATION_VARIANTS, HOME_ANIMATION_VARIANTS, HOME_DEFAULT_TRANSITION, HOME_PATH_VARIANTS, HeartIcon, type HeartIconHandle, type HeartIconProps, HomeIcon, type HomeIconHandle, type HomeIconProps, ICON_ANIMATION_VARIANTS, type IconWeight, PATH_DRAW_VARIANTS, type UseAnimatedIconHandleReturn, ZagAnimatedIconContainer, type ZagAnimatedIconContainerProps, type ZagAnimatedIconProps, type ZagAnimatedIconWrapperProps, ZagIconBase, type ZagIconBaseProps, type ZagIconProps, ZagIllustrationBase, type ZagIllustrationBaseProps, type ZagIllustrationProps, getIconAnimationVariants, useAnimatedIconLifecycle };
