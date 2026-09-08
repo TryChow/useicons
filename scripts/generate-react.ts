@@ -87,20 +87,51 @@ const currentColorPlugin = {
   }),
 };
 
-function svgoConfig(iconLike: boolean): Record<string, unknown> {
+const outlineFillNonePlugin = {
+  name: 'zag-outline-fill-none',
+  fn: () => ({
+    element: {
+      enter: (node: { name: string; attributes?: Record<string, string | null> }) => {
+        const attributes = node.attributes;
+        if (!attributes) return;
+        if (
+          ['path', 'circle', 'rect', 'polygon', 'polyline', 'ellipse', 'line'].includes(
+            node.name,
+          )
+        ) {
+          if (!attributes.fill || attributes.fill === 'none') {
+            attributes.fill = 'none';
+          }
+        }
+      },
+    },
+  }),
+};
+
+function svgoConfig(iconLike: boolean, weight?: Weight): Record<string, unknown> {
   return {
     multipass: true,
     plugins: [
       {
         name: 'preset-default',
-        params: { overrides: { removeViewBox: false } },
+        params: {
+          overrides: {
+            removeViewBox: false,
+            removeUselessStrokeAndFill: false,
+          },
+        },
       },
       ...(iconLike ? [currentColorPlugin] : []),
+      ...(iconLike && weight === 'outline' ? [outlineFillNonePlugin] : []),
     ],
   };
 }
 
-async function compileSvg(source: string, iconLike: boolean): Promise<ParsedSvg> {
+async function compileSvg(
+  source: string,
+  iconLike: boolean,
+  weight?: Weight,
+): Promise<ParsedSvg> {
   const options = {
     // @svgr/core v8 no longer loads any plugins by default.
     plugins: ['@svgr/plugin-svgo', '@svgr/plugin-jsx'],
@@ -112,7 +143,7 @@ async function compileSvg(source: string, iconLike: boolean): Promise<ParsedSvg>
     ref: false,
     titleProp: false,
     expandProps: 'end',
-    svgoConfig: svgoConfig(iconLike),
+    svgoConfig: svgoConfig(iconLike, weight),
   } satisfies Partial<Config> as Config;
 
   const code = await transform(source, options);
@@ -379,8 +410,8 @@ async function main(): Promise<void> {
     );
 
     const bodies = {
-      outline: await compileSvg(outlineSource, true),
-      filled: await compileSvg(filledSource, true),
+      outline: await compileSvg(outlineSource, true, 'outline'),
+      filled: await compileSvg(filledSource, true, 'filled'),
     } satisfies Record<Weight, ParsedSvg>;
 
     const pascalName = toPascalCase(entry.stem);
