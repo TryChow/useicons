@@ -138,9 +138,9 @@ from `.gitignore`, commit, and push.
 **With pnpm** (supports monorepo sub-paths natively):
 
 ```bash
-pnpm add "github:ulims/useicons#main&path:packages/icons-react"
+pnpm add "github:TryChow/useicons#main&path:packages/icons-react"
 # Pin a tag for stability:
-pnpm add "github:ulims/useicons#@zag/icons-react@0.1.0&path:packages/icons-react"
+pnpm add "github:TryChow/useicons#@zag/icons-react@0.1.0&path:packages/icons-react"
 ```
 
 **With npm / yarn** (workaround via `git subtree`):
@@ -151,7 +151,7 @@ git subtree split --prefix=packages/icons-react -b icons-react-dist
 git push origin icons-react-dist
 
 # 2. In your app:
-npm install github:ulims/useicons#icons-react-dist
+npm install github:TryChow/useicons#icons-react-dist
 ```
 
 > **Note:** standard npm/yarn don't natively resolve monorepo `path:` selectors in
@@ -161,7 +161,7 @@ npm install github:ulims/useicons#icons-react-dist
 **With yarn (Berry / v2+)** — works like pnpm:
 
 ```bash
-yarn add "ulims/useicons#path:packages/icons-react"
+yarn add "TryChow/useicons#path:packages/icons-react"
 ```
 
 #### Usage (same regardless of install method)
@@ -215,7 +215,7 @@ Add to the app's `pubspec.yaml` — either from git (works today) or pub.dev:
 dependencies:
   zag_icons:
     git:
-      url: git@github.com:<your-org>/useicons.git
+      url: https://github.com/TryChow/useicons.git
       ref: main            # pin a tag in real projects, e.g. zag_icons-v0.1.0
       path: packages/icons_flutter
 ```
@@ -251,7 +251,7 @@ git init
 git add -A
 git commit -m "feat: initial asset pipeline"
 git branch -M main
-git remote add origin git@github.com:<your-org>/useicons.git
+git remote add origin https://github.com/TryChow/useicons.git
 git push -u origin main
 ```
 
