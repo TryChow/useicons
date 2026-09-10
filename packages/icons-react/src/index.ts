@@ -64,6 +64,8 @@ export { TextAlignLeftIcon, AnimatedTextAlignLeftIcon, type TextAlignLeftIconPro
 export { TextBIcon, AnimatedTextBIcon, type TextBIconProps, type TextBIconHandle, type AnimatedTextBIconProps } from './icons/text-b';
 export { TextItalicIcon, AnimatedTextItalicIcon, type TextItalicIconProps, type TextItalicIconHandle, type AnimatedTextItalicIconProps } from './icons/text-italic';
 export { TrashIcon, AnimatedTrashIcon, type TrashIconProps, type TrashIconHandle, type AnimatedTrashIconProps } from './icons/trash';
+export { TrendDownIcon, AnimatedTrendDownIcon, type TrendDownIconProps, type TrendDownIconHandle, type AnimatedTrendDownIconProps } from './icons/trend-down';
+export { TrendUpIcon, AnimatedTrendUpIcon, type TrendUpIconProps, type TrendUpIconHandle, type AnimatedTrendUpIconProps } from './icons/trend-up';
 export { UserIcon, AnimatedUserIcon, type UserIconProps, type UserIconHandle, type AnimatedUserIconProps } from './icons/user';
 export { WarningIcon, AnimatedWarningIcon, type WarningIconProps, type WarningIconHandle, type AnimatedWarningIconProps } from './icons/warning';
 export { XCircleIcon, AnimatedXCircleIcon, type XCircleIconProps, type XCircleIconHandle, type AnimatedXCircleIconProps } from './icons/x-circle';
