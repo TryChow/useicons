@@ -13,6 +13,27 @@ import 'src/icon_base.dart';
 abstract final class ZagIcons {
   ZagIcons._();
 
+  /// ArrowDown icon.
+  ///
+  /// Sources: `data/icons/outline/arrowDown.svg` and
+  /// `data/icons/filled/arrowDown.svg`.
+  static Widget arrowDown({
+    IconWeight weight = IconWeight.outline,
+    double size = 24.0,
+    Color? color,
+    String? semanticLabel,
+    Key? key,
+  }) {
+    return ZagIconBase(
+      key: key,
+      name: 'arrowDown',
+      weight: weight,
+      size: size,
+      color: color,
+      semanticLabel: semanticLabel,
+    );
+  }
+
   /// ArrowLeft icon.
   ///
   /// Sources: `data/icons/outline/arrowLeft.svg` and
@@ -55,6 +76,426 @@ abstract final class ZagIcons {
     );
   }
 
+  /// CaretDown icon.
+  ///
+  /// Sources: `data/icons/outline/caretDown.svg` and
+  /// `data/icons/filled/caretDown.svg`.
+  static Widget caretDown({
+    IconWeight weight = IconWeight.outline,
+    double size = 24.0,
+    Color? color,
+    String? semanticLabel,
+    Key? key,
+  }) {
+    return ZagIconBase(
+      key: key,
+      name: 'caretDown',
+      weight: weight,
+      size: size,
+      color: color,
+      semanticLabel: semanticLabel,
+    );
+  }
+
+  /// CaretLeft icon.
+  ///
+  /// Sources: `data/icons/outline/caretLeft.svg` and
+  /// `data/icons/filled/caretLeft.svg`.
+  static Widget caretLeft({
+    IconWeight weight = IconWeight.outline,
+    double size = 24.0,
+    Color? color,
+    String? semanticLabel,
+    Key? key,
+  }) {
+    return ZagIconBase(
+      key: key,
+      name: 'caretLeft',
+      weight: weight,
+      size: size,
+      color: color,
+      semanticLabel: semanticLabel,
+    );
+  }
+
+  /// CaretRight icon.
+  ///
+  /// Sources: `data/icons/outline/caretRight.svg` and
+  /// `data/icons/filled/caretRight.svg`.
+  static Widget caretRight({
+    IconWeight weight = IconWeight.outline,
+    double size = 24.0,
+    Color? color,
+    String? semanticLabel,
+    Key? key,
+  }) {
+    return ZagIconBase(
+      key: key,
+      name: 'caretRight',
+      weight: weight,
+      size: size,
+      color: color,
+      semanticLabel: semanticLabel,
+    );
+  }
+
+  /// CaretUpDown icon.
+  ///
+  /// Sources: `data/icons/outline/caretUpDown.svg` and
+  /// `data/icons/filled/caretUpDown.svg`.
+  static Widget caretUpDown({
+    IconWeight weight = IconWeight.outline,
+    double size = 24.0,
+    Color? color,
+    String? semanticLabel,
+    Key? key,
+  }) {
+    return ZagIconBase(
+      key: key,
+      name: 'caretUpDown',
+      weight: weight,
+      size: size,
+      color: color,
+      semanticLabel: semanticLabel,
+    );
+  }
+
+  /// CaretUp icon.
+  ///
+  /// Sources: `data/icons/outline/caretUp.svg` and
+  /// `data/icons/filled/caretUp.svg`.
+  static Widget caretUp({
+    IconWeight weight = IconWeight.outline,
+    double size = 24.0,
+    Color? color,
+    String? semanticLabel,
+    Key? key,
+  }) {
+    return ZagIconBase(
+      key: key,
+      name: 'caretUp',
+      weight: weight,
+      size: size,
+      color: color,
+      semanticLabel: semanticLabel,
+    );
+  }
+
+  /// ChartPie icon.
+  ///
+  /// Sources: `data/icons/outline/chartPie.svg` and
+  /// `data/icons/filled/chartPie.svg`.
+  static Widget chartPie({
+    IconWeight weight = IconWeight.outline,
+    double size = 24.0,
+    Color? color,
+    String? semanticLabel,
+    Key? key,
+  }) {
+    return ZagIconBase(
+      key: key,
+      name: 'chartPie',
+      weight: weight,
+      size: size,
+      color: color,
+      semanticLabel: semanticLabel,
+    );
+  }
+
+  /// CheckCircle icon.
+  ///
+  /// Sources: `data/icons/outline/checkCircle.svg` and
+  /// `data/icons/filled/checkCircle.svg`.
+  static Widget checkCircle({
+    IconWeight weight = IconWeight.outline,
+    double size = 24.0,
+    Color? color,
+    String? semanticLabel,
+    Key? key,
+  }) {
+    return ZagIconBase(
+      key: key,
+      name: 'checkCircle',
+      weight: weight,
+      size: size,
+      color: color,
+      semanticLabel: semanticLabel,
+    );
+  }
+
+  /// Check icon.
+  ///
+  /// Sources: `data/icons/outline/check.svg` and
+  /// `data/icons/filled/check.svg`.
+  static Widget check({
+    IconWeight weight = IconWeight.outline,
+    double size = 24.0,
+    Color? color,
+    String? semanticLabel,
+    Key? key,
+  }) {
+    return ZagIconBase(
+      key: key,
+      name: 'check',
+      weight: weight,
+      size: size,
+      color: color,
+      semanticLabel: semanticLabel,
+    );
+  }
+
+  /// CloudArrowUp icon.
+  ///
+  /// Sources: `data/icons/outline/cloudArrowUp.svg` and
+  /// `data/icons/filled/cloudArrowUp.svg`.
+  static Widget cloudArrowUp({
+    IconWeight weight = IconWeight.outline,
+    double size = 24.0,
+    Color? color,
+    String? semanticLabel,
+    Key? key,
+  }) {
+    return ZagIconBase(
+      key: key,
+      name: 'cloudArrowUp',
+      weight: weight,
+      size: size,
+      color: color,
+      semanticLabel: semanticLabel,
+    );
+  }
+
+  /// Copy icon.
+  ///
+  /// Sources: `data/icons/outline/copy.svg` and
+  /// `data/icons/filled/copy.svg`.
+  static Widget copy({
+    IconWeight weight = IconWeight.outline,
+    double size = 24.0,
+    Color? color,
+    String? semanticLabel,
+    Key? key,
+  }) {
+    return ZagIconBase(
+      key: key,
+      name: 'copy',
+      weight: weight,
+      size: size,
+      color: color,
+      semanticLabel: semanticLabel,
+    );
+  }
+
+  /// CornersOut icon.
+  ///
+  /// Sources: `data/icons/outline/cornersOut.svg` and
+  /// `data/icons/filled/cornersOut.svg`.
+  static Widget cornersOut({
+    IconWeight weight = IconWeight.outline,
+    double size = 24.0,
+    Color? color,
+    String? semanticLabel,
+    Key? key,
+  }) {
+    return ZagIconBase(
+      key: key,
+      name: 'cornersOut',
+      weight: weight,
+      size: size,
+      color: color,
+      semanticLabel: semanticLabel,
+    );
+  }
+
+  /// Cpu icon.
+  ///
+  /// Sources: `data/icons/outline/cpu.svg` and
+  /// `data/icons/filled/cpu.svg`.
+  static Widget cpu({
+    IconWeight weight = IconWeight.outline,
+    double size = 24.0,
+    Color? color,
+    String? semanticLabel,
+    Key? key,
+  }) {
+    return ZagIconBase(
+      key: key,
+      name: 'cpu',
+      weight: weight,
+      size: size,
+      color: color,
+      semanticLabel: semanticLabel,
+    );
+  }
+
+  /// CurrencyDollar icon.
+  ///
+  /// Sources: `data/icons/outline/currencyDollar.svg` and
+  /// `data/icons/filled/currencyDollar.svg`.
+  static Widget currencyDollar({
+    IconWeight weight = IconWeight.outline,
+    double size = 24.0,
+    Color? color,
+    String? semanticLabel,
+    Key? key,
+  }) {
+    return ZagIconBase(
+      key: key,
+      name: 'currencyDollar',
+      weight: weight,
+      size: size,
+      color: color,
+      semanticLabel: semanticLabel,
+    );
+  }
+
+  /// DeviceMobile icon.
+  ///
+  /// Sources: `data/icons/outline/deviceMobile.svg` and
+  /// `data/icons/filled/deviceMobile.svg`.
+  static Widget deviceMobile({
+    IconWeight weight = IconWeight.outline,
+    double size = 24.0,
+    Color? color,
+    String? semanticLabel,
+    Key? key,
+  }) {
+    return ZagIconBase(
+      key: key,
+      name: 'deviceMobile',
+      weight: weight,
+      size: size,
+      color: color,
+      semanticLabel: semanticLabel,
+    );
+  }
+
+  /// DotsThreeVertical icon.
+  ///
+  /// Sources: `data/icons/outline/dotsThreeVertical.svg` and
+  /// `data/icons/filled/dotsThreeVertical.svg`.
+  static Widget dotsThreeVertical({
+    IconWeight weight = IconWeight.outline,
+    double size = 24.0,
+    Color? color,
+    String? semanticLabel,
+    Key? key,
+  }) {
+    return ZagIconBase(
+      key: key,
+      name: 'dotsThreeVertical',
+      weight: weight,
+      size: size,
+      color: color,
+      semanticLabel: semanticLabel,
+    );
+  }
+
+  /// DotsThree icon.
+  ///
+  /// Sources: `data/icons/outline/dotsThree.svg` and
+  /// `data/icons/filled/dotsThree.svg`.
+  static Widget dotsThree({
+    IconWeight weight = IconWeight.outline,
+    double size = 24.0,
+    Color? color,
+    String? semanticLabel,
+    Key? key,
+  }) {
+    return ZagIconBase(
+      key: key,
+      name: 'dotsThree',
+      weight: weight,
+      size: size,
+      color: color,
+      semanticLabel: semanticLabel,
+    );
+  }
+
+  /// FileText icon.
+  ///
+  /// Sources: `data/icons/outline/fileText.svg` and
+  /// `data/icons/filled/fileText.svg`.
+  static Widget fileText({
+    IconWeight weight = IconWeight.outline,
+    double size = 24.0,
+    Color? color,
+    String? semanticLabel,
+    Key? key,
+  }) {
+    return ZagIconBase(
+      key: key,
+      name: 'fileText',
+      weight: weight,
+      size: size,
+      color: color,
+      semanticLabel: semanticLabel,
+    );
+  }
+
+  /// FrameCorners icon.
+  ///
+  /// Sources: `data/icons/outline/frameCorners.svg` and
+  /// `data/icons/filled/frameCorners.svg`.
+  static Widget frameCorners({
+    IconWeight weight = IconWeight.outline,
+    double size = 24.0,
+    Color? color,
+    String? semanticLabel,
+    Key? key,
+  }) {
+    return ZagIconBase(
+      key: key,
+      name: 'frameCorners',
+      weight: weight,
+      size: size,
+      color: color,
+      semanticLabel: semanticLabel,
+    );
+  }
+
+  /// Globe icon.
+  ///
+  /// Sources: `data/icons/outline/globe.svg` and
+  /// `data/icons/filled/globe.svg`.
+  static Widget globe({
+    IconWeight weight = IconWeight.outline,
+    double size = 24.0,
+    Color? color,
+    String? semanticLabel,
+    Key? key,
+  }) {
+    return ZagIconBase(
+      key: key,
+      name: 'globe',
+      weight: weight,
+      size: size,
+      color: color,
+      semanticLabel: semanticLabel,
+    );
+  }
+
+  /// GoogleLogo icon.
+  ///
+  /// Sources: `data/icons/outline/googleLogo.svg` and
+  /// `data/icons/filled/googleLogo.svg`.
+  static Widget googleLogo({
+    IconWeight weight = IconWeight.outline,
+    double size = 24.0,
+    Color? color,
+    String? semanticLabel,
+    Key? key,
+  }) {
+    return ZagIconBase(
+      key: key,
+      name: 'googleLogo',
+      weight: weight,
+      size: size,
+      color: color,
+      semanticLabel: semanticLabel,
+    );
+  }
+
   /// Heart icon.
   ///
   /// Sources: `data/icons/outline/heart.svg` and
@@ -90,6 +531,531 @@ abstract final class ZagIcons {
     return ZagIconBase(
       key: key,
       name: 'home',
+      weight: weight,
+      size: size,
+      color: color,
+      semanticLabel: semanticLabel,
+    );
+  }
+
+  /// Info icon.
+  ///
+  /// Sources: `data/icons/outline/info.svg` and
+  /// `data/icons/filled/info.svg`.
+  static Widget info({
+    IconWeight weight = IconWeight.outline,
+    double size = 24.0,
+    Color? color,
+    String? semanticLabel,
+    Key? key,
+  }) {
+    return ZagIconBase(
+      key: key,
+      name: 'info',
+      weight: weight,
+      size: size,
+      color: color,
+      semanticLabel: semanticLabel,
+    );
+  }
+
+  /// Lightning icon.
+  ///
+  /// Sources: `data/icons/outline/lightning.svg` and
+  /// `data/icons/filled/lightning.svg`.
+  static Widget lightning({
+    IconWeight weight = IconWeight.outline,
+    double size = 24.0,
+    Color? color,
+    String? semanticLabel,
+    Key? key,
+  }) {
+    return ZagIconBase(
+      key: key,
+      name: 'lightning',
+      weight: weight,
+      size: size,
+      color: color,
+      semanticLabel: semanticLabel,
+    );
+  }
+
+  /// MagnifyingGlass icon.
+  ///
+  /// Sources: `data/icons/outline/magnifyingGlass.svg` and
+  /// `data/icons/filled/magnifyingGlass.svg`.
+  static Widget magnifyingGlass({
+    IconWeight weight = IconWeight.outline,
+    double size = 24.0,
+    Color? color,
+    String? semanticLabel,
+    Key? key,
+  }) {
+    return ZagIconBase(
+      key: key,
+      name: 'magnifyingGlass',
+      weight: weight,
+      size: size,
+      color: color,
+      semanticLabel: semanticLabel,
+    );
+  }
+
+  /// MapTrifold icon.
+  ///
+  /// Sources: `data/icons/outline/mapTrifold.svg` and
+  /// `data/icons/filled/mapTrifold.svg`.
+  static Widget mapTrifold({
+    IconWeight weight = IconWeight.outline,
+    double size = 24.0,
+    Color? color,
+    String? semanticLabel,
+    Key? key,
+  }) {
+    return ZagIconBase(
+      key: key,
+      name: 'mapTrifold',
+      weight: weight,
+      size: size,
+      color: color,
+      semanticLabel: semanticLabel,
+    );
+  }
+
+  /// Minus icon.
+  ///
+  /// Sources: `data/icons/outline/minus.svg` and
+  /// `data/icons/filled/minus.svg`.
+  static Widget minus({
+    IconWeight weight = IconWeight.outline,
+    double size = 24.0,
+    Color? color,
+    String? semanticLabel,
+    Key? key,
+  }) {
+    return ZagIconBase(
+      key: key,
+      name: 'minus',
+      weight: weight,
+      size: size,
+      color: color,
+      semanticLabel: semanticLabel,
+    );
+  }
+
+  /// Monitor icon.
+  ///
+  /// Sources: `data/icons/outline/monitor.svg` and
+  /// `data/icons/filled/monitor.svg`.
+  static Widget monitor({
+    IconWeight weight = IconWeight.outline,
+    double size = 24.0,
+    Color? color,
+    String? semanticLabel,
+    Key? key,
+  }) {
+    return ZagIconBase(
+      key: key,
+      name: 'monitor',
+      weight: weight,
+      size: size,
+      color: color,
+      semanticLabel: semanticLabel,
+    );
+  }
+
+  /// Moon icon.
+  ///
+  /// Sources: `data/icons/outline/moon.svg` and
+  /// `data/icons/filled/moon.svg`.
+  static Widget moon({
+    IconWeight weight = IconWeight.outline,
+    double size = 24.0,
+    Color? color,
+    String? semanticLabel,
+    Key? key,
+  }) {
+    return ZagIconBase(
+      key: key,
+      name: 'moon',
+      weight: weight,
+      size: size,
+      color: color,
+      semanticLabel: semanticLabel,
+    );
+  }
+
+  /// NavigationArrow icon.
+  ///
+  /// Sources: `data/icons/outline/navigationArrow.svg` and
+  /// `data/icons/filled/navigationArrow.svg`.
+  static Widget navigationArrow({
+    IconWeight weight = IconWeight.outline,
+    double size = 24.0,
+    Color? color,
+    String? semanticLabel,
+    Key? key,
+  }) {
+    return ZagIconBase(
+      key: key,
+      name: 'navigationArrow',
+      weight: weight,
+      size: size,
+      color: color,
+      semanticLabel: semanticLabel,
+    );
+  }
+
+  /// Plus icon.
+  ///
+  /// Sources: `data/icons/outline/plus.svg` and
+  /// `data/icons/filled/plus.svg`.
+  static Widget plus({
+    IconWeight weight = IconWeight.outline,
+    double size = 24.0,
+    Color? color,
+    String? semanticLabel,
+    Key? key,
+  }) {
+    return ZagIconBase(
+      key: key,
+      name: 'plus',
+      weight: weight,
+      size: size,
+      color: color,
+      semanticLabel: semanticLabel,
+    );
+  }
+
+  /// Robot icon.
+  ///
+  /// Sources: `data/icons/outline/robot.svg` and
+  /// `data/icons/filled/robot.svg`.
+  static Widget robot({
+    IconWeight weight = IconWeight.outline,
+    double size = 24.0,
+    Color? color,
+    String? semanticLabel,
+    Key? key,
+  }) {
+    return ZagIconBase(
+      key: key,
+      name: 'robot',
+      weight: weight,
+      size: size,
+      color: color,
+      semanticLabel: semanticLabel,
+    );
+  }
+
+  /// Share icon.
+  ///
+  /// Sources: `data/icons/outline/share.svg` and
+  /// `data/icons/filled/share.svg`.
+  static Widget share({
+    IconWeight weight = IconWeight.outline,
+    double size = 24.0,
+    Color? color,
+    String? semanticLabel,
+    Key? key,
+  }) {
+    return ZagIconBase(
+      key: key,
+      name: 'share',
+      weight: weight,
+      size: size,
+      color: color,
+      semanticLabel: semanticLabel,
+    );
+  }
+
+  /// ShieldCheck icon.
+  ///
+  /// Sources: `data/icons/outline/shieldCheck.svg` and
+  /// `data/icons/filled/shieldCheck.svg`.
+  static Widget shieldCheck({
+    IconWeight weight = IconWeight.outline,
+    double size = 24.0,
+    Color? color,
+    String? semanticLabel,
+    Key? key,
+  }) {
+    return ZagIconBase(
+      key: key,
+      name: 'shieldCheck',
+      weight: weight,
+      size: size,
+      color: color,
+      semanticLabel: semanticLabel,
+    );
+  }
+
+  /// Sidebar icon.
+  ///
+  /// Sources: `data/icons/outline/sidebar.svg` and
+  /// `data/icons/filled/sidebar.svg`.
+  static Widget sidebar({
+    IconWeight weight = IconWeight.outline,
+    double size = 24.0,
+    Color? color,
+    String? semanticLabel,
+    Key? key,
+  }) {
+    return ZagIconBase(
+      key: key,
+      name: 'sidebar',
+      weight: weight,
+      size: size,
+      color: color,
+      semanticLabel: semanticLabel,
+    );
+  }
+
+  /// SignOut icon.
+  ///
+  /// Sources: `data/icons/outline/signOut.svg` and
+  /// `data/icons/filled/signOut.svg`.
+  static Widget signOut({
+    IconWeight weight = IconWeight.outline,
+    double size = 24.0,
+    Color? color,
+    String? semanticLabel,
+    Key? key,
+  }) {
+    return ZagIconBase(
+      key: key,
+      name: 'signOut',
+      weight: weight,
+      size: size,
+      color: color,
+      semanticLabel: semanticLabel,
+    );
+  }
+
+  /// Star icon.
+  ///
+  /// Sources: `data/icons/outline/star.svg` and
+  /// `data/icons/filled/star.svg`.
+  static Widget star({
+    IconWeight weight = IconWeight.outline,
+    double size = 24.0,
+    Color? color,
+    String? semanticLabel,
+    Key? key,
+  }) {
+    return ZagIconBase(
+      key: key,
+      name: 'star',
+      weight: weight,
+      size: size,
+      color: color,
+      semanticLabel: semanticLabel,
+    );
+  }
+
+  /// Sun icon.
+  ///
+  /// Sources: `data/icons/outline/sun.svg` and
+  /// `data/icons/filled/sun.svg`.
+  static Widget sun({
+    IconWeight weight = IconWeight.outline,
+    double size = 24.0,
+    Color? color,
+    String? semanticLabel,
+    Key? key,
+  }) {
+    return ZagIconBase(
+      key: key,
+      name: 'sun',
+      weight: weight,
+      size: size,
+      color: color,
+      semanticLabel: semanticLabel,
+    );
+  }
+
+  /// TextAUnderline icon.
+  ///
+  /// Sources: `data/icons/outline/textAUnderline.svg` and
+  /// `data/icons/filled/textAUnderline.svg`.
+  static Widget textAUnderline({
+    IconWeight weight = IconWeight.outline,
+    double size = 24.0,
+    Color? color,
+    String? semanticLabel,
+    Key? key,
+  }) {
+    return ZagIconBase(
+      key: key,
+      name: 'textAUnderline',
+      weight: weight,
+      size: size,
+      color: color,
+      semanticLabel: semanticLabel,
+    );
+  }
+
+  /// TextAlignLeft icon.
+  ///
+  /// Sources: `data/icons/outline/textAlignLeft.svg` and
+  /// `data/icons/filled/textAlignLeft.svg`.
+  static Widget textAlignLeft({
+    IconWeight weight = IconWeight.outline,
+    double size = 24.0,
+    Color? color,
+    String? semanticLabel,
+    Key? key,
+  }) {
+    return ZagIconBase(
+      key: key,
+      name: 'textAlignLeft',
+      weight: weight,
+      size: size,
+      color: color,
+      semanticLabel: semanticLabel,
+    );
+  }
+
+  /// TextB icon.
+  ///
+  /// Sources: `data/icons/outline/textB.svg` and
+  /// `data/icons/filled/textB.svg`.
+  static Widget textB({
+    IconWeight weight = IconWeight.outline,
+    double size = 24.0,
+    Color? color,
+    String? semanticLabel,
+    Key? key,
+  }) {
+    return ZagIconBase(
+      key: key,
+      name: 'textB',
+      weight: weight,
+      size: size,
+      color: color,
+      semanticLabel: semanticLabel,
+    );
+  }
+
+  /// TextItalic icon.
+  ///
+  /// Sources: `data/icons/outline/textItalic.svg` and
+  /// `data/icons/filled/textItalic.svg`.
+  static Widget textItalic({
+    IconWeight weight = IconWeight.outline,
+    double size = 24.0,
+    Color? color,
+    String? semanticLabel,
+    Key? key,
+  }) {
+    return ZagIconBase(
+      key: key,
+      name: 'textItalic',
+      weight: weight,
+      size: size,
+      color: color,
+      semanticLabel: semanticLabel,
+    );
+  }
+
+  /// Trash icon.
+  ///
+  /// Sources: `data/icons/outline/trash.svg` and
+  /// `data/icons/filled/trash.svg`.
+  static Widget trash({
+    IconWeight weight = IconWeight.outline,
+    double size = 24.0,
+    Color? color,
+    String? semanticLabel,
+    Key? key,
+  }) {
+    return ZagIconBase(
+      key: key,
+      name: 'trash',
+      weight: weight,
+      size: size,
+      color: color,
+      semanticLabel: semanticLabel,
+    );
+  }
+
+  /// User icon.
+  ///
+  /// Sources: `data/icons/outline/user.svg` and
+  /// `data/icons/filled/user.svg`.
+  static Widget user({
+    IconWeight weight = IconWeight.outline,
+    double size = 24.0,
+    Color? color,
+    String? semanticLabel,
+    Key? key,
+  }) {
+    return ZagIconBase(
+      key: key,
+      name: 'user',
+      weight: weight,
+      size: size,
+      color: color,
+      semanticLabel: semanticLabel,
+    );
+  }
+
+  /// Warning icon.
+  ///
+  /// Sources: `data/icons/outline/warning.svg` and
+  /// `data/icons/filled/warning.svg`.
+  static Widget warning({
+    IconWeight weight = IconWeight.outline,
+    double size = 24.0,
+    Color? color,
+    String? semanticLabel,
+    Key? key,
+  }) {
+    return ZagIconBase(
+      key: key,
+      name: 'warning',
+      weight: weight,
+      size: size,
+      color: color,
+      semanticLabel: semanticLabel,
+    );
+  }
+
+  /// XCircle icon.
+  ///
+  /// Sources: `data/icons/outline/xCircle.svg` and
+  /// `data/icons/filled/xCircle.svg`.
+  static Widget xCircle({
+    IconWeight weight = IconWeight.outline,
+    double size = 24.0,
+    Color? color,
+    String? semanticLabel,
+    Key? key,
+  }) {
+    return ZagIconBase(
+      key: key,
+      name: 'xCircle',
+      weight: weight,
+      size: size,
+      color: color,
+      semanticLabel: semanticLabel,
+    );
+  }
+
+  /// X icon.
+  ///
+  /// Sources: `data/icons/outline/x.svg` and
+  /// `data/icons/filled/x.svg`.
+  static Widget x({
+    IconWeight weight = IconWeight.outline,
+    double size = 24.0,
+    Color? color,
+    String? semanticLabel,
+    Key? key,
+  }) {
+    return ZagIconBase(
+      key: key,
+      name: 'x',
       weight: weight,
       size: size,
       color: color,
