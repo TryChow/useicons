@@ -21,6 +21,10 @@ var __toCommonJS = (mod) => __copyProps(__defProp({}, "__esModule", { value: tru
 // src/index.ts
 var index_exports = {};
 __export(index_exports, {
+  ARROWS_DOWN_UP_ANIMATION_VARIANTS: () => ARROWS_DOWN_UP_ANIMATION_VARIANTS,
+  ARROW_DOWN_ANIMATION_VARIANTS: () => ARROW_DOWN_ANIMATION_VARIANTS,
+  ARROW_LEFT_ANIMATION_VARIANTS: () => ARROW_LEFT_ANIMATION_VARIANTS,
+  ARROW_RIGHT_ANIMATION_VARIANTS: () => ARROW_RIGHT_ANIMATION_VARIANTS,
   AnimatedArrowDownIcon: () => AnimatedArrowDownIcon,
   AnimatedArrowLeftIcon: () => AnimatedArrowLeftIcon,
   AnimatedArrowRightIcon: () => AnimatedArrowRightIcon,
@@ -87,8 +91,26 @@ __export(index_exports, {
   ArrowLeftIcon: () => ArrowLeftIcon,
   ArrowRightIcon: () => ArrowRightIcon,
   ArrowsDownUpIcon: () => ArrowsDownUpIcon,
+  BELL_ANIMATION_VARIANTS: () => BELL_ANIMATION_VARIANTS,
+  BOOK_OPEN_ANIMATION_VARIANTS: () => BOOK_OPEN_ANIMATION_VARIANTS,
   BellIcon: () => BellIcon,
   BookOpenIcon: () => BookOpenIcon,
+  CALENDAR_BLANK_ANIMATION_VARIANTS: () => CALENDAR_BLANK_ANIMATION_VARIANTS,
+  CARET_DOWN_ANIMATION_VARIANTS: () => CARET_DOWN_ANIMATION_VARIANTS,
+  CARET_LEFT_ANIMATION_VARIANTS: () => CARET_LEFT_ANIMATION_VARIANTS,
+  CARET_RIGHT_ANIMATION_VARIANTS: () => CARET_RIGHT_ANIMATION_VARIANTS,
+  CARET_UP_ANIMATION_VARIANTS: () => CARET_UP_ANIMATION_VARIANTS,
+  CARET_UP_DOWN_ANIMATION_VARIANTS: () => CARET_UP_DOWN_ANIMATION_VARIANTS,
+  CHART_PIE_ANIMATION_VARIANTS: () => CHART_PIE_ANIMATION_VARIANTS,
+  CHAT_CIRCLE_TEXT_ANIMATION_VARIANTS: () => CHAT_CIRCLE_TEXT_ANIMATION_VARIANTS,
+  CHECK_ANIMATION_VARIANTS: () => CHECK_ANIMATION_VARIANTS,
+  CHECK_CIRCLE_ANIMATION_VARIANTS: () => CHECK_CIRCLE_ANIMATION_VARIANTS,
+  CLOCK_ANIMATION_VARIANTS: () => CLOCK_ANIMATION_VARIANTS,
+  CLOUD_ARROW_UP_ANIMATION_VARIANTS: () => CLOUD_ARROW_UP_ANIMATION_VARIANTS,
+  COPY_ANIMATION_VARIANTS: () => COPY_ANIMATION_VARIANTS,
+  CORNERS_OUT_ANIMATION_VARIANTS: () => CORNERS_OUT_ANIMATION_VARIANTS,
+  CPU_ANIMATION_VARIANTS: () => CPU_ANIMATION_VARIANTS,
+  CURRENCY_DOLLAR_ANIMATION_VARIANTS: () => CURRENCY_DOLLAR_ANIMATION_VARIANTS,
   CalendarBlankIcon: () => CalendarBlankIcon,
   CaretDownIcon: () => CaretDownIcon,
   CaretLeftIcon: () => CaretLeftIcon,
@@ -107,16 +129,28 @@ __export(index_exports, {
   CurrencyDollarIcon: () => CurrencyDollarIcon,
   DEFAULT_ANIMATION_VARIANTS: () => DEFAULT_ANIMATION_VARIANTS,
   DEFAULT_PATH_TRANSITION: () => DEFAULT_PATH_TRANSITION,
+  DEVICE_MOBILE_ANIMATION_VARIANTS: () => DEVICE_MOBILE_ANIMATION_VARIANTS,
+  DOTS_THREE_ANIMATION_VARIANTS: () => DOTS_THREE_ANIMATION_VARIANTS,
+  DOTS_THREE_VERTICAL_ANIMATION_VARIANTS: () => DOTS_THREE_VERTICAL_ANIMATION_VARIANTS,
   DeviceMobileIcon: () => DeviceMobileIcon,
   DotsThreeIcon: () => DotsThreeIcon,
   DotsThreeVerticalIcon: () => DotsThreeVerticalIcon,
+  EXCLUDE_ANIMATION_VARIANTS: () => EXCLUDE_ANIMATION_VARIANTS,
   EmptyState: () => EmptyState,
   ExcludeIcon: () => ExcludeIcon,
+  FILE_CODE_ANIMATION_VARIANTS: () => FILE_CODE_ANIMATION_VARIANTS,
+  FILE_TEXT_ANIMATION_VARIANTS: () => FILE_TEXT_ANIMATION_VARIANTS,
+  FOLDER_ANIMATION_VARIANTS: () => FOLDER_ANIMATION_VARIANTS,
+  FOLDER_OPEN_ANIMATION_VARIANTS: () => FOLDER_OPEN_ANIMATION_VARIANTS,
+  FRAME_CORNERS_ANIMATION_VARIANTS: () => FRAME_CORNERS_ANIMATION_VARIANTS,
   FileCodeIcon: () => FileCodeIcon,
   FileTextIcon: () => FileTextIcon,
   FolderIcon: () => FolderIcon,
   FolderOpenIcon: () => FolderOpenIcon,
   FrameCornersIcon: () => FrameCornersIcon,
+  GEAR_ANIMATION_VARIANTS: () => GEAR_ANIMATION_VARIANTS,
+  GLOBE_ANIMATION_VARIANTS: () => GLOBE_ANIMATION_VARIANTS,
+  GOOGLE_LOGO_ANIMATION_VARIANTS: () => GOOGLE_LOGO_ANIMATION_VARIANTS,
   GearIcon: () => GearIcon,
   GlobeIcon: () => GlobeIcon,
   GoogleLogoIcon: () => GoogleLogoIcon,
@@ -127,33 +161,59 @@ __export(index_exports, {
   HeartIcon: () => HeartIcon,
   HomeIcon: () => HomeIcon,
   ICON_ANIMATION_VARIANTS: () => ICON_ANIMATION_VARIANTS,
+  INFO_ANIMATION_VARIANTS: () => INFO_ANIMATION_VARIANTS,
   InfoIcon: () => InfoIcon,
+  LIGHTNING_ANIMATION_VARIANTS: () => LIGHTNING_ANIMATION_VARIANTS,
+  LOGO_ANIMATION_VARIANTS: () => LOGO_ANIMATION_VARIANTS,
   LightningIcon: () => LightningIcon,
   LogoIcon: () => LogoIcon,
+  MAGNIFYING_GLASS_ANIMATION_VARIANTS: () => MAGNIFYING_GLASS_ANIMATION_VARIANTS,
+  MAP_TRIFOLD_ANIMATION_VARIANTS: () => MAP_TRIFOLD_ANIMATION_VARIANTS,
+  MINUS_ANIMATION_VARIANTS: () => MINUS_ANIMATION_VARIANTS,
+  MONITOR_ANIMATION_VARIANTS: () => MONITOR_ANIMATION_VARIANTS,
+  MOON_ANIMATION_VARIANTS: () => MOON_ANIMATION_VARIANTS,
   MagnifyingGlassIcon: () => MagnifyingGlassIcon,
   MapTrifoldIcon: () => MapTrifoldIcon,
   MinusIcon: () => MinusIcon,
   MonitorIcon: () => MonitorIcon,
   MoonIcon: () => MoonIcon,
+  NAVIGATION_ARROW_ANIMATION_VARIANTS: () => NAVIGATION_ARROW_ANIMATION_VARIANTS,
   NavigationArrowIcon: () => NavigationArrowIcon,
   PATH_DRAW_VARIANTS: () => PATH_DRAW_VARIANTS,
+  PLUS_ANIMATION_VARIANTS: () => PLUS_ANIMATION_VARIANTS,
   PlusIcon: () => PlusIcon,
+  ROBOT_ANIMATION_VARIANTS: () => ROBOT_ANIMATION_VARIANTS,
   RobotIcon: () => RobotIcon,
+  SHARE_ANIMATION_VARIANTS: () => SHARE_ANIMATION_VARIANTS,
+  SHIELD_CHECK_ANIMATION_VARIANTS: () => SHIELD_CHECK_ANIMATION_VARIANTS,
+  SIDEBAR_ANIMATION_VARIANTS: () => SIDEBAR_ANIMATION_VARIANTS,
+  SIGN_OUT_ANIMATION_VARIANTS: () => SIGN_OUT_ANIMATION_VARIANTS,
+  STAR_ANIMATION_VARIANTS: () => STAR_ANIMATION_VARIANTS,
+  SUN_ANIMATION_VARIANTS: () => SUN_ANIMATION_VARIANTS,
   ShareIcon: () => ShareIcon,
   ShieldCheckIcon: () => ShieldCheckIcon,
   SidebarIcon: () => SidebarIcon,
   SignOutIcon: () => SignOutIcon,
   StarIcon: () => StarIcon,
   SunIcon: () => SunIcon,
+  TEXT_ALIGN_LEFT_ANIMATION_VARIANTS: () => TEXT_ALIGN_LEFT_ANIMATION_VARIANTS,
+  TEXT_A_UNDERLINE_ANIMATION_VARIANTS: () => TEXT_A_UNDERLINE_ANIMATION_VARIANTS,
+  TEXT_B_ANIMATION_VARIANTS: () => TEXT_B_ANIMATION_VARIANTS,
+  TEXT_ITALIC_ANIMATION_VARIANTS: () => TEXT_ITALIC_ANIMATION_VARIANTS,
+  TRASH_ANIMATION_VARIANTS: () => TRASH_ANIMATION_VARIANTS,
   TextAUnderlineIcon: () => TextAUnderlineIcon,
   TextAlignLeftIcon: () => TextAlignLeftIcon,
   TextBIcon: () => TextBIcon,
   TextItalicIcon: () => TextItalicIcon,
   TrashIcon: () => TrashIcon,
+  USER_ANIMATION_VARIANTS: () => USER_ANIMATION_VARIANTS,
   UserIcon: () => UserIcon,
+  WARNING_ANIMATION_VARIANTS: () => WARNING_ANIMATION_VARIANTS,
   WarningIcon: () => WarningIcon,
   XCircleIcon: () => XCircleIcon,
   XIcon: () => XIcon,
+  X_ANIMATION_VARIANTS: () => X_ANIMATION_VARIANTS,
+  X_CIRCLE_ANIMATION_VARIANTS: () => X_CIRCLE_ANIMATION_VARIANTS,
   ZagAnimatedIconContainer: () => ZagAnimatedIconContainer,
   ZagIconBase: () => ZagIconBase,
   ZagIllustrationBase: () => ZagIllustrationBase,
@@ -324,6 +384,286 @@ var DEFAULT_ANIMATION_VARIANTS = {
     }
   }
 };
+var ARROW_DOWN_ANIMATION_VARIANTS = {
+  normal: { y: 0, transition: { duration: 0.2, ease: "easeOut" } },
+  animate: {
+    y: [0, 4, 0],
+    transition: { duration: 0.45, ease: [0.25, 1, 0.5, 1] }
+  }
+};
+var ARROW_LEFT_ANIMATION_VARIANTS = {
+  normal: { x: 0, transition: { duration: 0.2, ease: "easeOut" } },
+  animate: {
+    x: [0, -4, 0],
+    transition: { duration: 0.45, ease: [0.25, 1, 0.5, 1] }
+  }
+};
+var ARROW_RIGHT_ANIMATION_VARIANTS = {
+  normal: { x: 0, transition: { duration: 0.2, ease: "easeOut" } },
+  animate: {
+    x: [0, 4, 0],
+    transition: { duration: 0.45, ease: [0.25, 1, 0.5, 1] }
+  }
+};
+var ARROWS_DOWN_UP_ANIMATION_VARIANTS = {
+  normal: { y: 0, transition: { duration: 0.2, ease: "easeOut" } },
+  animate: {
+    y: [0, -3, 3, 0],
+    transition: { duration: 0.5, ease: "easeInOut" }
+  }
+};
+var CARET_DOWN_ANIMATION_VARIANTS = {
+  normal: { y: 0, transition: { duration: 0.2, ease: "easeOut" } },
+  animate: {
+    y: [0, 3, 0],
+    transition: { duration: 0.35, ease: "easeOut" }
+  }
+};
+var CARET_LEFT_ANIMATION_VARIANTS = {
+  normal: { x: 0, transition: { duration: 0.2, ease: "easeOut" } },
+  animate: {
+    x: [0, -3, 0],
+    transition: { duration: 0.35, ease: "easeOut" }
+  }
+};
+var CARET_RIGHT_ANIMATION_VARIANTS = {
+  normal: { x: 0, transition: { duration: 0.2, ease: "easeOut" } },
+  animate: {
+    x: [0, 3, 0],
+    transition: { duration: 0.35, ease: "easeOut" }
+  }
+};
+var CARET_UP_ANIMATION_VARIANTS = {
+  normal: { y: 0, transition: { duration: 0.2, ease: "easeOut" } },
+  animate: {
+    y: [0, -3, 0],
+    transition: { duration: 0.35, ease: "easeOut" }
+  }
+};
+var CARET_UP_DOWN_ANIMATION_VARIANTS = {
+  normal: { scaleY: 1, transition: { duration: 0.2, ease: "easeOut" } },
+  animate: {
+    scaleY: [1, 1.15, 0.95, 1],
+    transition: { duration: 0.45, ease: "easeInOut" }
+  }
+};
+var NAVIGATION_ARROW_ANIMATION_VARIANTS = {
+  normal: { x: 0, y: 0, rotate: 0, transition: { duration: 0.2, ease: "easeOut" } },
+  animate: {
+    x: [0, 3, 0],
+    y: [0, -3, 0],
+    rotate: [0, 10, -5, 0],
+    transition: { duration: 0.5, ease: "easeInOut" }
+  }
+};
+var BELL_ANIMATION_VARIANTS = {
+  normal: {
+    rotate: 0,
+    transformOrigin: "top center",
+    transition: { duration: 0.2, ease: "easeOut" }
+  },
+  animate: {
+    rotate: [0, -12, 12, -8, 8, -4, 4, 0],
+    transformOrigin: "top center",
+    transition: { duration: 0.65, ease: "easeInOut" }
+  }
+};
+var GEAR_ANIMATION_VARIANTS = {
+  normal: { rotate: 0, transition: { duration: 0.2, ease: "easeOut" } },
+  animate: {
+    rotate: 180,
+    transition: { type: "spring", stiffness: 65, damping: 10 }
+  }
+};
+var MAGNIFYING_GLASS_ANIMATION_VARIANTS = {
+  normal: { x: 0, y: 0, rotate: 0, transition: { duration: 0.2, ease: "easeOut" } },
+  animate: {
+    x: [0, 0, -3, 0],
+    y: [0, -4, 0, 0],
+    rotate: [0, -6, 6, 0],
+    transition: { duration: 0.8, ease: "easeInOut" }
+  }
+};
+var TRASH_ANIMATION_VARIANTS = {
+  normal: { y: 0, rotate: 0, transition: { duration: 0.2, ease: "easeOut" } },
+  animate: {
+    y: [0, -3, 0],
+    rotate: [0, -8, 8, -4, 4, 0],
+    transition: { duration: 0.5, ease: "easeInOut" }
+  }
+};
+var COPY_ANIMATION_VARIANTS = {
+  normal: { scale: 1, x: 0, y: 0, transition: { duration: 0.2, ease: "easeOut" } },
+  animate: {
+    scale: [1, 1.1, 0.95, 1],
+    x: [0, 2, -2, 0],
+    y: [0, -2, 2, 0],
+    transition: { type: "spring", stiffness: 180, damping: 16 }
+  }
+};
+var SHARE_ANIMATION_VARIANTS = {
+  normal: { scale: 1, rotate: 0, transition: { duration: 0.2, ease: "easeOut" } },
+  animate: {
+    scale: [1, 1.15, 0.95, 1],
+    rotate: [0, -10, 10, 0],
+    transition: { duration: 0.5, ease: "easeInOut" }
+  }
+};
+var SIGN_OUT_ANIMATION_VARIANTS = {
+  normal: { x: 0, scale: 1, transition: { duration: 0.2, ease: "easeOut" } },
+  animate: {
+    x: [0, 4, 0],
+    scale: [1, 1.05, 1],
+    transition: { duration: 0.45, ease: "easeInOut" }
+  }
+};
+var SIDEBAR_ANIMATION_VARIANTS = {
+  normal: { x: 0, scaleX: 1, transition: { duration: 0.2, ease: "easeOut" } },
+  animate: {
+    x: [0, -3, 0],
+    scaleX: [1, 0.92, 1.04, 1],
+    transition: { duration: 0.4, ease: "easeOut" }
+  }
+};
+var DOTS_THREE_ANIMATION_VARIANTS = {
+  normal: { scale: 1, x: 0, transition: { duration: 0.2, ease: "easeOut" } },
+  animate: {
+    scale: [1, 1.18, 0.94, 1],
+    x: [0, 2, -2, 0],
+    transition: { duration: 0.45, ease: "easeInOut" }
+  }
+};
+var DOTS_THREE_VERTICAL_ANIMATION_VARIANTS = {
+  normal: { scale: 1, y: 0, transition: { duration: 0.2, ease: "easeOut" } },
+  animate: {
+    scale: [1, 1.18, 0.94, 1],
+    y: [0, -2, 2, 0],
+    transition: { duration: 0.45, ease: "easeInOut" }
+  }
+};
+var PLUS_ANIMATION_VARIANTS = {
+  normal: { rotate: 0, scale: 1, transition: { duration: 0.2, ease: "easeOut" } },
+  animate: {
+    rotate: [0, 90],
+    scale: [1, 1.16, 1],
+    transition: { type: "spring", stiffness: 200, damping: 15 }
+  }
+};
+var MINUS_ANIMATION_VARIANTS = {
+  normal: { scaleX: 1, transition: { duration: 0.2, ease: "easeOut" } },
+  animate: {
+    scaleX: [1, 0.7, 1.1, 1],
+    transition: { duration: 0.35, ease: "easeInOut" }
+  }
+};
+var CHECK_ANIMATION_VARIANTS = {
+  normal: { scale: 1, transition: { duration: 0.2, ease: "easeOut" } },
+  animate: {
+    scale: [1, 1.25, 0.92, 1.06, 1],
+    transition: { duration: 0.45, ease: [0.16, 1, 0.3, 1] }
+  }
+};
+var CHECK_CIRCLE_ANIMATION_VARIANTS = {
+  normal: { scale: 1, rotate: 0, transition: { duration: 0.2, ease: "easeOut" } },
+  animate: {
+    scale: [1, 1.2, 0.94, 1.04, 1],
+    rotate: [0, -5, 5, 0],
+    transition: { duration: 0.5, ease: [0.16, 1, 0.3, 1] }
+  }
+};
+var SHIELD_CHECK_ANIMATION_VARIANTS = {
+  normal: { scale: 1, y: 0, transition: { duration: 0.2, ease: "easeOut" } },
+  animate: {
+    scale: [1, 1.16, 0.94, 1.04, 1],
+    y: [0, -2, 0],
+    transition: { duration: 0.45, ease: "easeInOut" }
+  }
+};
+var WARNING_ANIMATION_VARIANTS = {
+  normal: { rotate: 0, scale: 1, transition: { duration: 0.2, ease: "easeOut" } },
+  animate: {
+    rotate: [0, -10, 10, -8, 8, -4, 4, 0],
+    scale: [1, 1.1, 1],
+    transition: { duration: 0.5, ease: "easeInOut" }
+  }
+};
+var INFO_ANIMATION_VARIANTS = {
+  normal: { scale: 1, y: 0, transition: { duration: 0.2, ease: "easeOut" } },
+  animate: {
+    scale: [1, 1.14, 0.96, 1.04, 1],
+    y: [0, -2, 0],
+    transition: { duration: 0.45, ease: "easeOut" }
+  }
+};
+var X_ANIMATION_VARIANTS = {
+  normal: { rotate: 0, scale: 1, transition: { duration: 0.2, ease: "easeOut" } },
+  animate: {
+    rotate: [0, 90],
+    scale: [1, 1.15, 0.92, 1],
+    transition: { duration: 0.4, ease: "easeInOut" }
+  }
+};
+var X_CIRCLE_ANIMATION_VARIANTS = {
+  normal: { rotate: 0, scale: 1, transition: { duration: 0.2, ease: "easeOut" } },
+  animate: {
+    rotate: [0, -15, 15, -8, 8, 0],
+    scale: [1, 1.14, 0.94, 1],
+    transition: { duration: 0.45, ease: "easeInOut" }
+  }
+};
+var SUN_ANIMATION_VARIANTS = {
+  normal: { rotate: 0, scale: 1, transition: { duration: 0.2, ease: "easeOut" } },
+  animate: {
+    rotate: [0, 45, 90],
+    scale: [1, 1.14, 1],
+    transition: { duration: 0.65, ease: "easeInOut" }
+  }
+};
+var MOON_ANIMATION_VARIANTS = {
+  normal: { rotate: 0, transition: { duration: 0.2, ease: "easeOut" } },
+  animate: {
+    rotate: [0, -12, 12, -6, 6, 0],
+    transition: { duration: 1, ease: "easeInOut" }
+  }
+};
+var LIGHTNING_ANIMATION_VARIANTS = {
+  normal: { scale: 1, rotate: 0, transition: { duration: 0.2, ease: "easeOut" } },
+  animate: {
+    scale: [1, 1.22, 0.92, 1.1, 1],
+    rotate: [0, -8, 8, -4, 4, 0],
+    transition: { duration: 0.4, ease: "easeInOut" }
+  }
+};
+var CLOCK_ANIMATION_VARIANTS = {
+  normal: { rotate: 0, transition: { duration: 0.2, ease: "easeOut" } },
+  animate: {
+    rotate: [0, 360],
+    transition: { duration: 0.7, ease: [0.4, 0, 0.2, 1] }
+  }
+};
+var STAR_ANIMATION_VARIANTS = {
+  normal: { scale: 1, rotate: 0, transition: { duration: 0.2, ease: "easeOut" } },
+  animate: {
+    scale: [1, 1.25, 0.92, 1.08, 1],
+    rotate: [0, 25, -10, 0],
+    transition: { duration: 0.55, ease: [0.16, 1, 0.3, 1] }
+  }
+};
+var GLOBE_ANIMATION_VARIANTS = {
+  normal: { rotate: 0, transition: { duration: 0.2, ease: "easeOut" } },
+  animate: {
+    rotate: [0, 180, 360],
+    transition: { duration: 0.85, ease: "easeInOut" }
+  }
+};
+var CLOUD_ARROW_UP_ANIMATION_VARIANTS = {
+  normal: { y: 0, scale: 1, transition: { duration: 0.2, ease: "easeOut" } },
+  animate: {
+    y: [0, -5, 0],
+    scale: [1, 1.06, 1],
+    transition: { duration: 0.45, ease: [0.68, -0.6, 0.32, 1.6] }
+  }
+};
 var HEART_ANIMATION_VARIANTS = {
   normal: {
     scale: 1,
@@ -342,9 +682,270 @@ var HEART_ANIMATION_VARIANTS = {
   }
 };
 var HOME_ANIMATION_VARIANTS = PATH_DRAW_VARIANTS;
+var BOOK_OPEN_ANIMATION_VARIANTS = {
+  normal: { scale: 1, rotate: 0, transition: { duration: 0.2, ease: "easeOut" } },
+  animate: {
+    scale: [1, 1.1, 0.96, 1],
+    rotate: [0, -2, 2, 0],
+    transition: { duration: 0.5, ease: "easeInOut" }
+  }
+};
+var CALENDAR_BLANK_ANIMATION_VARIANTS = {
+  normal: { y: 0, rotate: 0, transition: { duration: 0.2, ease: "easeOut" } },
+  animate: {
+    y: [0, -3, 0],
+    rotate: [0, -3, 3, 0],
+    transition: { duration: 0.45, ease: "easeInOut" }
+  }
+};
+var CHART_PIE_ANIMATION_VARIANTS = {
+  normal: { rotate: 0, scale: 1, transition: { duration: 0.2, ease: "easeOut" } },
+  animate: {
+    rotate: [0, -8, 0],
+    scale: [1, 1.14, 1],
+    transition: { type: "spring", stiffness: 220, damping: 14, bounce: 0.6 }
+  }
+};
+var CHAT_CIRCLE_TEXT_ANIMATION_VARIANTS = {
+  normal: { scale: 1, rotate: 0, transition: { duration: 0.2, ease: "easeOut" } },
+  animate: {
+    scale: [1, 1.14, 0.94, 1.04, 1],
+    rotate: [0, -4, 4, 0],
+    transition: { duration: 0.45, ease: "easeInOut" }
+  }
+};
+var CPU_ANIMATION_VARIANTS = {
+  normal: { scale: 1, opacity: 1, transition: { duration: 0.2, ease: "easeOut" } },
+  animate: {
+    scale: [1, 1.1, 0.95, 1.05, 1],
+    opacity: [1, 0.88, 1],
+    transition: { duration: 0.45, ease: "easeInOut" }
+  }
+};
+var CURRENCY_DOLLAR_ANIMATION_VARIANTS = {
+  normal: { scale: 1, y: 0, transition: { duration: 0.2, ease: "easeOut" } },
+  animate: {
+    scale: [1, 1.16, 0.95, 1],
+    y: [0, -3, 0],
+    transition: { duration: 0.45, ease: "easeOut" }
+  }
+};
+var DEVICE_MOBILE_ANIMATION_VARIANTS = {
+  normal: { x: 0, rotate: 0, transition: { duration: 0.2, ease: "easeOut" } },
+  animate: {
+    x: [0, -2, 2, -2, 2, -1, 1, 0],
+    rotate: [0, -3, 3, -2, 2, 0],
+    transition: { duration: 0.42, ease: "easeInOut" }
+  }
+};
+var MONITOR_ANIMATION_VARIANTS = {
+  normal: { scale: 1, y: 0, transition: { duration: 0.2, ease: "easeOut" } },
+  animate: {
+    scale: [1, 1.08, 0.96, 1],
+    y: [0, -2, 0],
+    transition: { duration: 0.4, ease: "easeOut" }
+  }
+};
+var EXCLUDE_ANIMATION_VARIANTS = {
+  normal: { rotate: 0, scale: 1, transition: { duration: 0.2, ease: "easeOut" } },
+  animate: {
+    rotate: [0, 90],
+    scale: [1, 1.1, 1],
+    transition: { duration: 0.5, ease: "easeInOut" }
+  }
+};
+var FILE_CODE_ANIMATION_VARIANTS = {
+  normal: { x: 0, scale: 1, transition: { duration: 0.2, ease: "easeOut" } },
+  animate: {
+    x: [0, -2, 2, 0],
+    scale: [1, 1.06, 1],
+    transition: { duration: 0.4, ease: "easeInOut" }
+  }
+};
+var FILE_TEXT_ANIMATION_VARIANTS = {
+  normal: { y: 0, scale: 1, transition: { duration: 0.2, ease: "easeOut" } },
+  animate: {
+    y: [0, -3, 0],
+    scale: [1, 1.06, 1],
+    transition: { duration: 0.4, ease: "easeOut" }
+  }
+};
+var FOLDER_ANIMATION_VARIANTS = {
+  normal: { scale: 1, y: 0, transition: { duration: 0.2, ease: "easeOut" } },
+  animate: {
+    scale: [1, 1.08, 0.96, 1],
+    y: [0, -2, 0],
+    transition: { duration: 0.45, ease: "easeInOut" }
+  }
+};
+var FOLDER_OPEN_ANIMATION_VARIANTS = {
+  normal: { rotate: 0, transition: { duration: 0.2, ease: "easeOut" } },
+  animate: {
+    rotate: [0, -8, 6, -4, 0],
+    transition: { duration: 0.55, ease: "easeInOut" }
+  }
+};
+var CORNERS_OUT_ANIMATION_VARIANTS = {
+  normal: { scale: 1, transition: { duration: 0.2, ease: "easeOut" } },
+  animate: {
+    scale: [1, 1.18, 0.94, 1.04, 1],
+    transition: { duration: 0.45, ease: [0.16, 1, 0.3, 1] }
+  }
+};
+var FRAME_CORNERS_ANIMATION_VARIANTS = {
+  normal: { scale: 1, transition: { duration: 0.2, ease: "easeOut" } },
+  animate: {
+    scale: [1, 0.92, 1.1, 1],
+    transition: { duration: 0.4, ease: "easeInOut" }
+  }
+};
+var MAP_TRIFOLD_ANIMATION_VARIANTS = {
+  normal: { scaleX: 1, scaleY: 1, transition: { duration: 0.2, ease: "easeOut" } },
+  animate: {
+    scaleX: [1, 1.14, 0.96, 1],
+    scaleY: [1, 0.96, 1.04, 1],
+    transition: { duration: 0.5, ease: "easeInOut" }
+  }
+};
+var USER_ANIMATION_VARIANTS = {
+  normal: { y: 0, scale: 1, transition: { duration: 0.2, ease: "easeOut" } },
+  animate: {
+    y: [0, -3, 0],
+    scale: [1, 1.08, 0.96, 1],
+    transition: { duration: 0.42, ease: "easeOut" }
+  }
+};
+var ROBOT_ANIMATION_VARIANTS = {
+  normal: { rotate: 0, y: 0, transition: { duration: 0.2, ease: "easeOut" } },
+  animate: {
+    rotate: [0, -12, 12, -6, 6, 0],
+    y: [0, -2, 0],
+    transition: { duration: 0.55, ease: "easeInOut" }
+  }
+};
+var LOGO_ANIMATION_VARIANTS = {
+  normal: { scale: 1, rotate: 0, transition: { duration: 0.2, ease: "easeOut" } },
+  animate: {
+    scale: [1, 1.12, 0.96, 1.04, 1],
+    rotate: [0, -4, 4, 0],
+    transition: { duration: 0.5, ease: "easeInOut" }
+  }
+};
+var GOOGLE_LOGO_ANIMATION_VARIANTS = {
+  normal: { scale: 1, rotate: 0, transition: { duration: 0.2, ease: "easeOut" } },
+  animate: {
+    scale: [1, 1.14, 0.95, 1.05, 1],
+    rotate: [0, -6, 6, 0],
+    transition: { duration: 0.5, ease: "easeInOut" }
+  }
+};
+var TEXT_A_UNDERLINE_ANIMATION_VARIANTS = {
+  normal: { y: 0, scale: 1, transition: { duration: 0.2, ease: "easeOut" } },
+  animate: {
+    y: [0, -2, 0],
+    scale: [1, 1.08, 1],
+    transition: { duration: 0.4, ease: "easeOut" }
+  }
+};
+var TEXT_ALIGN_LEFT_ANIMATION_VARIANTS = {
+  normal: { x: 0, transition: { duration: 0.2, ease: "easeOut" } },
+  animate: {
+    x: [0, 3, -1, 0],
+    transition: { duration: 0.4, ease: "easeInOut" }
+  }
+};
+var TEXT_B_ANIMATION_VARIANTS = {
+  normal: { scale: 1, transition: { duration: 0.2, ease: "easeOut" } },
+  animate: {
+    scale: [1, 1.2, 0.94, 1.05, 1],
+    transition: { duration: 0.4, ease: [0.16, 1, 0.3, 1] }
+  }
+};
+var TEXT_ITALIC_ANIMATION_VARIANTS = {
+  normal: { skewX: 0, scale: 1, transition: { duration: 0.2, ease: "easeOut" } },
+  animate: {
+    skewX: [0, -12, 0],
+    scale: [1, 1.06, 1],
+    transition: { duration: 0.45, ease: "easeInOut" }
+  }
+};
 var ICON_ANIMATION_VARIANTS = {
+  // Navigation & Directional
+  "arrow-down": ARROW_DOWN_ANIMATION_VARIANTS,
+  "arrow-left": ARROW_LEFT_ANIMATION_VARIANTS,
+  "arrow-right": ARROW_RIGHT_ANIMATION_VARIANTS,
+  "arrows-down-up": ARROWS_DOWN_UP_ANIMATION_VARIANTS,
+  "caret-down": CARET_DOWN_ANIMATION_VARIANTS,
+  "caret-left": CARET_LEFT_ANIMATION_VARIANTS,
+  "caret-right": CARET_RIGHT_ANIMATION_VARIANTS,
+  "caret-up": CARET_UP_ANIMATION_VARIANTS,
+  "caret-up-down": CARET_UP_DOWN_ANIMATION_VARIANTS,
+  "navigation-arrow": NAVIGATION_ARROW_ANIMATION_VARIANTS,
+  // Actions & Controls
+  bell: BELL_ANIMATION_VARIANTS,
+  gear: GEAR_ANIMATION_VARIANTS,
+  settings: GEAR_ANIMATION_VARIANTS,
+  "magnifying-glass": MAGNIFYING_GLASS_ANIMATION_VARIANTS,
+  search: MAGNIFYING_GLASS_ANIMATION_VARIANTS,
+  trash: TRASH_ANIMATION_VARIANTS,
+  delete: TRASH_ANIMATION_VARIANTS,
+  copy: COPY_ANIMATION_VARIANTS,
+  share: SHARE_ANIMATION_VARIANTS,
+  "sign-out": SIGN_OUT_ANIMATION_VARIANTS,
+  logout: SIGN_OUT_ANIMATION_VARIANTS,
+  sidebar: SIDEBAR_ANIMATION_VARIANTS,
+  "dots-three": DOTS_THREE_ANIMATION_VARIANTS,
+  "dots-three-vertical": DOTS_THREE_VERTICAL_ANIMATION_VARIANTS,
+  plus: PLUS_ANIMATION_VARIANTS,
+  minus: MINUS_ANIMATION_VARIANTS,
+  // Status & Verification
+  check: CHECK_ANIMATION_VARIANTS,
+  "check-circle": CHECK_CIRCLE_ANIMATION_VARIANTS,
+  "shield-check": SHIELD_CHECK_ANIMATION_VARIANTS,
+  warning: WARNING_ANIMATION_VARIANTS,
+  info: INFO_ANIMATION_VARIANTS,
+  x: X_ANIMATION_VARIANTS,
+  "x-circle": X_CIRCLE_ANIMATION_VARIANTS,
+  // Celestial, Nature & Light
+  sun: SUN_ANIMATION_VARIANTS,
+  moon: MOON_ANIMATION_VARIANTS,
+  lightning: LIGHTNING_ANIMATION_VARIANTS,
+  zap: LIGHTNING_ANIMATION_VARIANTS,
+  clock: CLOCK_ANIMATION_VARIANTS,
+  star: STAR_ANIMATION_VARIANTS,
+  globe: GLOBE_ANIMATION_VARIANTS,
+  earth: GLOBE_ANIMATION_VARIANTS,
+  "cloud-arrow-up": CLOUD_ARROW_UP_ANIMATION_VARIANTS,
+  "cloud-upload": CLOUD_ARROW_UP_ANIMATION_VARIANTS,
   heart: HEART_ANIMATION_VARIANTS,
-  home: HOME_ANIMATION_VARIANTS
+  home: HOME_ANIMATION_VARIANTS,
+  // Content, Files, Media & Devices
+  "book-open": BOOK_OPEN_ANIMATION_VARIANTS,
+  "calendar-blank": CALENDAR_BLANK_ANIMATION_VARIANTS,
+  calendar: CALENDAR_BLANK_ANIMATION_VARIANTS,
+  "chart-pie": CHART_PIE_ANIMATION_VARIANTS,
+  "chat-circle-text": CHAT_CIRCLE_TEXT_ANIMATION_VARIANTS,
+  cpu: CPU_ANIMATION_VARIANTS,
+  "currency-dollar": CURRENCY_DOLLAR_ANIMATION_VARIANTS,
+  "device-mobile": DEVICE_MOBILE_ANIMATION_VARIANTS,
+  monitor: MONITOR_ANIMATION_VARIANTS,
+  exclude: EXCLUDE_ANIMATION_VARIANTS,
+  "file-code": FILE_CODE_ANIMATION_VARIANTS,
+  "file-text": FILE_TEXT_ANIMATION_VARIANTS,
+  folder: FOLDER_ANIMATION_VARIANTS,
+  "folder-open": FOLDER_OPEN_ANIMATION_VARIANTS,
+  "corners-out": CORNERS_OUT_ANIMATION_VARIANTS,
+  "frame-corners": FRAME_CORNERS_ANIMATION_VARIANTS,
+  "map-trifold": MAP_TRIFOLD_ANIMATION_VARIANTS,
+  user: USER_ANIMATION_VARIANTS,
+  robot: ROBOT_ANIMATION_VARIANTS,
+  logo: LOGO_ANIMATION_VARIANTS,
+  "google-logo": GOOGLE_LOGO_ANIMATION_VARIANTS,
+  // Typography
+  "text-a-underline": TEXT_A_UNDERLINE_ANIMATION_VARIANTS,
+  "text-align-left": TEXT_ALIGN_LEFT_ANIMATION_VARIANTS,
+  "text-b": TEXT_B_ANIMATION_VARIANTS,
+  "text-italic": TEXT_ITALIC_ANIMATION_VARIANTS
 };
 function getIconAnimationVariants(stem) {
   var _a;
@@ -651,7 +1252,7 @@ ArrowsDownUpIcon.displayName = "ArrowsDownUpIcon";
 var import_react13 = require("react");
 var import_react14 = require("motion/react");
 var import_jsx_runtime8 = require("react/jsx-runtime");
-var BELL_ANIMATION_VARIANTS = getIconAnimationVariants("bell");
+var BELL_ANIMATION_VARIANTS2 = getIconAnimationVariants("bell");
 var BELL_GLYPHS = {
   outline: /* @__PURE__ */ (0, import_jsx_runtime8.jsx)(import_jsx_runtime8.Fragment, { children: /* @__PURE__ */ (0, import_jsx_runtime8.jsx)("path", { fill: "none", d: "M168 224a8 8 0 0 1-8 8H96a8 8 0 1 1 0-16h64a8 8 0 0 1 8 8m53.85-32a15.8 15.8 0 0 1-13.85 8H48a16 16 0 0 1-13.8-24.06C39.75 166.38 48 139.34 48 104a80 80 0 1 1 160 0c0 35.33 8.26 62.38 13.81 71.94a15.89 15.89 0 0 1 .03 16.06ZM208 184c-7.73-13.27-16-43.95-16-80a64 64 0 1 0-128 0c0 36.06-8.28 66.74-16 80Z" }) }),
   filled: /* @__PURE__ */ (0, import_jsx_runtime8.jsx)(import_jsx_runtime8.Fragment, { children: /* @__PURE__ */ (0, import_jsx_runtime8.jsx)("path", { d: "M168 224a8 8 0 0 1-8 8H96a8 8 0 1 1 0-16h64a8 8 0 0 1 8 8m53.81-48.06C216.25 166.38 208 139.33 208 104a80 80 0 1 0-160 0c0 35.34-8.26 62.38-13.81 71.94A16 16 0 0 0 48 200h160a16 16 0 0 0 13.8-24.06Z" }) })
@@ -688,7 +1289,7 @@ var AnimatedBellIcon = (0, import_react13.forwardRef)(
           {
             animate: controls,
             initial: "normal",
-            variants: BELL_ANIMATION_VARIANTS,
+            variants: BELL_ANIMATION_VARIANTS2,
             xmlns: "http://www.w3.org/2000/svg",
             viewBox: "0 0 256 256",
             width: size,
@@ -1465,7 +2066,7 @@ CheckCircleIcon.displayName = "CheckCircleIcon";
 var import_react35 = require("react");
 var import_react36 = require("motion/react");
 var import_jsx_runtime19 = require("react/jsx-runtime");
-var CHECK_ANIMATION_VARIANTS = getIconAnimationVariants("check");
+var CHECK_ANIMATION_VARIANTS2 = getIconAnimationVariants("check");
 var CHECK_GLYPHS = {
   outline: /* @__PURE__ */ (0, import_jsx_runtime19.jsx)(import_jsx_runtime19.Fragment, { children: /* @__PURE__ */ (0, import_jsx_runtime19.jsx)("path", { fill: "none", d: "m229.66 77.66-128 128a8 8 0 0 1-11.32 0l-56-56a8 8 0 0 1 11.32-11.32L96 188.69 218.34 66.34a8 8 0 0 1 11.32 11.32" }) }),
   filled: /* @__PURE__ */ (0, import_jsx_runtime19.jsx)(import_jsx_runtime19.Fragment, { children: /* @__PURE__ */ (0, import_jsx_runtime19.jsx)("path", { d: "m229.66 77.66-128 128a8 8 0 0 1-11.32 0l-56-56a8 8 0 0 1 11.32-11.32L96 188.69 218.34 66.34a8 8 0 0 1 11.32 11.32" }) })
@@ -1502,7 +2103,7 @@ var AnimatedCheckIcon = (0, import_react35.forwardRef)(
           {
             animate: controls,
             initial: "normal",
-            variants: CHECK_ANIMATION_VARIANTS,
+            variants: CHECK_ANIMATION_VARIANTS2,
             xmlns: "http://www.w3.org/2000/svg",
             viewBox: "0 0 256 256",
             width: size,
@@ -1539,7 +2140,7 @@ CheckIcon.displayName = "CheckIcon";
 var import_react37 = require("react");
 var import_react38 = require("motion/react");
 var import_jsx_runtime20 = require("react/jsx-runtime");
-var CLOCK_ANIMATION_VARIANTS = getIconAnimationVariants("clock");
+var CLOCK_ANIMATION_VARIANTS2 = getIconAnimationVariants("clock");
 var CLOCK_GLYPHS = {
   outline: /* @__PURE__ */ (0, import_jsx_runtime20.jsx)(import_jsx_runtime20.Fragment, { children: /* @__PURE__ */ (0, import_jsx_runtime20.jsx)("path", { fill: "none", d: "M128 24a104 104 0 1 0 104 104A104.11 104.11 0 0 0 128 24m0 192a88 88 0 1 1 88-88 88.1 88.1 0 0 1-88 88m64-88a8 8 0 0 1-8 8h-56a8 8 0 0 1-8-8V72a8 8 0 0 1 16 0v48h48a8 8 0 0 1 8 8" }) }),
   filled: /* @__PURE__ */ (0, import_jsx_runtime20.jsx)(import_jsx_runtime20.Fragment, { children: /* @__PURE__ */ (0, import_jsx_runtime20.jsx)("path", { d: "M128 24a104 104 0 1 0 104 104A104.11 104.11 0 0 0 128 24m56 112h-56a8 8 0 0 1-8-8V72a8 8 0 0 1 16 0v48h48a8 8 0 0 1 0 16" }) })
@@ -1576,7 +2177,7 @@ var AnimatedClockIcon = (0, import_react37.forwardRef)(
           {
             animate: controls,
             initial: "normal",
-            variants: CLOCK_ANIMATION_VARIANTS,
+            variants: CLOCK_ANIMATION_VARIANTS2,
             xmlns: "http://www.w3.org/2000/svg",
             viewBox: "0 0 256 256",
             width: size,
@@ -1687,7 +2288,7 @@ CloudArrowUpIcon.displayName = "CloudArrowUpIcon";
 var import_react41 = require("react");
 var import_react42 = require("motion/react");
 var import_jsx_runtime22 = require("react/jsx-runtime");
-var COPY_ANIMATION_VARIANTS = getIconAnimationVariants("copy");
+var COPY_ANIMATION_VARIANTS2 = getIconAnimationVariants("copy");
 var COPY_GLYPHS = {
   outline: /* @__PURE__ */ (0, import_jsx_runtime22.jsx)(import_jsx_runtime22.Fragment, { children: /* @__PURE__ */ (0, import_jsx_runtime22.jsx)("path", { fill: "none", d: "M216 32H88a8 8 0 0 0-8 8v40H40a8 8 0 0 0-8 8v128a8 8 0 0 0 8 8h128a8 8 0 0 0 8-8v-40h40a8 8 0 0 0 8-8V40a8 8 0 0 0-8-8m-56 176H48V96h112Zm48-48h-32V88a8 8 0 0 0-8-8H96V48h112Z" }) }),
   filled: /* @__PURE__ */ (0, import_jsx_runtime22.jsx)(import_jsx_runtime22.Fragment, { children: /* @__PURE__ */ (0, import_jsx_runtime22.jsx)("path", { d: "M216 32H88a8 8 0 0 0-8 8v40H40a8 8 0 0 0-8 8v128a8 8 0 0 0 8 8h128a8 8 0 0 0 8-8v-40h40a8 8 0 0 0 8-8V40a8 8 0 0 0-8-8m-8 128h-32V88a8 8 0 0 0-8-8H96V48h112Z" }) })
@@ -1724,7 +2325,7 @@ var AnimatedCopyIcon = (0, import_react41.forwardRef)(
           {
             animate: controls,
             initial: "normal",
-            variants: COPY_ANIMATION_VARIANTS,
+            variants: COPY_ANIMATION_VARIANTS2,
             xmlns: "http://www.w3.org/2000/svg",
             viewBox: "0 0 256 256",
             width: size,
@@ -1835,7 +2436,7 @@ CornersOutIcon.displayName = "CornersOutIcon";
 var import_react45 = require("react");
 var import_react46 = require("motion/react");
 var import_jsx_runtime24 = require("react/jsx-runtime");
-var CPU_ANIMATION_VARIANTS = getIconAnimationVariants("cpu");
+var CPU_ANIMATION_VARIANTS2 = getIconAnimationVariants("cpu");
 var CPU_GLYPHS = {
   outline: /* @__PURE__ */ (0, import_jsx_runtime24.jsx)(import_jsx_runtime24.Fragment, { children: /* @__PURE__ */ (0, import_jsx_runtime24.jsx)("path", { fill: "none", d: "M152 96h-48a8 8 0 0 0-8 8v48a8 8 0 0 0 8 8h48a8 8 0 0 0 8-8v-48a8 8 0 0 0-8-8m-8 48h-32v-32h32Zm88 0h-16v-32h16a8 8 0 0 0 0-16h-16V56a16 16 0 0 0-16-16h-40V24a8 8 0 0 0-16 0v16h-32V24a8 8 0 0 0-16 0v16H56a16 16 0 0 0-16 16v40H24a8 8 0 0 0 0 16h16v32H24a8 8 0 0 0 0 16h16v40a16 16 0 0 0 16 16h40v16a8 8 0 0 0 16 0v-16h32v16a8 8 0 0 0 16 0v-16h40a16 16 0 0 0 16-16v-40h16a8 8 0 0 0 0-16m-32 56H56V56h144z" }) }),
   filled: /* @__PURE__ */ (0, import_jsx_runtime24.jsx)(import_jsx_runtime24.Fragment, { children: /* @__PURE__ */ (0, import_jsx_runtime24.jsx)("path", { d: "M104 104h48v48h-48Zm136 48a8 8 0 0 1-8 8h-16v40a16 16 0 0 1-16 16h-40v16a8 8 0 0 1-16 0v-16h-32v16a8 8 0 0 1-16 0v-16H56a16 16 0 0 1-16-16v-40H24a8 8 0 0 1 0-16h16v-32H24a8 8 0 0 1 0-16h16V56a16 16 0 0 1 16-16h40V24a8 8 0 0 1 16 0v16h32V24a8 8 0 0 1 16 0v16h40a16 16 0 0 1 16 16v40h16a8 8 0 0 1 0 16h-16v32h16a8 8 0 0 1 8 8m-72-56a8 8 0 0 0-8-8H96a8 8 0 0 0-8 8v64a8 8 0 0 0 8 8h64a8 8 0 0 0 8-8Z" }) })
@@ -1872,7 +2473,7 @@ var AnimatedCpuIcon = (0, import_react45.forwardRef)(
           {
             animate: controls,
             initial: "normal",
-            variants: CPU_ANIMATION_VARIANTS,
+            variants: CPU_ANIMATION_VARIANTS2,
             xmlns: "http://www.w3.org/2000/svg",
             viewBox: "0 0 256 256",
             width: size,
@@ -2205,7 +2806,7 @@ DotsThreeIcon.displayName = "DotsThreeIcon";
 var import_react55 = require("react");
 var import_react56 = require("motion/react");
 var import_jsx_runtime29 = require("react/jsx-runtime");
-var EXCLUDE_ANIMATION_VARIANTS = getIconAnimationVariants("exclude");
+var EXCLUDE_ANIMATION_VARIANTS2 = getIconAnimationVariants("exclude");
 var EXCLUDE_GLYPHS = {
   outline: /* @__PURE__ */ (0, import_jsx_runtime29.jsx)(import_jsx_runtime29.Fragment, { children: /* @__PURE__ */ (0, import_jsx_runtime29.jsx)("path", { fill: "none", d: "M174.63 81.37a80 80 0 1 0-93.26 93.26 80 80 0 1 0 93.26-93.26M224 160c0 1.52-.07 3-.18 4.51l-50-50A80 80 0 0 0 176 98a64.11 64.11 0 0 1 48 62m-13.47 39.21-52.62-52.61a80.5 80.5 0 0 0 9.93-15.44L219.7 183a64 64 0 0 1-9.17 16.21M183 219.7l-51.86-51.86a80.5 80.5 0 0 0 15.44-9.93l52.61 52.62A64 64 0 0 1 183 219.7M45.47 56.79l52.62 52.61a80.5 80.5 0 0 0-9.93 15.44L36.3 73a64 64 0 0 1 9.17-16.21M73 36.3l51.86 51.86a80.5 80.5 0 0 0-15.44 9.93L56.79 45.47A64 64 0 0 1 73 36.3M160 96a64.07 64.07 0 0 1-64 64 64.07 64.07 0 0 1 64-64m-2-16a80 80 0 0 0-16.49 2.13l-50-50C93 32.07 94.48 32 96 32a64.11 64.11 0 0 1 62 48.05ZM32 96c0-1.52.07-3 .18-4.51l50 50A80 80 0 0 0 80.05 158 64.11 64.11 0 0 1 32 96m66 80a80 80 0 0 0 16.49-2.13l50 50c-1.49.11-3 .18-4.51.18A64.11 64.11 0 0 1 98 176" }) }),
   filled: /* @__PURE__ */ (0, import_jsx_runtime29.jsx)(import_jsx_runtime29.Fragment, { children: /* @__PURE__ */ (0, import_jsx_runtime29.jsx)("path", { d: "M240 160a80 80 0 0 1-158.64 14.64 80 80 0 0 0 93.28-93.28A80 80 0 0 1 240 160m-80-80a80.3 80.3 0 0 1 14.64 1.36 80 80 0 1 0-93.28 93.28A80 80 0 0 1 160 80" }) })
@@ -2242,7 +2843,7 @@ var AnimatedExcludeIcon = (0, import_react55.forwardRef)(
           {
             animate: controls,
             initial: "normal",
-            variants: EXCLUDE_ANIMATION_VARIANTS,
+            variants: EXCLUDE_ANIMATION_VARIANTS2,
             xmlns: "http://www.w3.org/2000/svg",
             viewBox: "0 0 256 256",
             width: size,
@@ -2501,7 +3102,7 @@ FolderOpenIcon.displayName = "FolderOpenIcon";
 var import_react63 = require("react");
 var import_react64 = require("motion/react");
 var import_jsx_runtime33 = require("react/jsx-runtime");
-var FOLDER_ANIMATION_VARIANTS = getIconAnimationVariants("folder");
+var FOLDER_ANIMATION_VARIANTS2 = getIconAnimationVariants("folder");
 var FOLDER_GLYPHS = {
   outline: /* @__PURE__ */ (0, import_jsx_runtime33.jsx)(import_jsx_runtime33.Fragment, { children: /* @__PURE__ */ (0, import_jsx_runtime33.jsx)("path", { fill: "none", d: "M216 72h-84.69L104 44.69A15.86 15.86 0 0 0 92.69 40H40a16 16 0 0 0-16 16v144.62A15.4 15.4 0 0 0 39.38 216h177.51A15.13 15.13 0 0 0 232 200.89V88a16 16 0 0 0-16-16M40 56h52.69l16 16H40Zm176 144H40V88h176Z" }) }),
   filled: /* @__PURE__ */ (0, import_jsx_runtime33.jsx)(import_jsx_runtime33.Fragment, { children: /* @__PURE__ */ (0, import_jsx_runtime33.jsx)("path", { d: "M216 72h-84.69L104 44.69A15.88 15.88 0 0 0 92.69 40H40a16 16 0 0 0-16 16v144.62A15.41 15.41 0 0 0 39.39 216h177.5A15.13 15.13 0 0 0 232 200.89V88a16 16 0 0 0-16-16M40 56h52.69l16 16H40Z" }) })
@@ -2538,7 +3139,7 @@ var AnimatedFolderIcon = (0, import_react63.forwardRef)(
           {
             animate: controls,
             initial: "normal",
-            variants: FOLDER_ANIMATION_VARIANTS,
+            variants: FOLDER_ANIMATION_VARIANTS2,
             xmlns: "http://www.w3.org/2000/svg",
             viewBox: "0 0 256 256",
             width: size,
@@ -2649,7 +3250,7 @@ FrameCornersIcon.displayName = "FrameCornersIcon";
 var import_react67 = require("react");
 var import_react68 = require("motion/react");
 var import_jsx_runtime35 = require("react/jsx-runtime");
-var GEAR_ANIMATION_VARIANTS = getIconAnimationVariants("gear");
+var GEAR_ANIMATION_VARIANTS2 = getIconAnimationVariants("gear");
 var GEAR_GLYPHS = {
   outline: /* @__PURE__ */ (0, import_jsx_runtime35.jsx)(import_jsx_runtime35.Fragment, { children: /* @__PURE__ */ (0, import_jsx_runtime35.jsx)("path", { fill: "none", d: "M128 80a48 48 0 1 0 48 48 48.05 48.05 0 0 0-48-48m0 80a32 32 0 1 1 32-32 32 32 0 0 1-32 32m88-29.84q.06-2.16 0-4.32l14.92-18.64a8 8 0 0 0 1.48-7.06 107.2 107.2 0 0 0-10.88-26.25 8 8 0 0 0-6-3.93l-23.72-2.64q-1.48-1.56-3-3L186 40.54a8 8 0 0 0-3.94-6 107.7 107.7 0 0 0-26.25-10.87 8 8 0 0 0-7.06 1.49L130.16 40h-4.32L107.2 25.11a8 8 0 0 0-7.06-1.48 107.6 107.6 0 0 0-26.25 10.88 8 8 0 0 0-3.93 6l-2.64 23.76q-1.56 1.49-3 3L40.54 70a8 8 0 0 0-6 3.94 107.7 107.7 0 0 0-10.87 26.25 8 8 0 0 0 1.49 7.06L40 125.84v4.32L25.11 148.8a8 8 0 0 0-1.48 7.06 107.2 107.2 0 0 0 10.88 26.25 8 8 0 0 0 6 3.93l23.72 2.64q1.49 1.56 3 3L70 215.46a8 8 0 0 0 3.94 6 107.7 107.7 0 0 0 26.25 10.87 8 8 0 0 0 7.06-1.49L125.84 216q2.16.06 4.32 0l18.64 14.92a8 8 0 0 0 7.06 1.48 107.2 107.2 0 0 0 26.25-10.88 8 8 0 0 0 3.93-6l2.64-23.72q1.56-1.48 3-3l23.78-2.8a8 8 0 0 0 6-3.94 107.7 107.7 0 0 0 10.87-26.25 8 8 0 0 0-1.49-7.06Zm-16.1-6.5a74 74 0 0 1 0 8.68 8 8 0 0 0 1.74 5.48l14.19 17.73a91.6 91.6 0 0 1-6.23 15l-22.6 2.56a8 8 0 0 0-5.1 2.64 74 74 0 0 1-6.14 6.14 8 8 0 0 0-2.64 5.1l-2.51 22.58a91.3 91.3 0 0 1-15 6.23l-17.74-14.19a8 8 0 0 0-5-1.75h-.48a74 74 0 0 1-8.68 0 8 8 0 0 0-5.48 1.74l-17.78 14.2a91.6 91.6 0 0 1-15-6.23L82.89 187a8 8 0 0 0-2.64-5.1 74 74 0 0 1-6.14-6.14 8 8 0 0 0-5.1-2.64l-22.58-2.52a91.3 91.3 0 0 1-6.23-15l14.19-17.74a8 8 0 0 0 1.74-5.48 74 74 0 0 1 0-8.68 8 8 0 0 0-1.74-5.48L40.2 100.45a91.6 91.6 0 0 1 6.23-15L69 82.89a8 8 0 0 0 5.1-2.64 74 74 0 0 1 6.14-6.14A8 8 0 0 0 82.89 69l2.51-22.57a91.3 91.3 0 0 1 15-6.23l17.74 14.19a8 8 0 0 0 5.48 1.74 74 74 0 0 1 8.68 0 8 8 0 0 0 5.48-1.74l17.77-14.19a91.6 91.6 0 0 1 15 6.23L173.11 69a8 8 0 0 0 2.64 5.1 74 74 0 0 1 6.14 6.14 8 8 0 0 0 5.1 2.64l22.58 2.51a91.3 91.3 0 0 1 6.23 15l-14.19 17.74a8 8 0 0 0-1.74 5.53Z" }) }),
   filled: /* @__PURE__ */ (0, import_jsx_runtime35.jsx)(import_jsx_runtime35.Fragment, { children: /* @__PURE__ */ (0, import_jsx_runtime35.jsx)("path", { d: "M216 130.16q.06-2.16 0-4.32l14.92-18.64a8 8 0 0 0 1.48-7.06 107.6 107.6 0 0 0-10.88-26.25 8 8 0 0 0-6-3.93l-23.72-2.64q-1.48-1.56-3-3L186 40.54a8 8 0 0 0-3.94-6 107.3 107.3 0 0 0-26.25-10.86 8 8 0 0 0-7.06 1.48L130.16 40h-4.32L107.2 25.11a8 8 0 0 0-7.06-1.48 107.6 107.6 0 0 0-26.25 10.88 8 8 0 0 0-3.93 6l-2.64 23.76q-1.56 1.49-3 3L40.54 70a8 8 0 0 0-6 3.94 107.7 107.7 0 0 0-10.87 26.25 8 8 0 0 0 1.49 7.06L40 125.84v4.32L25.11 148.8a8 8 0 0 0-1.48 7.06 107.6 107.6 0 0 0 10.88 26.25 8 8 0 0 0 6 3.93l23.72 2.64q1.49 1.56 3 3L70 215.46a8 8 0 0 0 3.94 6 107.7 107.7 0 0 0 26.25 10.87 8 8 0 0 0 7.06-1.49L125.84 216q2.16.06 4.32 0l18.64 14.92a8 8 0 0 0 7.06 1.48 107.2 107.2 0 0 0 26.25-10.88 8 8 0 0 0 3.93-6l2.64-23.72q1.56-1.48 3-3l23.78-2.8a8 8 0 0 0 6-3.94 107.7 107.7 0 0 0 10.87-26.25 8 8 0 0 0-1.49-7.06ZM128 168a40 40 0 1 1 40-40 40 40 0 0 1-40 40" }) })
@@ -2686,7 +3287,7 @@ var AnimatedGearIcon = (0, import_react67.forwardRef)(
           {
             animate: controls,
             initial: "normal",
-            variants: GEAR_ANIMATION_VARIANTS,
+            variants: GEAR_ANIMATION_VARIANTS2,
             xmlns: "http://www.w3.org/2000/svg",
             viewBox: "0 0 256 256",
             width: size,
@@ -2723,7 +3324,7 @@ GearIcon.displayName = "GearIcon";
 var import_react69 = require("react");
 var import_react70 = require("motion/react");
 var import_jsx_runtime36 = require("react/jsx-runtime");
-var GLOBE_ANIMATION_VARIANTS = getIconAnimationVariants("globe");
+var GLOBE_ANIMATION_VARIANTS2 = getIconAnimationVariants("globe");
 var GLOBE_GLYPHS = {
   outline: /* @__PURE__ */ (0, import_jsx_runtime36.jsx)(import_jsx_runtime36.Fragment, { children: /* @__PURE__ */ (0, import_jsx_runtime36.jsx)("path", { fill: "none", d: "M128 24a104 104 0 1 0 104 104A104.12 104.12 0 0 0 128 24m88 104a87.6 87.6 0 0 1-3.33 24h-38.51a157.4 157.4 0 0 0 0-48h38.51a87.6 87.6 0 0 1 3.33 24m-114 40h52a115.1 115.1 0 0 1-26 45 115.3 115.3 0 0 1-26-45m-3.9-16a140.8 140.8 0 0 1 0-48h59.88a140.8 140.8 0 0 1 0 48ZM40 128a87.6 87.6 0 0 1 3.33-24h38.51a157.4 157.4 0 0 0 0 48H43.33A87.6 87.6 0 0 1 40 128m114-40h-52a115.1 115.1 0 0 1 26-45 115.3 115.3 0 0 1 26 45m52.33 0h-35.62a135.3 135.3 0 0 0-22.3-45.6A88.29 88.29 0 0 1 206.37 88Zm-98.74-45.6A135.3 135.3 0 0 0 85.29 88H49.63a88.29 88.29 0 0 1 57.96-45.6M49.63 168h35.66a135.3 135.3 0 0 0 22.3 45.6A88.29 88.29 0 0 1 49.63 168m98.78 45.6a135.3 135.3 0 0 0 22.3-45.6h35.66a88.29 88.29 0 0 1-57.96 45.6" }) }),
   filled: /* @__PURE__ */ (0, import_jsx_runtime36.jsx)(import_jsx_runtime36.Fragment, { children: /* @__PURE__ */ (0, import_jsx_runtime36.jsx)("path", { d: "M128 24a104 104 0 1 0 104 104A104.12 104.12 0 0 0 128 24m78.36 64h-35.65a135.3 135.3 0 0 0-22.3-45.6A88.29 88.29 0 0 1 206.37 88Zm9.64 40a87.6 87.6 0 0 1-3.33 24h-38.51a157.4 157.4 0 0 0 0-48h38.51a87.6 87.6 0 0 1 3.33 24m-88-85a115.3 115.3 0 0 1 26 45h-52a115.1 115.1 0 0 1 26-45m-26 125h52a115.1 115.1 0 0 1-26 45 115.3 115.3 0 0 1-26-45m-3.9-16a140.8 140.8 0 0 1 0-48h59.88a140.8 140.8 0 0 1 0 48Zm50.35 61.6a135.3 135.3 0 0 0 22.3-45.6h35.66a88.29 88.29 0 0 1-58 45.6Z" }) })
@@ -2760,7 +3361,7 @@ var AnimatedGlobeIcon = (0, import_react69.forwardRef)(
           {
             animate: controls,
             initial: "normal",
-            variants: GLOBE_ANIMATION_VARIANTS,
+            variants: GLOBE_ANIMATION_VARIANTS2,
             xmlns: "http://www.w3.org/2000/svg",
             viewBox: "0 0 256 256",
             width: size,
@@ -3072,7 +3673,7 @@ HomeIcon.displayName = "HomeIcon";
 var import_react77 = require("react");
 var import_react78 = require("motion/react");
 var import_jsx_runtime40 = require("react/jsx-runtime");
-var INFO_ANIMATION_VARIANTS = getIconAnimationVariants("info");
+var INFO_ANIMATION_VARIANTS2 = getIconAnimationVariants("info");
 var INFO_GLYPHS = {
   outline: /* @__PURE__ */ (0, import_jsx_runtime40.jsx)(import_jsx_runtime40.Fragment, { children: /* @__PURE__ */ (0, import_jsx_runtime40.jsx)("path", { fill: "none", d: "M128 24a104 104 0 1 0 104 104A104.11 104.11 0 0 0 128 24m0 192a88 88 0 1 1 88-88 88.1 88.1 0 0 1-88 88m16-40a8 8 0 0 1-8 8 16 16 0 0 1-16-16v-40a8 8 0 0 1 0-16 16 16 0 0 1 16 16v40a8 8 0 0 1 8 8m-32-92a12 12 0 1 1 12 12 12 12 0 0 1-12-12" }) }),
   filled: /* @__PURE__ */ (0, import_jsx_runtime40.jsx)(import_jsx_runtime40.Fragment, { children: /* @__PURE__ */ (0, import_jsx_runtime40.jsx)("path", { d: "M128 24a104 104 0 1 0 104 104A104.11 104.11 0 0 0 128 24m-4 48a12 12 0 1 1-12 12 12 12 0 0 1 12-12m12 112a16 16 0 0 1-16-16v-40a8 8 0 0 1 0-16 16 16 0 0 1 16 16v40a8 8 0 0 1 0 16" }) })
@@ -3109,7 +3710,7 @@ var AnimatedInfoIcon = (0, import_react77.forwardRef)(
           {
             animate: controls,
             initial: "normal",
-            variants: INFO_ANIMATION_VARIANTS,
+            variants: INFO_ANIMATION_VARIANTS2,
             xmlns: "http://www.w3.org/2000/svg",
             viewBox: "0 0 256 256",
             width: size,
@@ -3146,7 +3747,7 @@ InfoIcon.displayName = "InfoIcon";
 var import_react79 = require("react");
 var import_react80 = require("motion/react");
 var import_jsx_runtime41 = require("react/jsx-runtime");
-var LIGHTNING_ANIMATION_VARIANTS = getIconAnimationVariants("lightning");
+var LIGHTNING_ANIMATION_VARIANTS2 = getIconAnimationVariants("lightning");
 var LIGHTNING_GLYPHS = {
   outline: /* @__PURE__ */ (0, import_jsx_runtime41.jsx)(import_jsx_runtime41.Fragment, { children: /* @__PURE__ */ (0, import_jsx_runtime41.jsx)("path", { fill: "none", d: "M215.79 118.17a8 8 0 0 0-5-5.66L153.18 90.9l14.66-73.33a8 8 0 0 0-13.69-7l-112 120a8 8 0 0 0 3 13l57.63 21.61-14.62 73.25a8 8 0 0 0 13.69 7l112-120a8 8 0 0 0 1.94-7.26M109.37 214l10.47-52.38a8 8 0 0 0-5-9.06L62 132.71l84.62-90.66-10.46 52.38a8 8 0 0 0 5 9.06l52.8 19.8Z" }) }),
   filled: /* @__PURE__ */ (0, import_jsx_runtime41.jsx)(import_jsx_runtime41.Fragment, { children: /* @__PURE__ */ (0, import_jsx_runtime41.jsx)("path", { d: "m213.85 125.46-112 120a8 8 0 0 1-13.69-7l14.66-73.33-57.63-21.64a8 8 0 0 1-3-13l112-120a8 8 0 0 1 13.69 7l-14.7 73.41 57.63 21.61a8 8 0 0 1 3 12.95Z" }) })
@@ -3183,7 +3784,7 @@ var AnimatedLightningIcon = (0, import_react79.forwardRef)(
           {
             animate: controls,
             initial: "normal",
-            variants: LIGHTNING_ANIMATION_VARIANTS,
+            variants: LIGHTNING_ANIMATION_VARIANTS2,
             xmlns: "http://www.w3.org/2000/svg",
             viewBox: "0 0 256 256",
             width: size,
@@ -3220,7 +3821,7 @@ LightningIcon.displayName = "LightningIcon";
 var import_react81 = require("react");
 var import_react82 = require("motion/react");
 var import_jsx_runtime42 = require("react/jsx-runtime");
-var LOGO_ANIMATION_VARIANTS = getIconAnimationVariants("logo");
+var LOGO_ANIMATION_VARIANTS2 = getIconAnimationVariants("logo");
 var LOGO_GLYPHS = {
   outline: /* @__PURE__ */ (0, import_jsx_runtime42.jsx)(import_jsx_runtime42.Fragment, { children: /* @__PURE__ */ (0, import_jsx_runtime42.jsx)("path", { fill: "none", d: "M224 160V96a8 8 0 0 0-8-8h-48V40a8 8 0 0 0-8-8H40a8 8 0 0 0-8 8v120a8 8 0 0 0 8 8h48v48a8 8 0 0 0 8 8h120a8 8 0 0 0 8-8zm-60.69 48-40-40h33.38l40 40ZM48 59.31l40 40v33.38l-40-40ZM92.69 48l40 40H99.31l-40-40ZM104 152v-48h48v48Zm64 4.69v-33.38l40 40v33.38Zm40-16L171.31 104H208Zm-56-56L115.31 48H152ZM48 115.31 84.69 152H48Zm56 56L140.69 208H104Z" }) }),
   filled: /* @__PURE__ */ (0, import_jsx_runtime42.jsx)(import_jsx_runtime42.Fragment, { children: /* @__PURE__ */ (0, import_jsx_runtime42.jsx)("path", { d: "M88 88v80H40a8 8 0 0 1-8-8V40a8 8 0 0 1 8-8h120a8 8 0 0 1 8 8v48Zm128 0h-48v80H88v48a8 8 0 0 0 8 8h120a8 8 0 0 0 8-8V96a8 8 0 0 0-8-8" }) })
@@ -3257,7 +3858,7 @@ var AnimatedLogoIcon = (0, import_react81.forwardRef)(
           {
             animate: controls,
             initial: "normal",
-            variants: LOGO_ANIMATION_VARIANTS,
+            variants: LOGO_ANIMATION_VARIANTS2,
             xmlns: "http://www.w3.org/2000/svg",
             viewBox: "0 0 256 256",
             width: size,
@@ -3442,7 +4043,7 @@ MapTrifoldIcon.displayName = "MapTrifoldIcon";
 var import_react87 = require("react");
 var import_react88 = require("motion/react");
 var import_jsx_runtime45 = require("react/jsx-runtime");
-var MINUS_ANIMATION_VARIANTS = getIconAnimationVariants("minus");
+var MINUS_ANIMATION_VARIANTS2 = getIconAnimationVariants("minus");
 var MINUS_GLYPHS = {
   outline: /* @__PURE__ */ (0, import_jsx_runtime45.jsx)(import_jsx_runtime45.Fragment, { children: /* @__PURE__ */ (0, import_jsx_runtime45.jsx)("path", { fill: "none", d: "M224 128a8 8 0 0 1-8 8H40a8 8 0 0 1 0-16h176a8 8 0 0 1 8 8" }) }),
   filled: /* @__PURE__ */ (0, import_jsx_runtime45.jsx)(import_jsx_runtime45.Fragment, { children: /* @__PURE__ */ (0, import_jsx_runtime45.jsx)("path", { d: "M224 128a8 8 0 0 1-8 8H40a8 8 0 0 1 0-16h176a8 8 0 0 1 8 8" }) })
@@ -3479,7 +4080,7 @@ var AnimatedMinusIcon = (0, import_react87.forwardRef)(
           {
             animate: controls,
             initial: "normal",
-            variants: MINUS_ANIMATION_VARIANTS,
+            variants: MINUS_ANIMATION_VARIANTS2,
             xmlns: "http://www.w3.org/2000/svg",
             viewBox: "0 0 256 256",
             width: size,
@@ -3516,7 +4117,7 @@ MinusIcon.displayName = "MinusIcon";
 var import_react89 = require("react");
 var import_react90 = require("motion/react");
 var import_jsx_runtime46 = require("react/jsx-runtime");
-var MONITOR_ANIMATION_VARIANTS = getIconAnimationVariants("monitor");
+var MONITOR_ANIMATION_VARIANTS2 = getIconAnimationVariants("monitor");
 var MONITOR_GLYPHS = {
   outline: /* @__PURE__ */ (0, import_jsx_runtime46.jsx)(import_jsx_runtime46.Fragment, { children: /* @__PURE__ */ (0, import_jsx_runtime46.jsx)("path", { fill: "none", d: "M208 40H48a24 24 0 0 0-24 24v112a24 24 0 0 0 24 24h160a24 24 0 0 0 24-24V64a24 24 0 0 0-24-24m8 136a8 8 0 0 1-8 8H48a8 8 0 0 1-8-8V64a8 8 0 0 1 8-8h160a8 8 0 0 1 8 8Zm-48 48a8 8 0 0 1-8 8H96a8 8 0 0 1 0-16h64a8 8 0 0 1 8 8" }) }),
   filled: /* @__PURE__ */ (0, import_jsx_runtime46.jsx)(import_jsx_runtime46.Fragment, { children: /* @__PURE__ */ (0, import_jsx_runtime46.jsx)("path", { d: "M232 64v112a24 24 0 0 1-24 24H48a24 24 0 0 1-24-24V64a24 24 0 0 1 24-24h160a24 24 0 0 1 24 24m-72 152H96a8 8 0 0 0 0 16h64a8 8 0 0 0 0-16" }) })
@@ -3553,7 +4154,7 @@ var AnimatedMonitorIcon = (0, import_react89.forwardRef)(
           {
             animate: controls,
             initial: "normal",
-            variants: MONITOR_ANIMATION_VARIANTS,
+            variants: MONITOR_ANIMATION_VARIANTS2,
             xmlns: "http://www.w3.org/2000/svg",
             viewBox: "0 0 256 256",
             width: size,
@@ -3590,7 +4191,7 @@ MonitorIcon.displayName = "MonitorIcon";
 var import_react91 = require("react");
 var import_react92 = require("motion/react");
 var import_jsx_runtime47 = require("react/jsx-runtime");
-var MOON_ANIMATION_VARIANTS = getIconAnimationVariants("moon");
+var MOON_ANIMATION_VARIANTS2 = getIconAnimationVariants("moon");
 var MOON_GLYPHS = {
   outline: /* @__PURE__ */ (0, import_jsx_runtime47.jsx)(import_jsx_runtime47.Fragment, { children: /* @__PURE__ */ (0, import_jsx_runtime47.jsx)("path", { fill: "none", d: "M233.54 142.23a8 8 0 0 0-8-2 88.08 88.08 0 0 1-109.8-109.8 8 8 0 0 0-10-10 104.84 104.84 0 0 0-52.91 37A104 104 0 0 0 136 224a103.1 103.1 0 0 0 62.52-20.88 104.84 104.84 0 0 0 37-52.91 8 8 0 0 0-1.98-7.98m-44.64 48.11A88 88 0 0 1 65.66 67.11a89 89 0 0 1 31.4-26A106 106 0 0 0 96 56a104.11 104.11 0 0 0 104 104 106 106 0 0 0 14.92-1.06 89 89 0 0 1-26.02 31.4" }) }),
   filled: /* @__PURE__ */ (0, import_jsx_runtime47.jsx)(import_jsx_runtime47.Fragment, { children: /* @__PURE__ */ (0, import_jsx_runtime47.jsx)("path", { d: "M235.54 150.21a104.84 104.84 0 0 1-37 52.91A104 104 0 0 1 32 120a103.1 103.1 0 0 1 20.88-62.52 104.84 104.84 0 0 1 52.91-37 8 8 0 0 1 10 10 88.08 88.08 0 0 0 109.8 109.8 8 8 0 0 1 10 10Z" }) })
@@ -3627,7 +4228,7 @@ var AnimatedMoonIcon = (0, import_react91.forwardRef)(
           {
             animate: controls,
             initial: "normal",
-            variants: MOON_ANIMATION_VARIANTS,
+            variants: MOON_ANIMATION_VARIANTS2,
             xmlns: "http://www.w3.org/2000/svg",
             viewBox: "0 0 256 256",
             width: size,
@@ -3738,7 +4339,7 @@ NavigationArrowIcon.displayName = "NavigationArrowIcon";
 var import_react95 = require("react");
 var import_react96 = require("motion/react");
 var import_jsx_runtime49 = require("react/jsx-runtime");
-var PLUS_ANIMATION_VARIANTS = getIconAnimationVariants("plus");
+var PLUS_ANIMATION_VARIANTS2 = getIconAnimationVariants("plus");
 var PLUS_GLYPHS = {
   outline: /* @__PURE__ */ (0, import_jsx_runtime49.jsx)(import_jsx_runtime49.Fragment, { children: /* @__PURE__ */ (0, import_jsx_runtime49.jsx)("path", { fill: "none", d: "M224 128a8 8 0 0 1-8 8h-80v80a8 8 0 0 1-16 0v-80H40a8 8 0 0 1 0-16h80V40a8 8 0 0 1 16 0v80h80a8 8 0 0 1 8 8" }) }),
   filled: /* @__PURE__ */ (0, import_jsx_runtime49.jsx)(import_jsx_runtime49.Fragment, { children: /* @__PURE__ */ (0, import_jsx_runtime49.jsx)("path", { d: "M224 128a8 8 0 0 1-8 8h-80v80a8 8 0 0 1-16 0v-80H40a8 8 0 0 1 0-16h80V40a8 8 0 0 1 16 0v80h80a8 8 0 0 1 8 8" }) })
@@ -3775,7 +4376,7 @@ var AnimatedPlusIcon = (0, import_react95.forwardRef)(
           {
             animate: controls,
             initial: "normal",
-            variants: PLUS_ANIMATION_VARIANTS,
+            variants: PLUS_ANIMATION_VARIANTS2,
             xmlns: "http://www.w3.org/2000/svg",
             viewBox: "0 0 256 256",
             width: size,
@@ -3812,7 +4413,7 @@ PlusIcon.displayName = "PlusIcon";
 var import_react97 = require("react");
 var import_react98 = require("motion/react");
 var import_jsx_runtime50 = require("react/jsx-runtime");
-var ROBOT_ANIMATION_VARIANTS = getIconAnimationVariants("robot");
+var ROBOT_ANIMATION_VARIANTS2 = getIconAnimationVariants("robot");
 var ROBOT_GLYPHS = {
   outline: /* @__PURE__ */ (0, import_jsx_runtime50.jsx)(import_jsx_runtime50.Fragment, { children: /* @__PURE__ */ (0, import_jsx_runtime50.jsx)("path", { fill: "none", d: "M200 48h-64V16a8 8 0 0 0-16 0v32H56a32 32 0 0 0-32 32v112a32 32 0 0 0 32 32h144a32 32 0 0 0 32-32V80a32 32 0 0 0-32-32m16 144a16 16 0 0 1-16 16H56a16 16 0 0 1-16-16V80a16 16 0 0 1 16-16h144a16 16 0 0 1 16 16Zm-52-56H92a28 28 0 0 0 0 56h72a28 28 0 0 0 0-56m-24 16v24h-24v-24Zm-60 12a12 12 0 0 1 12-12h8v24h-8a12 12 0 0 1-12-12m84 12h-8v-24h8a12 12 0 0 1 0 24m-92-68a12 12 0 1 1 12 12 12 12 0 0 1-12-12m88 0a12 12 0 1 1 12 12 12 12 0 0 1-12-12" }) }),
   filled: /* @__PURE__ */ (0, import_jsx_runtime50.jsx)(import_jsx_runtime50.Fragment, { children: /* @__PURE__ */ (0, import_jsx_runtime50.jsx)("path", { d: "M200 48h-64V16a8 8 0 0 0-16 0v32H56a32 32 0 0 0-32 32v112a32 32 0 0 0 32 32h144a32 32 0 0 0 32-32V80a32 32 0 0 0-32-32m-28 48a12 12 0 1 1-12 12 12 12 0 0 1 12-12m-76 88H80a16 16 0 0 1 0-32h16Zm-12-64a12 12 0 1 1 12-12 12 12 0 0 1-12 12m60 64h-32v-32h32Zm32 0h-16v-32h16a16 16 0 0 1 0 32" }) })
@@ -3849,7 +4450,7 @@ var AnimatedRobotIcon = (0, import_react97.forwardRef)(
           {
             animate: controls,
             initial: "normal",
-            variants: ROBOT_ANIMATION_VARIANTS,
+            variants: ROBOT_ANIMATION_VARIANTS2,
             xmlns: "http://www.w3.org/2000/svg",
             viewBox: "0 0 256 256",
             width: size,
@@ -3886,7 +4487,7 @@ RobotIcon.displayName = "RobotIcon";
 var import_react99 = require("react");
 var import_react100 = require("motion/react");
 var import_jsx_runtime51 = require("react/jsx-runtime");
-var SHARE_ANIMATION_VARIANTS = getIconAnimationVariants("share");
+var SHARE_ANIMATION_VARIANTS2 = getIconAnimationVariants("share");
 var SHARE_GLYPHS = {
   outline: /* @__PURE__ */ (0, import_jsx_runtime51.jsx)(import_jsx_runtime51.Fragment, { children: /* @__PURE__ */ (0, import_jsx_runtime51.jsx)("path", { fill: "none", d: "m237.66 106.35-80-80A8 8 0 0 0 144 32v40.35c-25.94 2.22-54.59 14.92-78.16 34.91-28.38 24.08-46.05 55.11-49.76 87.37a12 12 0 0 0 20.68 9.58c11-11.71 50.14-48.74 107.24-52V192a8 8 0 0 0 13.66 5.65l80-80a8 8 0 0 0 0-11.3M160 172.69V144a8 8 0 0 0-8-8c-28.08 0-55.43 7.33-81.29 21.8a196.2 196.2 0 0 0-36.57 26.52c5.8-23.84 20.42-46.51 42.05-64.86C99.41 99.77 127.75 88 152 88a8 8 0 0 0 8-8V51.32L220.69 112Z" }) }),
   filled: /* @__PURE__ */ (0, import_jsx_runtime51.jsx)(import_jsx_runtime51.Fragment, { children: /* @__PURE__ */ (0, import_jsx_runtime51.jsx)("path", { d: "m237.66 117.66-80 80A8 8 0 0 1 144 192v-39.77c-57.1 3.24-96.25 40.27-107.24 52a12 12 0 0 1-20.68-9.58c3.71-32.26 21.38-63.29 49.76-87.37 23.57-20 52.22-32.69 78.16-34.91V32a8 8 0 0 1 13.66-5.66l80 80a8 8 0 0 1 0 11.32" }) })
@@ -3923,7 +4524,7 @@ var AnimatedShareIcon = (0, import_react99.forwardRef)(
           {
             animate: controls,
             initial: "normal",
-            variants: SHARE_ANIMATION_VARIANTS,
+            variants: SHARE_ANIMATION_VARIANTS2,
             xmlns: "http://www.w3.org/2000/svg",
             viewBox: "0 0 256 256",
             width: size,
@@ -4034,7 +4635,7 @@ ShieldCheckIcon.displayName = "ShieldCheckIcon";
 var import_react103 = require("react");
 var import_react104 = require("motion/react");
 var import_jsx_runtime53 = require("react/jsx-runtime");
-var SIDEBAR_ANIMATION_VARIANTS = getIconAnimationVariants("sidebar");
+var SIDEBAR_ANIMATION_VARIANTS2 = getIconAnimationVariants("sidebar");
 var SIDEBAR_GLYPHS = {
   outline: /* @__PURE__ */ (0, import_jsx_runtime53.jsx)(import_jsx_runtime53.Fragment, { children: /* @__PURE__ */ (0, import_jsx_runtime53.jsx)("path", { fill: "none", d: "M216 40H40a16 16 0 0 0-16 16v144a16 16 0 0 0 16 16h176a16 16 0 0 0 16-16V56a16 16 0 0 0-16-16M40 152h16a8 8 0 0 0 0-16H40v-16h16a8 8 0 0 0 0-16H40V88h16a8 8 0 0 0 0-16H40V56h40v144H40Zm176 48H96V56h120z" }) }),
   filled: /* @__PURE__ */ (0, import_jsx_runtime53.jsx)(import_jsx_runtime53.Fragment, { children: /* @__PURE__ */ (0, import_jsx_runtime53.jsx)("path", { d: "M216 40H40a16 16 0 0 0-16 16v144a16 16 0 0 0 16 16h176a16 16 0 0 0 16-16V56a16 16 0 0 0-16-16M64 152H48a8 8 0 0 1 0-16h16a8 8 0 0 1 0 16m0-32H48a8 8 0 0 1 0-16h16a8 8 0 0 1 0 16m0-32H48a8 8 0 0 1 0-16h16a8 8 0 0 1 0 16m152 112H88V56h128z" }) })
@@ -4071,7 +4672,7 @@ var AnimatedSidebarIcon = (0, import_react103.forwardRef)(
           {
             animate: controls,
             initial: "normal",
-            variants: SIDEBAR_ANIMATION_VARIANTS,
+            variants: SIDEBAR_ANIMATION_VARIANTS2,
             xmlns: "http://www.w3.org/2000/svg",
             viewBox: "0 0 256 256",
             width: size,
@@ -4182,7 +4783,7 @@ SignOutIcon.displayName = "SignOutIcon";
 var import_react107 = require("react");
 var import_react108 = require("motion/react");
 var import_jsx_runtime55 = require("react/jsx-runtime");
-var STAR_ANIMATION_VARIANTS = getIconAnimationVariants("star");
+var STAR_ANIMATION_VARIANTS2 = getIconAnimationVariants("star");
 var STAR_GLYPHS = {
   outline: /* @__PURE__ */ (0, import_jsx_runtime55.jsx)(import_jsx_runtime55.Fragment, { children: /* @__PURE__ */ (0, import_jsx_runtime55.jsx)("path", { fill: "none", d: "M239.18 97.26A16.38 16.38 0 0 0 224.92 86l-59-4.76-22.78-55.09a16.36 16.36 0 0 0-30.27 0L90.11 81.23 31.08 86a16.46 16.46 0 0 0-9.37 28.86l45 38.83L53 211.75a16.38 16.38 0 0 0 24.5 17.82l50.5-31.08 50.53 31.08A16.4 16.4 0 0 0 203 211.75l-13.76-58.07 45-38.83a16.43 16.43 0 0 0 4.94-17.59m-15.34 5.47-48.7 42a8 8 0 0 0-2.56 7.91l14.88 62.8a.37.37 0 0 1-.17.48c-.18.14-.23.11-.38 0l-54.72-33.65a8 8 0 0 0-8.38 0l-54.72 33.67c-.15.09-.19.12-.38 0a.37.37 0 0 1-.17-.48l14.88-62.8a8 8 0 0 0-2.56-7.91l-48.7-42c-.12-.1-.23-.19-.13-.5s.18-.27.33-.29l63.92-5.16a8 8 0 0 0 6.72-4.94l24.62-59.61c.08-.17.11-.25.35-.25s.27.08.35.25L153 91.86a8 8 0 0 0 6.75 4.92l63.92 5.16c.15 0 .24 0 .33.29s0 .4-.16.5" }) }),
   filled: /* @__PURE__ */ (0, import_jsx_runtime55.jsx)(import_jsx_runtime55.Fragment, { children: /* @__PURE__ */ (0, import_jsx_runtime55.jsx)("path", { d: "m234.29 114.85-45 38.83L203 211.75a16.4 16.4 0 0 1-24.5 17.82L128 198.49l-50.53 31.08A16.4 16.4 0 0 1 53 211.75l13.76-58.07-45-38.83A16.46 16.46 0 0 1 31.08 86l59-4.76 22.76-55.08a16.36 16.36 0 0 1 30.27 0l22.75 55.08 59 4.76a16.46 16.46 0 0 1 9.37 28.86Z" }) })
@@ -4219,7 +4820,7 @@ var AnimatedStarIcon = (0, import_react107.forwardRef)(
           {
             animate: controls,
             initial: "normal",
-            variants: STAR_ANIMATION_VARIANTS,
+            variants: STAR_ANIMATION_VARIANTS2,
             xmlns: "http://www.w3.org/2000/svg",
             viewBox: "0 0 256 256",
             width: size,
@@ -4256,7 +4857,7 @@ StarIcon.displayName = "StarIcon";
 var import_react109 = require("react");
 var import_react110 = require("motion/react");
 var import_jsx_runtime56 = require("react/jsx-runtime");
-var SUN_ANIMATION_VARIANTS = getIconAnimationVariants("sun");
+var SUN_ANIMATION_VARIANTS2 = getIconAnimationVariants("sun");
 var SUN_GLYPHS = {
   outline: /* @__PURE__ */ (0, import_jsx_runtime56.jsx)(import_jsx_runtime56.Fragment, { children: /* @__PURE__ */ (0, import_jsx_runtime56.jsx)("path", { fill: "none", d: "M120 40V16a8 8 0 0 1 16 0v24a8 8 0 0 1-16 0m72 88a64 64 0 1 1-64-64 64.07 64.07 0 0 1 64 64m-16 0a48 48 0 1 0-48 48 48.05 48.05 0 0 0 48-48M58.34 69.66a8 8 0 0 0 11.32-11.32l-16-16a8 8 0 0 0-11.32 11.32Zm0 116.68-16 16a8 8 0 0 0 11.32 11.32l16-16a8 8 0 0 0-11.32-11.32M192 72a8 8 0 0 0 5.66-2.34l16-16a8 8 0 0 0-11.32-11.32l-16 16A8 8 0 0 0 192 72m5.66 114.34a8 8 0 0 0-11.32 11.32l16 16a8 8 0 0 0 11.32-11.32ZM48 128a8 8 0 0 0-8-8H16a8 8 0 0 0 0 16h24a8 8 0 0 0 8-8m80 80a8 8 0 0 0-8 8v24a8 8 0 0 0 16 0v-24a8 8 0 0 0-8-8m112-88h-24a8 8 0 0 0 0 16h24a8 8 0 0 0 0-16" }) }),
   filled: /* @__PURE__ */ (0, import_jsx_runtime56.jsx)(import_jsx_runtime56.Fragment, { children: /* @__PURE__ */ (0, import_jsx_runtime56.jsx)("path", { d: "M120 40V16a8 8 0 0 1 16 0v24a8 8 0 0 1-16 0m8 24a64 64 0 1 0 64 64 64.07 64.07 0 0 0-64-64m-69.66 5.66a8 8 0 0 0 11.32-11.32l-16-16a8 8 0 0 0-11.32 11.32Zm0 116.68-16 16a8 8 0 0 0 11.32 11.32l16-16a8 8 0 0 0-11.32-11.32M192 72a8 8 0 0 0 5.66-2.34l16-16a8 8 0 0 0-11.32-11.32l-16 16A8 8 0 0 0 192 72m5.66 114.34a8 8 0 0 0-11.32 11.32l16 16a8 8 0 0 0 11.32-11.32ZM48 128a8 8 0 0 0-8-8H16a8 8 0 0 0 0 16h24a8 8 0 0 0 8-8m80 80a8 8 0 0 0-8 8v24a8 8 0 0 0 16 0v-24a8 8 0 0 0-8-8m112-88h-24a8 8 0 0 0 0 16h24a8 8 0 0 0 0-16" }) })
@@ -4293,7 +4894,7 @@ var AnimatedSunIcon = (0, import_react109.forwardRef)(
           {
             animate: controls,
             initial: "normal",
-            variants: SUN_ANIMATION_VARIANTS,
+            variants: SUN_ANIMATION_VARIANTS2,
             xmlns: "http://www.w3.org/2000/svg",
             viewBox: "0 0 256 256",
             width: size,
@@ -4626,7 +5227,7 @@ TextItalicIcon.displayName = "TextItalicIcon";
 var import_react119 = require("react");
 var import_react120 = require("motion/react");
 var import_jsx_runtime61 = require("react/jsx-runtime");
-var TRASH_ANIMATION_VARIANTS = getIconAnimationVariants("trash");
+var TRASH_ANIMATION_VARIANTS2 = getIconAnimationVariants("trash");
 var TRASH_GLYPHS = {
   outline: /* @__PURE__ */ (0, import_jsx_runtime61.jsx)(import_jsx_runtime61.Fragment, { children: /* @__PURE__ */ (0, import_jsx_runtime61.jsx)("path", { fill: "none", d: "M216 48h-40v-8a24 24 0 0 0-24-24h-48a24 24 0 0 0-24 24v8H40a8 8 0 0 0 0 16h8v144a16 16 0 0 0 16 16h128a16 16 0 0 0 16-16V64h8a8 8 0 0 0 0-16M96 40a8 8 0 0 1 8-8h48a8 8 0 0 1 8 8v8H96Zm96 168H64V64h128Zm-80-104v64a8 8 0 0 1-16 0v-64a8 8 0 0 1 16 0m48 0v64a8 8 0 0 1-16 0v-64a8 8 0 0 1 16 0" }) }),
   filled: /* @__PURE__ */ (0, import_jsx_runtime61.jsx)(import_jsx_runtime61.Fragment, { children: /* @__PURE__ */ (0, import_jsx_runtime61.jsx)("path", { d: "M216 48h-40v-8a24 24 0 0 0-24-24h-48a24 24 0 0 0-24 24v8H40a8 8 0 0 0 0 16h8v144a16 16 0 0 0 16 16h128a16 16 0 0 0 16-16V64h8a8 8 0 0 0 0-16M112 168a8 8 0 0 1-16 0v-64a8 8 0 0 1 16 0Zm48 0a8 8 0 0 1-16 0v-64a8 8 0 0 1 16 0Zm0-120H96v-8a8 8 0 0 1 8-8h48a8 8 0 0 1 8 8Z" }) })
@@ -4663,7 +5264,7 @@ var AnimatedTrashIcon = (0, import_react119.forwardRef)(
           {
             animate: controls,
             initial: "normal",
-            variants: TRASH_ANIMATION_VARIANTS,
+            variants: TRASH_ANIMATION_VARIANTS2,
             xmlns: "http://www.w3.org/2000/svg",
             viewBox: "0 0 256 256",
             width: size,
@@ -4700,7 +5301,7 @@ TrashIcon.displayName = "TrashIcon";
 var import_react121 = require("react");
 var import_react122 = require("motion/react");
 var import_jsx_runtime62 = require("react/jsx-runtime");
-var USER_ANIMATION_VARIANTS = getIconAnimationVariants("user");
+var USER_ANIMATION_VARIANTS2 = getIconAnimationVariants("user");
 var USER_GLYPHS = {
   outline: /* @__PURE__ */ (0, import_jsx_runtime62.jsx)(import_jsx_runtime62.Fragment, { children: /* @__PURE__ */ (0, import_jsx_runtime62.jsx)("path", { fill: "none", d: "M230.92 212c-15.23-26.33-38.7-45.21-66.09-54.16a72 72 0 1 0-73.66 0c-27.39 8.94-50.86 27.82-66.09 54.16a8 8 0 1 0 13.85 8c18.84-32.56 52.14-52 89.07-52s70.23 19.44 89.07 52a8 8 0 1 0 13.85-8M72 96a56 56 0 1 1 56 56 56.06 56.06 0 0 1-56-56" }) }),
   filled: /* @__PURE__ */ (0, import_jsx_runtime62.jsx)(import_jsx_runtime62.Fragment, { children: /* @__PURE__ */ (0, import_jsx_runtime62.jsx)("path", { d: "M230.93 220a8 8 0 0 1-6.93 4H32a8 8 0 0 1-6.92-12c15.23-26.33 38.7-45.21 66.09-54.16a72 72 0 1 1 73.66 0c27.39 8.95 50.86 27.83 66.09 54.16a8 8 0 0 1 .01 8" }) })
@@ -4737,7 +5338,7 @@ var AnimatedUserIcon = (0, import_react121.forwardRef)(
           {
             animate: controls,
             initial: "normal",
-            variants: USER_ANIMATION_VARIANTS,
+            variants: USER_ANIMATION_VARIANTS2,
             xmlns: "http://www.w3.org/2000/svg",
             viewBox: "0 0 256 256",
             width: size,
@@ -4774,7 +5375,7 @@ UserIcon.displayName = "UserIcon";
 var import_react123 = require("react");
 var import_react124 = require("motion/react");
 var import_jsx_runtime63 = require("react/jsx-runtime");
-var WARNING_ANIMATION_VARIANTS = getIconAnimationVariants("warning");
+var WARNING_ANIMATION_VARIANTS2 = getIconAnimationVariants("warning");
 var WARNING_GLYPHS = {
   outline: /* @__PURE__ */ (0, import_jsx_runtime63.jsx)(import_jsx_runtime63.Fragment, { children: /* @__PURE__ */ (0, import_jsx_runtime63.jsx)("path", { fill: "none", d: "M236.8 188.09 149.35 36.22a24.76 24.76 0 0 0-42.7 0L19.2 188.09a23.51 23.51 0 0 0 0 23.72A24.35 24.35 0 0 0 40.55 224h174.9a24.35 24.35 0 0 0 21.33-12.19 23.51 23.51 0 0 0 .02-23.72m-13.87 15.71a8.5 8.5 0 0 1-7.48 4.2H40.55a8.5 8.5 0 0 1-7.48-4.2 7.59 7.59 0 0 1 0-7.72l87.45-151.87a8.75 8.75 0 0 1 15 0l87.45 151.87a7.59 7.59 0 0 1-.04 7.72M120 144v-40a8 8 0 0 1 16 0v40a8 8 0 0 1-16 0m20 36a12 12 0 1 1-12-12 12 12 0 0 1 12 12" }) }),
   filled: /* @__PURE__ */ (0, import_jsx_runtime63.jsx)(import_jsx_runtime63.Fragment, { children: /* @__PURE__ */ (0, import_jsx_runtime63.jsx)("path", { d: "M236.8 188.09 149.35 36.22a24.76 24.76 0 0 0-42.7 0L19.2 188.09a23.51 23.51 0 0 0 0 23.72A24.35 24.35 0 0 0 40.55 224h174.9a24.35 24.35 0 0 0 21.33-12.19 23.51 23.51 0 0 0 .02-23.72M120 104a8 8 0 0 1 16 0v40a8 8 0 0 1-16 0Zm8 88a12 12 0 1 1 12-12 12 12 0 0 1-12 12" }) })
@@ -4811,7 +5412,7 @@ var AnimatedWarningIcon = (0, import_react123.forwardRef)(
           {
             animate: controls,
             initial: "normal",
-            variants: WARNING_ANIMATION_VARIANTS,
+            variants: WARNING_ANIMATION_VARIANTS2,
             xmlns: "http://www.w3.org/2000/svg",
             viewBox: "0 0 256 256",
             width: size,
@@ -4922,7 +5523,7 @@ XCircleIcon.displayName = "XCircleIcon";
 var import_react127 = require("react");
 var import_react128 = require("motion/react");
 var import_jsx_runtime65 = require("react/jsx-runtime");
-var X_ANIMATION_VARIANTS = getIconAnimationVariants("x");
+var X_ANIMATION_VARIANTS2 = getIconAnimationVariants("x");
 var X_GLYPHS = {
   outline: /* @__PURE__ */ (0, import_jsx_runtime65.jsx)(import_jsx_runtime65.Fragment, { children: /* @__PURE__ */ (0, import_jsx_runtime65.jsx)("path", { fill: "none", d: "M205.66 194.34a8 8 0 0 1-11.32 11.32L128 139.31l-66.34 66.35a8 8 0 0 1-11.32-11.32L116.69 128 50.34 61.66a8 8 0 0 1 11.32-11.32L128 116.69l66.34-66.35a8 8 0 0 1 11.32 11.32L139.31 128Z" }) }),
   filled: /* @__PURE__ */ (0, import_jsx_runtime65.jsx)(import_jsx_runtime65.Fragment, { children: /* @__PURE__ */ (0, import_jsx_runtime65.jsx)("path", { d: "M205.66 194.34a8 8 0 0 1-11.32 11.32L128 139.31l-66.34 66.35a8 8 0 0 1-11.32-11.32L116.69 128 50.34 61.66a8 8 0 0 1 11.32-11.32L128 116.69l66.34-66.35a8 8 0 0 1 11.32 11.32L139.31 128Z" }) })
@@ -4959,7 +5560,7 @@ var AnimatedXIcon = (0, import_react127.forwardRef)(
           {
             animate: controls,
             initial: "normal",
-            variants: X_ANIMATION_VARIANTS,
+            variants: X_ANIMATION_VARIANTS2,
             xmlns: "http://www.w3.org/2000/svg",
             viewBox: "0 0 256 256",
             width: size,
