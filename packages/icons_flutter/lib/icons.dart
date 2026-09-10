@@ -1231,6 +1231,48 @@ abstract final class ZagIcons {
     );
   }
 
+  /// TrendDown icon.
+  ///
+  /// Sources: `data/icons/outline/trendDown.svg` and
+  /// `data/icons/filled/trendDown.svg`.
+  static Widget trendDown({
+    IconWeight weight = IconWeight.outline,
+    double size = 24.0,
+    Color? color,
+    String? semanticLabel,
+    Key? key,
+  }) {
+    return ZagIconBase(
+      key: key,
+      name: 'trendDown',
+      weight: weight,
+      size: size,
+      color: color,
+      semanticLabel: semanticLabel,
+    );
+  }
+
+  /// TrendUp icon.
+  ///
+  /// Sources: `data/icons/outline/trendUp.svg` and
+  /// `data/icons/filled/trendUp.svg`.
+  static Widget trendUp({
+    IconWeight weight = IconWeight.outline,
+    double size = 24.0,
+    Color? color,
+    String? semanticLabel,
+    Key? key,
+  }) {
+    return ZagIconBase(
+      key: key,
+      name: 'trendUp',
+      weight: weight,
+      size: size,
+      color: color,
+      semanticLabel: semanticLabel,
+    );
+  }
+
   /// User icon.
   ///
   /// Sources: `data/icons/outline/user.svg` and
