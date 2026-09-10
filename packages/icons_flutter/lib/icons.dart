@@ -76,6 +76,90 @@ abstract final class ZagIcons {
     );
   }
 
+  /// ArrowsDownUp icon.
+  ///
+  /// Sources: `data/icons/outline/arrowsDownUp.svg` and
+  /// `data/icons/filled/arrowsDownUp.svg`.
+  static Widget arrowsDownUp({
+    IconWeight weight = IconWeight.outline,
+    double size = 24.0,
+    Color? color,
+    String? semanticLabel,
+    Key? key,
+  }) {
+    return ZagIconBase(
+      key: key,
+      name: 'arrowsDownUp',
+      weight: weight,
+      size: size,
+      color: color,
+      semanticLabel: semanticLabel,
+    );
+  }
+
+  /// Bell icon.
+  ///
+  /// Sources: `data/icons/outline/bell.svg` and
+  /// `data/icons/filled/bell.svg`.
+  static Widget bell({
+    IconWeight weight = IconWeight.outline,
+    double size = 24.0,
+    Color? color,
+    String? semanticLabel,
+    Key? key,
+  }) {
+    return ZagIconBase(
+      key: key,
+      name: 'bell',
+      weight: weight,
+      size: size,
+      color: color,
+      semanticLabel: semanticLabel,
+    );
+  }
+
+  /// BookOpen icon.
+  ///
+  /// Sources: `data/icons/outline/bookOpen.svg` and
+  /// `data/icons/filled/bookOpen.svg`.
+  static Widget bookOpen({
+    IconWeight weight = IconWeight.outline,
+    double size = 24.0,
+    Color? color,
+    String? semanticLabel,
+    Key? key,
+  }) {
+    return ZagIconBase(
+      key: key,
+      name: 'bookOpen',
+      weight: weight,
+      size: size,
+      color: color,
+      semanticLabel: semanticLabel,
+    );
+  }
+
+  /// CalendarBlank icon.
+  ///
+  /// Sources: `data/icons/outline/calendarBlank.svg` and
+  /// `data/icons/filled/calendarBlank.svg`.
+  static Widget calendarBlank({
+    IconWeight weight = IconWeight.outline,
+    double size = 24.0,
+    Color? color,
+    String? semanticLabel,
+    Key? key,
+  }) {
+    return ZagIconBase(
+      key: key,
+      name: 'calendarBlank',
+      weight: weight,
+      size: size,
+      color: color,
+      semanticLabel: semanticLabel,
+    );
+  }
+
   /// CaretDown icon.
   ///
   /// Sources: `data/icons/outline/caretDown.svg` and
@@ -202,6 +286,27 @@ abstract final class ZagIcons {
     );
   }
 
+  /// ChatCircleText icon.
+  ///
+  /// Sources: `data/icons/outline/chatCircleText.svg` and
+  /// `data/icons/filled/chatCircleText.svg`.
+  static Widget chatCircleText({
+    IconWeight weight = IconWeight.outline,
+    double size = 24.0,
+    Color? color,
+    String? semanticLabel,
+    Key? key,
+  }) {
+    return ZagIconBase(
+      key: key,
+      name: 'chatCircleText',
+      weight: weight,
+      size: size,
+      color: color,
+      semanticLabel: semanticLabel,
+    );
+  }
+
   /// CheckCircle icon.
   ///
   /// Sources: `data/icons/outline/checkCircle.svg` and
@@ -237,6 +342,27 @@ abstract final class ZagIcons {
     return ZagIconBase(
       key: key,
       name: 'check',
+      weight: weight,
+      size: size,
+      color: color,
+      semanticLabel: semanticLabel,
+    );
+  }
+
+  /// Clock icon.
+  ///
+  /// Sources: `data/icons/outline/clock.svg` and
+  /// `data/icons/filled/clock.svg`.
+  static Widget clock({
+    IconWeight weight = IconWeight.outline,
+    double size = 24.0,
+    Color? color,
+    String? semanticLabel,
+    Key? key,
+  }) {
+    return ZagIconBase(
+      key: key,
+      name: 'clock',
       weight: weight,
       size: size,
       color: color,
@@ -412,6 +538,48 @@ abstract final class ZagIcons {
     );
   }
 
+  /// Exclude icon.
+  ///
+  /// Sources: `data/icons/outline/exclude.svg` and
+  /// `data/icons/filled/exclude.svg`.
+  static Widget exclude({
+    IconWeight weight = IconWeight.outline,
+    double size = 24.0,
+    Color? color,
+    String? semanticLabel,
+    Key? key,
+  }) {
+    return ZagIconBase(
+      key: key,
+      name: 'exclude',
+      weight: weight,
+      size: size,
+      color: color,
+      semanticLabel: semanticLabel,
+    );
+  }
+
+  /// FileCode icon.
+  ///
+  /// Sources: `data/icons/outline/fileCode.svg` and
+  /// `data/icons/filled/fileCode.svg`.
+  static Widget fileCode({
+    IconWeight weight = IconWeight.outline,
+    double size = 24.0,
+    Color? color,
+    String? semanticLabel,
+    Key? key,
+  }) {
+    return ZagIconBase(
+      key: key,
+      name: 'fileCode',
+      weight: weight,
+      size: size,
+      color: color,
+      semanticLabel: semanticLabel,
+    );
+  }
+
   /// FileText icon.
   ///
   /// Sources: `data/icons/outline/fileText.svg` and
@@ -433,6 +601,48 @@ abstract final class ZagIcons {
     );
   }
 
+  /// FolderOpen icon.
+  ///
+  /// Sources: `data/icons/outline/folderOpen.svg` and
+  /// `data/icons/filled/folderOpen.svg`.
+  static Widget folderOpen({
+    IconWeight weight = IconWeight.outline,
+    double size = 24.0,
+    Color? color,
+    String? semanticLabel,
+    Key? key,
+  }) {
+    return ZagIconBase(
+      key: key,
+      name: 'folderOpen',
+      weight: weight,
+      size: size,
+      color: color,
+      semanticLabel: semanticLabel,
+    );
+  }
+
+  /// Folder icon.
+  ///
+  /// Sources: `data/icons/outline/folder.svg` and
+  /// `data/icons/filled/folder.svg`.
+  static Widget folder({
+    IconWeight weight = IconWeight.outline,
+    double size = 24.0,
+    Color? color,
+    String? semanticLabel,
+    Key? key,
+  }) {
+    return ZagIconBase(
+      key: key,
+      name: 'folder',
+      weight: weight,
+      size: size,
+      color: color,
+      semanticLabel: semanticLabel,
+    );
+  }
+
   /// FrameCorners icon.
   ///
   /// Sources: `data/icons/outline/frameCorners.svg` and
@@ -447,6 +657,27 @@ abstract final class ZagIcons {
     return ZagIconBase(
       key: key,
       name: 'frameCorners',
+      weight: weight,
+      size: size,
+      color: color,
+      semanticLabel: semanticLabel,
+    );
+  }
+
+  /// Gear icon.
+  ///
+  /// Sources: `data/icons/outline/gear.svg` and
+  /// `data/icons/filled/gear.svg`.
+  static Widget gear({
+    IconWeight weight = IconWeight.outline,
+    double size = 24.0,
+    Color? color,
+    String? semanticLabel,
+    Key? key,
+  }) {
+    return ZagIconBase(
+      key: key,
+      name: 'gear',
       weight: weight,
       size: size,
       color: color,
@@ -573,6 +804,27 @@ abstract final class ZagIcons {
     return ZagIconBase(
       key: key,
       name: 'lightning',
+      weight: weight,
+      size: size,
+      color: color,
+      semanticLabel: semanticLabel,
+    );
+  }
+
+  /// Logo icon.
+  ///
+  /// Sources: `data/icons/outline/logo.svg` and
+  /// `data/icons/filled/logo.svg`.
+  static Widget logo({
+    IconWeight weight = IconWeight.outline,
+    double size = 24.0,
+    Color? color,
+    String? semanticLabel,
+    Key? key,
+  }) {
+    return ZagIconBase(
+      key: key,
+      name: 'logo',
       weight: weight,
       size: size,
       color: color,

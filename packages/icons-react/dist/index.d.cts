@@ -183,6 +183,86 @@ declare const AnimatedArrowRightIcon: react.ForwardRefExoticComponent<ZagAnimate
  */
 declare const ArrowRightIcon: react.ForwardRefExoticComponent<Omit<ArrowRightIconProps, "ref"> & react.RefAttributes<SVGSVGElement>>;
 
+type ArrowsDownUpIconProps = ZagIconProps & {
+    /** Visual weight of the glyph. Defaults to `'outline'`. */
+    weight?: IconWeight;
+    /** Whether to render the animated interactive variant. Defaults to `false`. */
+    animated?: boolean;
+};
+type ArrowsDownUpIconHandle = AnimatedIconHandle;
+type AnimatedArrowsDownUpIconProps = ZagAnimatedIconProps;
+/**
+ * Animated ArrowsDownUp icon (viewBox "0 0 256 256").
+ * Features hover micro-interactions and imperative control via ref.
+ */
+declare const AnimatedArrowsDownUpIcon: react.ForwardRefExoticComponent<ZagAnimatedIconProps & react.RefAttributes<AnimatedIconHandle>>;
+/**
+ * ArrowsDownUp icon (viewBox "0 0 256 256").
+ * Tinted via `color` / `currentColor` and rendered at 24px by default.
+ * Supports both static and animated variants.
+ */
+declare const ArrowsDownUpIcon: react.ForwardRefExoticComponent<Omit<ArrowsDownUpIconProps, "ref"> & react.RefAttributes<SVGSVGElement>>;
+
+type BellIconProps = ZagIconProps & {
+    /** Visual weight of the glyph. Defaults to `'outline'`. */
+    weight?: IconWeight;
+    /** Whether to render the animated interactive variant. Defaults to `false`. */
+    animated?: boolean;
+};
+type BellIconHandle = AnimatedIconHandle;
+type AnimatedBellIconProps = ZagAnimatedIconProps;
+/**
+ * Animated Bell icon (viewBox "0 0 256 256").
+ * Features hover micro-interactions and imperative control via ref.
+ */
+declare const AnimatedBellIcon: react.ForwardRefExoticComponent<ZagAnimatedIconProps & react.RefAttributes<AnimatedIconHandle>>;
+/**
+ * Bell icon (viewBox "0 0 256 256").
+ * Tinted via `color` / `currentColor` and rendered at 24px by default.
+ * Supports both static and animated variants.
+ */
+declare const BellIcon: react.ForwardRefExoticComponent<Omit<BellIconProps, "ref"> & react.RefAttributes<SVGSVGElement>>;
+
+type BookOpenIconProps = ZagIconProps & {
+    /** Visual weight of the glyph. Defaults to `'outline'`. */
+    weight?: IconWeight;
+    /** Whether to render the animated interactive variant. Defaults to `false`. */
+    animated?: boolean;
+};
+type BookOpenIconHandle = AnimatedIconHandle;
+type AnimatedBookOpenIconProps = ZagAnimatedIconProps;
+/**
+ * Animated BookOpen icon (viewBox "0 0 256 256").
+ * Features hover micro-interactions and imperative control via ref.
+ */
+declare const AnimatedBookOpenIcon: react.ForwardRefExoticComponent<ZagAnimatedIconProps & react.RefAttributes<AnimatedIconHandle>>;
+/**
+ * BookOpen icon (viewBox "0 0 256 256").
+ * Tinted via `color` / `currentColor` and rendered at 24px by default.
+ * Supports both static and animated variants.
+ */
+declare const BookOpenIcon: react.ForwardRefExoticComponent<Omit<BookOpenIconProps, "ref"> & react.RefAttributes<SVGSVGElement>>;
+
+type CalendarBlankIconProps = ZagIconProps & {
+    /** Visual weight of the glyph. Defaults to `'outline'`. */
+    weight?: IconWeight;
+    /** Whether to render the animated interactive variant. Defaults to `false`. */
+    animated?: boolean;
+};
+type CalendarBlankIconHandle = AnimatedIconHandle;
+type AnimatedCalendarBlankIconProps = ZagAnimatedIconProps;
+/**
+ * Animated CalendarBlank icon (viewBox "0 0 256 256").
+ * Features hover micro-interactions and imperative control via ref.
+ */
+declare const AnimatedCalendarBlankIcon: react.ForwardRefExoticComponent<ZagAnimatedIconProps & react.RefAttributes<AnimatedIconHandle>>;
+/**
+ * CalendarBlank icon (viewBox "0 0 256 256").
+ * Tinted via `color` / `currentColor` and rendered at 24px by default.
+ * Supports both static and animated variants.
+ */
+declare const CalendarBlankIcon: react.ForwardRefExoticComponent<Omit<CalendarBlankIconProps, "ref"> & react.RefAttributes<SVGSVGElement>>;
+
 type CaretDownIconProps = ZagIconProps & {
     /** Visual weight of the glyph. Defaults to `'outline'`. */
     weight?: IconWeight;
@@ -303,6 +383,26 @@ declare const AnimatedChartPieIcon: react.ForwardRefExoticComponent<ZagAnimatedI
  */
 declare const ChartPieIcon: react.ForwardRefExoticComponent<Omit<ChartPieIconProps, "ref"> & react.RefAttributes<SVGSVGElement>>;
 
+type ChatCircleTextIconProps = ZagIconProps & {
+    /** Visual weight of the glyph. Defaults to `'outline'`. */
+    weight?: IconWeight;
+    /** Whether to render the animated interactive variant. Defaults to `false`. */
+    animated?: boolean;
+};
+type ChatCircleTextIconHandle = AnimatedIconHandle;
+type AnimatedChatCircleTextIconProps = ZagAnimatedIconProps;
+/**
+ * Animated ChatCircleText icon (viewBox "0 0 256 256").
+ * Features hover micro-interactions and imperative control via ref.
+ */
+declare const AnimatedChatCircleTextIcon: react.ForwardRefExoticComponent<ZagAnimatedIconProps & react.RefAttributes<AnimatedIconHandle>>;
+/**
+ * ChatCircleText icon (viewBox "0 0 256 256").
+ * Tinted via `color` / `currentColor` and rendered at 24px by default.
+ * Supports both static and animated variants.
+ */
+declare const ChatCircleTextIcon: react.ForwardRefExoticComponent<Omit<ChatCircleTextIconProps, "ref"> & react.RefAttributes<SVGSVGElement>>;
+
 type CheckCircleIconProps = ZagIconProps & {
     /** Visual weight of the glyph. Defaults to `'outline'`. */
     weight?: IconWeight;
@@ -342,6 +442,26 @@ declare const AnimatedCheckIcon: react.ForwardRefExoticComponent<ZagAnimatedIcon
  * Supports both static and animated variants.
  */
 declare const CheckIcon: react.ForwardRefExoticComponent<Omit<CheckIconProps, "ref"> & react.RefAttributes<SVGSVGElement>>;
+
+type ClockIconProps = ZagIconProps & {
+    /** Visual weight of the glyph. Defaults to `'outline'`. */
+    weight?: IconWeight;
+    /** Whether to render the animated interactive variant. Defaults to `false`. */
+    animated?: boolean;
+};
+type ClockIconHandle = AnimatedIconHandle;
+type AnimatedClockIconProps = ZagAnimatedIconProps;
+/**
+ * Animated Clock icon (viewBox "0 0 256 256").
+ * Features hover micro-interactions and imperative control via ref.
+ */
+declare const AnimatedClockIcon: react.ForwardRefExoticComponent<ZagAnimatedIconProps & react.RefAttributes<AnimatedIconHandle>>;
+/**
+ * Clock icon (viewBox "0 0 256 256").
+ * Tinted via `color` / `currentColor` and rendered at 24px by default.
+ * Supports both static and animated variants.
+ */
+declare const ClockIcon: react.ForwardRefExoticComponent<Omit<ClockIconProps, "ref"> & react.RefAttributes<SVGSVGElement>>;
 
 type CloudArrowUpIconProps = ZagIconProps & {
     /** Visual weight of the glyph. Defaults to `'outline'`. */
@@ -503,6 +623,46 @@ declare const AnimatedDotsThreeIcon: react.ForwardRefExoticComponent<ZagAnimated
  */
 declare const DotsThreeIcon: react.ForwardRefExoticComponent<Omit<DotsThreeIconProps, "ref"> & react.RefAttributes<SVGSVGElement>>;
 
+type ExcludeIconProps = ZagIconProps & {
+    /** Visual weight of the glyph. Defaults to `'outline'`. */
+    weight?: IconWeight;
+    /** Whether to render the animated interactive variant. Defaults to `false`. */
+    animated?: boolean;
+};
+type ExcludeIconHandle = AnimatedIconHandle;
+type AnimatedExcludeIconProps = ZagAnimatedIconProps;
+/**
+ * Animated Exclude icon (viewBox "0 0 256 256").
+ * Features hover micro-interactions and imperative control via ref.
+ */
+declare const AnimatedExcludeIcon: react.ForwardRefExoticComponent<ZagAnimatedIconProps & react.RefAttributes<AnimatedIconHandle>>;
+/**
+ * Exclude icon (viewBox "0 0 256 256").
+ * Tinted via `color` / `currentColor` and rendered at 24px by default.
+ * Supports both static and animated variants.
+ */
+declare const ExcludeIcon: react.ForwardRefExoticComponent<Omit<ExcludeIconProps, "ref"> & react.RefAttributes<SVGSVGElement>>;
+
+type FileCodeIconProps = ZagIconProps & {
+    /** Visual weight of the glyph. Defaults to `'outline'`. */
+    weight?: IconWeight;
+    /** Whether to render the animated interactive variant. Defaults to `false`. */
+    animated?: boolean;
+};
+type FileCodeIconHandle = AnimatedIconHandle;
+type AnimatedFileCodeIconProps = ZagAnimatedIconProps;
+/**
+ * Animated FileCode icon (viewBox "0 0 256 256").
+ * Features hover micro-interactions and imperative control via ref.
+ */
+declare const AnimatedFileCodeIcon: react.ForwardRefExoticComponent<ZagAnimatedIconProps & react.RefAttributes<AnimatedIconHandle>>;
+/**
+ * FileCode icon (viewBox "0 0 256 256").
+ * Tinted via `color` / `currentColor` and rendered at 24px by default.
+ * Supports both static and animated variants.
+ */
+declare const FileCodeIcon: react.ForwardRefExoticComponent<Omit<FileCodeIconProps, "ref"> & react.RefAttributes<SVGSVGElement>>;
+
 type FileTextIconProps = ZagIconProps & {
     /** Visual weight of the glyph. Defaults to `'outline'`. */
     weight?: IconWeight;
@@ -523,6 +683,46 @@ declare const AnimatedFileTextIcon: react.ForwardRefExoticComponent<ZagAnimatedI
  */
 declare const FileTextIcon: react.ForwardRefExoticComponent<Omit<FileTextIconProps, "ref"> & react.RefAttributes<SVGSVGElement>>;
 
+type FolderOpenIconProps = ZagIconProps & {
+    /** Visual weight of the glyph. Defaults to `'outline'`. */
+    weight?: IconWeight;
+    /** Whether to render the animated interactive variant. Defaults to `false`. */
+    animated?: boolean;
+};
+type FolderOpenIconHandle = AnimatedIconHandle;
+type AnimatedFolderOpenIconProps = ZagAnimatedIconProps;
+/**
+ * Animated FolderOpen icon (viewBox "0 0 256 256").
+ * Features hover micro-interactions and imperative control via ref.
+ */
+declare const AnimatedFolderOpenIcon: react.ForwardRefExoticComponent<ZagAnimatedIconProps & react.RefAttributes<AnimatedIconHandle>>;
+/**
+ * FolderOpen icon (viewBox "0 0 256 256").
+ * Tinted via `color` / `currentColor` and rendered at 24px by default.
+ * Supports both static and animated variants.
+ */
+declare const FolderOpenIcon: react.ForwardRefExoticComponent<Omit<FolderOpenIconProps, "ref"> & react.RefAttributes<SVGSVGElement>>;
+
+type FolderIconProps = ZagIconProps & {
+    /** Visual weight of the glyph. Defaults to `'outline'`. */
+    weight?: IconWeight;
+    /** Whether to render the animated interactive variant. Defaults to `false`. */
+    animated?: boolean;
+};
+type FolderIconHandle = AnimatedIconHandle;
+type AnimatedFolderIconProps = ZagAnimatedIconProps;
+/**
+ * Animated Folder icon (viewBox "0 0 256 256").
+ * Features hover micro-interactions and imperative control via ref.
+ */
+declare const AnimatedFolderIcon: react.ForwardRefExoticComponent<ZagAnimatedIconProps & react.RefAttributes<AnimatedIconHandle>>;
+/**
+ * Folder icon (viewBox "0 0 256 256").
+ * Tinted via `color` / `currentColor` and rendered at 24px by default.
+ * Supports both static and animated variants.
+ */
+declare const FolderIcon: react.ForwardRefExoticComponent<Omit<FolderIconProps, "ref"> & react.RefAttributes<SVGSVGElement>>;
+
 type FrameCornersIconProps = ZagIconProps & {
     /** Visual weight of the glyph. Defaults to `'outline'`. */
     weight?: IconWeight;
@@ -542,6 +742,26 @@ declare const AnimatedFrameCornersIcon: react.ForwardRefExoticComponent<ZagAnima
  * Supports both static and animated variants.
  */
 declare const FrameCornersIcon: react.ForwardRefExoticComponent<Omit<FrameCornersIconProps, "ref"> & react.RefAttributes<SVGSVGElement>>;
+
+type GearIconProps = ZagIconProps & {
+    /** Visual weight of the glyph. Defaults to `'outline'`. */
+    weight?: IconWeight;
+    /** Whether to render the animated interactive variant. Defaults to `false`. */
+    animated?: boolean;
+};
+type GearIconHandle = AnimatedIconHandle;
+type AnimatedGearIconProps = ZagAnimatedIconProps;
+/**
+ * Animated Gear icon (viewBox "0 0 256 256").
+ * Features hover micro-interactions and imperative control via ref.
+ */
+declare const AnimatedGearIcon: react.ForwardRefExoticComponent<ZagAnimatedIconProps & react.RefAttributes<AnimatedIconHandle>>;
+/**
+ * Gear icon (viewBox "0 0 256 256").
+ * Tinted via `color` / `currentColor` and rendered at 24px by default.
+ * Supports both static and animated variants.
+ */
+declare const GearIcon: react.ForwardRefExoticComponent<Omit<GearIconProps, "ref"> & react.RefAttributes<SVGSVGElement>>;
 
 type GlobeIconProps = ZagIconProps & {
     /** Visual weight of the glyph. Defaults to `'outline'`. */
@@ -663,6 +883,26 @@ declare const AnimatedLightningIcon: react.ForwardRefExoticComponent<ZagAnimated
  * Supports both static and animated variants.
  */
 declare const LightningIcon: react.ForwardRefExoticComponent<Omit<LightningIconProps, "ref"> & react.RefAttributes<SVGSVGElement>>;
+
+type LogoIconProps = ZagIconProps & {
+    /** Visual weight of the glyph. Defaults to `'outline'`. */
+    weight?: IconWeight;
+    /** Whether to render the animated interactive variant. Defaults to `false`. */
+    animated?: boolean;
+};
+type LogoIconHandle = AnimatedIconHandle;
+type AnimatedLogoIconProps = ZagAnimatedIconProps;
+/**
+ * Animated Logo icon (viewBox "0 0 256 256").
+ * Features hover micro-interactions and imperative control via ref.
+ */
+declare const AnimatedLogoIcon: react.ForwardRefExoticComponent<ZagAnimatedIconProps & react.RefAttributes<AnimatedIconHandle>>;
+/**
+ * Logo icon (viewBox "0 0 256 256").
+ * Tinted via `color` / `currentColor` and rendered at 24px by default.
+ * Supports both static and animated variants.
+ */
+declare const LogoIcon: react.ForwardRefExoticComponent<Omit<LogoIconProps, "ref"> & react.RefAttributes<SVGSVGElement>>;
 
 type MagnifyingGlassIconProps = ZagIconProps & {
     /** Visual weight of the glyph. Defaults to `'outline'`. */
@@ -1131,4 +1371,4 @@ type EmptyStateProps = ZagIllustrationProps;
  */
 declare const EmptyState: react.ForwardRefExoticComponent<Omit<ZagIllustrationProps, "ref"> & react.RefAttributes<SVGSVGElement>>;
 
-export { AnimatedArrowDownIcon, type AnimatedArrowDownIconProps, AnimatedArrowLeftIcon, type AnimatedArrowLeftIconProps, AnimatedArrowRightIcon, type AnimatedArrowRightIconProps, AnimatedCaretDownIcon, type AnimatedCaretDownIconProps, AnimatedCaretLeftIcon, type AnimatedCaretLeftIconProps, AnimatedCaretRightIcon, type AnimatedCaretRightIconProps, AnimatedCaretUpDownIcon, type AnimatedCaretUpDownIconProps, AnimatedCaretUpIcon, type AnimatedCaretUpIconProps, AnimatedChartPieIcon, type AnimatedChartPieIconProps, AnimatedCheckCircleIcon, type AnimatedCheckCircleIconProps, AnimatedCheckIcon, type AnimatedCheckIconProps, AnimatedCloudArrowUpIcon, type AnimatedCloudArrowUpIconProps, AnimatedCopyIcon, type AnimatedCopyIconProps, AnimatedCornersOutIcon, type AnimatedCornersOutIconProps, AnimatedCpuIcon, type AnimatedCpuIconProps, AnimatedCurrencyDollarIcon, type AnimatedCurrencyDollarIconProps, AnimatedDeviceMobileIcon, type AnimatedDeviceMobileIconProps, AnimatedDotsThreeIcon, type AnimatedDotsThreeIconProps, AnimatedDotsThreeVerticalIcon, type AnimatedDotsThreeVerticalIconProps, AnimatedFileTextIcon, type AnimatedFileTextIconProps, AnimatedFrameCornersIcon, type AnimatedFrameCornersIconProps, AnimatedGlobeIcon, type AnimatedGlobeIconProps, AnimatedGoogleLogoIcon, type AnimatedGoogleLogoIconProps, AnimatedHeartIcon, type AnimatedHeartIconProps, AnimatedHomeIcon, type AnimatedHomeIconProps, type AnimatedIconHandle, AnimatedInfoIcon, type AnimatedInfoIconProps, AnimatedLightningIcon, type AnimatedLightningIconProps, AnimatedMagnifyingGlassIcon, type AnimatedMagnifyingGlassIconProps, AnimatedMapTrifoldIcon, type AnimatedMapTrifoldIconProps, AnimatedMinusIcon, type AnimatedMinusIconProps, AnimatedMonitorIcon, type AnimatedMonitorIconProps, AnimatedMoonIcon, type AnimatedMoonIconProps, AnimatedNavigationArrowIcon, type AnimatedNavigationArrowIconProps, AnimatedPlusIcon, type AnimatedPlusIconProps, AnimatedRobotIcon, type AnimatedRobotIconProps, AnimatedShareIcon, type AnimatedShareIconProps, AnimatedShieldCheckIcon, type AnimatedShieldCheckIconProps, AnimatedSidebarIcon, type AnimatedSidebarIconProps, AnimatedSignOutIcon, type AnimatedSignOutIconProps, AnimatedStarIcon, type AnimatedStarIconProps, AnimatedSunIcon, type AnimatedSunIconProps, AnimatedTextAUnderlineIcon, type AnimatedTextAUnderlineIconProps, AnimatedTextAlignLeftIcon, type AnimatedTextAlignLeftIconProps, AnimatedTextBIcon, type AnimatedTextBIconProps, AnimatedTextItalicIcon, type AnimatedTextItalicIconProps, AnimatedTrashIcon, type AnimatedTrashIconProps, AnimatedUserIcon, type AnimatedUserIconProps, AnimatedWarningIcon, type AnimatedWarningIconProps, AnimatedXCircleIcon, type AnimatedXCircleIconProps, AnimatedXIcon, type AnimatedXIconProps, type AnimationControls, ArrowDownIcon, type ArrowDownIconHandle, type ArrowDownIconProps, ArrowLeftIcon, type ArrowLeftIconHandle, type ArrowLeftIconProps, ArrowRightIcon, type ArrowRightIconHandle, type ArrowRightIconProps, CaretDownIcon, type CaretDownIconHandle, type CaretDownIconProps, CaretLeftIcon, type CaretLeftIconHandle, type CaretLeftIconProps, CaretRightIcon, type CaretRightIconHandle, type CaretRightIconProps, CaretUpDownIcon, type CaretUpDownIconHandle, type CaretUpDownIconProps, CaretUpIcon, type CaretUpIconHandle, type CaretUpIconProps, ChartPieIcon, type ChartPieIconHandle, type ChartPieIconProps, CheckCircleIcon, type CheckCircleIconHandle, type CheckCircleIconProps, CheckIcon, type CheckIconHandle, type CheckIconProps, CloudArrowUpIcon, type CloudArrowUpIconHandle, type CloudArrowUpIconProps, CopyIcon, type CopyIconHandle, type CopyIconProps, CornersOutIcon, type CornersOutIconHandle, type CornersOutIconProps, CpuIcon, type CpuIconHandle, type CpuIconProps, CurrencyDollarIcon, type CurrencyDollarIconHandle, type CurrencyDollarIconProps, DEFAULT_ANIMATION_VARIANTS, DEFAULT_PATH_TRANSITION, DeviceMobileIcon, type DeviceMobileIconHandle, type DeviceMobileIconProps, DotsThreeIcon, type DotsThreeIconHandle, type DotsThreeIconProps, DotsThreeVerticalIcon, type DotsThreeVerticalIconHandle, type DotsThreeVerticalIconProps, EmptyState, type EmptyStateProps, FileTextIcon, type FileTextIconHandle, type FileTextIconProps, FrameCornersIcon, type FrameCornersIconHandle, type FrameCornersIconProps, GlobeIcon, type GlobeIconHandle, type GlobeIconProps, GoogleLogoIcon, type GoogleLogoIconHandle, type GoogleLogoIconProps, HEART_ANIMATION_VARIANTS, HOME_ANIMATION_VARIANTS, HOME_DEFAULT_TRANSITION, HOME_PATH_VARIANTS, HeartIcon, type HeartIconHandle, type HeartIconProps, HomeIcon, type HomeIconHandle, type HomeIconProps, ICON_ANIMATION_VARIANTS, type IconWeight, InfoIcon, type InfoIconHandle, type InfoIconProps, LightningIcon, type LightningIconHandle, type LightningIconProps, MagnifyingGlassIcon, type MagnifyingGlassIconHandle, type MagnifyingGlassIconProps, MapTrifoldIcon, type MapTrifoldIconHandle, type MapTrifoldIconProps, MinusIcon, type MinusIconHandle, type MinusIconProps, MonitorIcon, type MonitorIconHandle, type MonitorIconProps, MoonIcon, type MoonIconHandle, type MoonIconProps, NavigationArrowIcon, type NavigationArrowIconHandle, type NavigationArrowIconProps, PATH_DRAW_VARIANTS, PlusIcon, type PlusIconHandle, type PlusIconProps, RobotIcon, type RobotIconHandle, type RobotIconProps, ShareIcon, type ShareIconHandle, type ShareIconProps, ShieldCheckIcon, type ShieldCheckIconHandle, type ShieldCheckIconProps, SidebarIcon, type SidebarIconHandle, type SidebarIconProps, SignOutIcon, type SignOutIconHandle, type SignOutIconProps, StarIcon, type StarIconHandle, type StarIconProps, SunIcon, type SunIconHandle, type SunIconProps, TextAUnderlineIcon, type TextAUnderlineIconHandle, type TextAUnderlineIconProps, TextAlignLeftIcon, type TextAlignLeftIconHandle, type TextAlignLeftIconProps, TextBIcon, type TextBIconHandle, type TextBIconProps, TextItalicIcon, type TextItalicIconHandle, type TextItalicIconProps, TrashIcon, type TrashIconHandle, type TrashIconProps, type UseAnimatedIconHandleReturn, UserIcon, type UserIconHandle, type UserIconProps, WarningIcon, type WarningIconHandle, type WarningIconProps, XCircleIcon, type XCircleIconHandle, type XCircleIconProps, XIcon, type XIconHandle, type XIconProps, ZagAnimatedIconContainer, type ZagAnimatedIconContainerProps, type ZagAnimatedIconProps, type ZagAnimatedIconWrapperProps, ZagIconBase, type ZagIconBaseProps, type ZagIconProps, ZagIllustrationBase, type ZagIllustrationBaseProps, type ZagIllustrationProps, getIconAnimationVariants, useAnimatedIconLifecycle };
+export { AnimatedArrowDownIcon, type AnimatedArrowDownIconProps, AnimatedArrowLeftIcon, type AnimatedArrowLeftIconProps, AnimatedArrowRightIcon, type AnimatedArrowRightIconProps, AnimatedArrowsDownUpIcon, type AnimatedArrowsDownUpIconProps, AnimatedBellIcon, type AnimatedBellIconProps, AnimatedBookOpenIcon, type AnimatedBookOpenIconProps, AnimatedCalendarBlankIcon, type AnimatedCalendarBlankIconProps, AnimatedCaretDownIcon, type AnimatedCaretDownIconProps, AnimatedCaretLeftIcon, type AnimatedCaretLeftIconProps, AnimatedCaretRightIcon, type AnimatedCaretRightIconProps, AnimatedCaretUpDownIcon, type AnimatedCaretUpDownIconProps, AnimatedCaretUpIcon, type AnimatedCaretUpIconProps, AnimatedChartPieIcon, type AnimatedChartPieIconProps, AnimatedChatCircleTextIcon, type AnimatedChatCircleTextIconProps, AnimatedCheckCircleIcon, type AnimatedCheckCircleIconProps, AnimatedCheckIcon, type AnimatedCheckIconProps, AnimatedClockIcon, type AnimatedClockIconProps, AnimatedCloudArrowUpIcon, type AnimatedCloudArrowUpIconProps, AnimatedCopyIcon, type AnimatedCopyIconProps, AnimatedCornersOutIcon, type AnimatedCornersOutIconProps, AnimatedCpuIcon, type AnimatedCpuIconProps, AnimatedCurrencyDollarIcon, type AnimatedCurrencyDollarIconProps, AnimatedDeviceMobileIcon, type AnimatedDeviceMobileIconProps, AnimatedDotsThreeIcon, type AnimatedDotsThreeIconProps, AnimatedDotsThreeVerticalIcon, type AnimatedDotsThreeVerticalIconProps, AnimatedExcludeIcon, type AnimatedExcludeIconProps, AnimatedFileCodeIcon, type AnimatedFileCodeIconProps, AnimatedFileTextIcon, type AnimatedFileTextIconProps, AnimatedFolderIcon, type AnimatedFolderIconProps, AnimatedFolderOpenIcon, type AnimatedFolderOpenIconProps, AnimatedFrameCornersIcon, type AnimatedFrameCornersIconProps, AnimatedGearIcon, type AnimatedGearIconProps, AnimatedGlobeIcon, type AnimatedGlobeIconProps, AnimatedGoogleLogoIcon, type AnimatedGoogleLogoIconProps, AnimatedHeartIcon, type AnimatedHeartIconProps, AnimatedHomeIcon, type AnimatedHomeIconProps, type AnimatedIconHandle, AnimatedInfoIcon, type AnimatedInfoIconProps, AnimatedLightningIcon, type AnimatedLightningIconProps, AnimatedLogoIcon, type AnimatedLogoIconProps, AnimatedMagnifyingGlassIcon, type AnimatedMagnifyingGlassIconProps, AnimatedMapTrifoldIcon, type AnimatedMapTrifoldIconProps, AnimatedMinusIcon, type AnimatedMinusIconProps, AnimatedMonitorIcon, type AnimatedMonitorIconProps, AnimatedMoonIcon, type AnimatedMoonIconProps, AnimatedNavigationArrowIcon, type AnimatedNavigationArrowIconProps, AnimatedPlusIcon, type AnimatedPlusIconProps, AnimatedRobotIcon, type AnimatedRobotIconProps, AnimatedShareIcon, type AnimatedShareIconProps, AnimatedShieldCheckIcon, type AnimatedShieldCheckIconProps, AnimatedSidebarIcon, type AnimatedSidebarIconProps, AnimatedSignOutIcon, type AnimatedSignOutIconProps, AnimatedStarIcon, type AnimatedStarIconProps, AnimatedSunIcon, type AnimatedSunIconProps, AnimatedTextAUnderlineIcon, type AnimatedTextAUnderlineIconProps, AnimatedTextAlignLeftIcon, type AnimatedTextAlignLeftIconProps, AnimatedTextBIcon, type AnimatedTextBIconProps, AnimatedTextItalicIcon, type AnimatedTextItalicIconProps, AnimatedTrashIcon, type AnimatedTrashIconProps, AnimatedUserIcon, type AnimatedUserIconProps, AnimatedWarningIcon, type AnimatedWarningIconProps, AnimatedXCircleIcon, type AnimatedXCircleIconProps, AnimatedXIcon, type AnimatedXIconProps, type AnimationControls, ArrowDownIcon, type ArrowDownIconHandle, type ArrowDownIconProps, ArrowLeftIcon, type ArrowLeftIconHandle, type ArrowLeftIconProps, ArrowRightIcon, type ArrowRightIconHandle, type ArrowRightIconProps, ArrowsDownUpIcon, type ArrowsDownUpIconHandle, type ArrowsDownUpIconProps, BellIcon, type BellIconHandle, type BellIconProps, BookOpenIcon, type BookOpenIconHandle, type BookOpenIconProps, CalendarBlankIcon, type CalendarBlankIconHandle, type CalendarBlankIconProps, CaretDownIcon, type CaretDownIconHandle, type CaretDownIconProps, CaretLeftIcon, type CaretLeftIconHandle, type CaretLeftIconProps, CaretRightIcon, type CaretRightIconHandle, type CaretRightIconProps, CaretUpDownIcon, type CaretUpDownIconHandle, type CaretUpDownIconProps, CaretUpIcon, type CaretUpIconHandle, type CaretUpIconProps, ChartPieIcon, type ChartPieIconHandle, type ChartPieIconProps, ChatCircleTextIcon, type ChatCircleTextIconHandle, type ChatCircleTextIconProps, CheckCircleIcon, type CheckCircleIconHandle, type CheckCircleIconProps, CheckIcon, type CheckIconHandle, type CheckIconProps, ClockIcon, type ClockIconHandle, type ClockIconProps, CloudArrowUpIcon, type CloudArrowUpIconHandle, type CloudArrowUpIconProps, CopyIcon, type CopyIconHandle, type CopyIconProps, CornersOutIcon, type CornersOutIconHandle, type CornersOutIconProps, CpuIcon, type CpuIconHandle, type CpuIconProps, CurrencyDollarIcon, type CurrencyDollarIconHandle, type CurrencyDollarIconProps, DEFAULT_ANIMATION_VARIANTS, DEFAULT_PATH_TRANSITION, DeviceMobileIcon, type DeviceMobileIconHandle, type DeviceMobileIconProps, DotsThreeIcon, type DotsThreeIconHandle, type DotsThreeIconProps, DotsThreeVerticalIcon, type DotsThreeVerticalIconHandle, type DotsThreeVerticalIconProps, EmptyState, type EmptyStateProps, ExcludeIcon, type ExcludeIconHandle, type ExcludeIconProps, FileCodeIcon, type FileCodeIconHandle, type FileCodeIconProps, FileTextIcon, type FileTextIconHandle, type FileTextIconProps, FolderIcon, type FolderIconHandle, type FolderIconProps, FolderOpenIcon, type FolderOpenIconHandle, type FolderOpenIconProps, FrameCornersIcon, type FrameCornersIconHandle, type FrameCornersIconProps, GearIcon, type GearIconHandle, type GearIconProps, GlobeIcon, type GlobeIconHandle, type GlobeIconProps, GoogleLogoIcon, type GoogleLogoIconHandle, type GoogleLogoIconProps, HEART_ANIMATION_VARIANTS, HOME_ANIMATION_VARIANTS, HOME_DEFAULT_TRANSITION, HOME_PATH_VARIANTS, HeartIcon, type HeartIconHandle, type HeartIconProps, HomeIcon, type HomeIconHandle, type HomeIconProps, ICON_ANIMATION_VARIANTS, type IconWeight, InfoIcon, type InfoIconHandle, type InfoIconProps, LightningIcon, type LightningIconHandle, type LightningIconProps, LogoIcon, type LogoIconHandle, type LogoIconProps, MagnifyingGlassIcon, type MagnifyingGlassIconHandle, type MagnifyingGlassIconProps, MapTrifoldIcon, type MapTrifoldIconHandle, type MapTrifoldIconProps, MinusIcon, type MinusIconHandle, type MinusIconProps, MonitorIcon, type MonitorIconHandle, type MonitorIconProps, MoonIcon, type MoonIconHandle, type MoonIconProps, NavigationArrowIcon, type NavigationArrowIconHandle, type NavigationArrowIconProps, PATH_DRAW_VARIANTS, PlusIcon, type PlusIconHandle, type PlusIconProps, RobotIcon, type RobotIconHandle, type RobotIconProps, ShareIcon, type ShareIconHandle, type ShareIconProps, ShieldCheckIcon, type ShieldCheckIconHandle, type ShieldCheckIconProps, SidebarIcon, type SidebarIconHandle, type SidebarIconProps, SignOutIcon, type SignOutIconHandle, type SignOutIconProps, StarIcon, type StarIconHandle, type StarIconProps, SunIcon, type SunIconHandle, type SunIconProps, TextAUnderlineIcon, type TextAUnderlineIconHandle, type TextAUnderlineIconProps, TextAlignLeftIcon, type TextAlignLeftIconHandle, type TextAlignLeftIconProps, TextBIcon, type TextBIconHandle, type TextBIconProps, TextItalicIcon, type TextItalicIconHandle, type TextItalicIconProps, TrashIcon, type TrashIconHandle, type TrashIconProps, type UseAnimatedIconHandleReturn, UserIcon, type UserIconHandle, type UserIconProps, WarningIcon, type WarningIconHandle, type WarningIconProps, XCircleIcon, type XCircleIconHandle, type XCircleIconProps, XIcon, type XIconHandle, type XIconProps, ZagAnimatedIconContainer, type ZagAnimatedIconContainerProps, type ZagAnimatedIconProps, type ZagAnimatedIconWrapperProps, ZagIconBase, type ZagIconBaseProps, type ZagIconProps, ZagIllustrationBase, type ZagIllustrationBaseProps, type ZagIllustrationProps, getIconAnimationVariants, useAnimatedIconLifecycle };
